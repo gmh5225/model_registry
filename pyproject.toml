@@ -1,0 +1,10 @@
+[project]
+name = "model_registry"
+version = "0.1.0"
+description = "A public registry of LLM models from various providers."
+requires-python = ">=3.11"
+dependencies = []
+
+[build-system]
+requires = ["uv"]
+build-backend = "uv" 
