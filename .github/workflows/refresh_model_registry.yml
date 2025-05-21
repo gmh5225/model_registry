@@ -23,30 +23,44 @@ jobs:
         run: pip install uv
 
       - name: Install project dependencies
-        run: uv pip install . --system
+        run: uv pip install . # Ensures editable install with all deps
+
+      - name: Install feedgen for feed generation
+        run: uv pip install feedgen
 
       - name: Run updater script
         run: python -m model_registry.main
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MODEL_REGISTRY_REPO_URL: ${{ secrets.MODEL_REGISTRY_REPO_URL }}
 
       - name: Check for changes
         id: check_changes
         run: |
-          git diff --quiet models.json || echo "changed=true" >> $GITHUB_OUTPUT
+          if git diff --quiet models.json feed.xml; then
+            echo "No changes detected.";
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT;
+          fi
 
-      - name: Commit and push if changed
-        if: steps.check_changes.outputs.changed == 'true'
+      - name: Commit & push if changed
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add models.json
-          COMMIT_MSG="chore: update models.json ($(date -u +'%Y-%m-%dT%H:%M:%SZ'))"
-          git commit -m "$COMMIT_MSG"
-          # Add a condition here if you only want to push to a specific repository
-          # For example, if: github.repository == 'YOUR_ORG/YOUR_REPO'
-          git push
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Check for changes in models.json or feed.xml
+          if ! git diff --quiet models.json && ! git diff --quiet feed.xml; then
+            TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+            git add models.json feed.xml # Add both files
+            git commit -m "chore: update models.json and feed.xml (${TIMESTAMP})"
+            git push
+            echo "Changes detected. Committed and pushed."
+          else
+            echo "No changes to models.json or feed.xml – skipping commit."
+          fi
+        # Optional: Add a condition for the push step if this repo is a template for forks
+        # if: github.repository == 'gkamradt/model-registry' 
 
       - name: No changes
         if: steps.check_changes.outputs.changed != 'true'

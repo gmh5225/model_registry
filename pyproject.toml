@@ -6,7 +6,8 @@ requires-python = ">=3.11"
 dependencies = [
     "pydantic",
     "requests",
-    "python-dotenv"
+    "python-dotenv",
+    "feedgen",
 ]
 
 [project.optional-dependencies]

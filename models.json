@@ -93,6 +93,13 @@
   {
     "provider": "openai",
     "developer": "openai",
+    "model_id": "gpt-3.5-turbo-instruct-0914",
+    "release_date": "2023-09-14",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
     "model_id": "gpt-4",
     "release_date": "2023-06-27",
     "status": "active"
@@ -362,27 +369,6 @@
     "model_id": "gpt-image-1",
     "release_date": "2025-04-24",
     "status": "active"
-  },
-  {
-    "provider": "provider_a",
-    "developer": "dev_a",
-    "model_id": "model_a1",
-    "release_date": "2023-01-01",
-    "status": "active"
-  },
-  {
-    "provider": "provider_a",
-    "developer": "dev_a",
-    "model_id": "model_a2",
-    "release_date": "2023-01-15",
-    "status": "active"
-  },
-  {
-    "provider": "provider_b",
-    "developer": "dev_b",
-    "model_id": "model_b1",
-    "release_date": "2023-02-01",
-    "status": "deprecated"
   },
   {
     "provider": "openai",

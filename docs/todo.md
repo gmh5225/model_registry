@@ -13,7 +13,7 @@ Tasks are grouped by milestone; every item is an atomic, test-backed step.
 - [x] **Task 2: Add `pyproject.toml` and initial source directory**
   - [x] Create `pyproject.toml` with:
     - Project name "model_registry", version "0.1.0", basic description.
-    - Build-system: `requires = ["uv"]`, `build-backend = "uv"`. (Assuming `uv` is the build system based on spec mentions for installing; adjust if `setuptools` or `flit` etc. are used for backend)
+    - Build-system: `requires = ["uv"]`, `build-backend = "uv"`.
     - Python version requirement (e.g., `requires-python = ">=3.11"`).
     - Dependencies block initially empty.
   - [x] Create `src/model_registry/__init__.py`.
@@ -45,7 +45,7 @@ Tasks are grouped by milestone; every item is an atomic, test-backed step.
 - [x] **Task 8: Add central logging setup (`src/model_registry/logger.py`)**
   - [x] Implement a basic logging configuration (e.g., to console).
   - [x] Initialize logger in `src/model_registry/__init__.py`.
-- [X] **Commit "feat: data schema, logging & tests"**
+- [x] **Commit "feat: data schema, logging & tests"**
 
 ---
 
@@ -65,7 +65,7 @@ Tasks are grouped by milestone; every item is an atomic, test-backed step.
   - [x] Create a `DummyProvider(Provider)` subclass.
   - [x] Test that `public_models()` correctly processes and returns mocked data.
   - [x] Test the retry decorator logic (if feasible in isolation).
-- [X] **Commit "feat: provider base"**
+- [x] **Commit "feat: provider base"**
 
 ---
 
@@ -93,7 +93,7 @@ Tasks are grouped by milestone; every item is an atomic, test-backed step.
 ---
 
 ## M5 – Registry CLI
-- [x] **Task 17: Implement `src/model_registry/main.py`**
+- [x] **Task 14: Implement `src/model_registry/main.py`**
   - [x] Add `python-dotenv` to `pyproject.toml` (dev or optional dependency).
   - [x] Load environment variables using `dotenv.load_dotenv()` for local development.
   - [x] Define a list of provider instances (e.g., `PROVIDERS = [OpenAIProvider()]`).
@@ -107,7 +107,7 @@ Tasks are grouped by milestone; every item is an atomic, test-backed step.
     - [x] If identical: print "No changes to `models.json`." and exit 0.
     - [x] If different (or file doesn't exist): write the new JSON string to `models.json`, print a summary (e.g., "models.json updated."), and exit 0.
   - [x] Add CLI entrypoint (e.g., using `if __name__ == "__main__:"`) to allow running via `python -m model_registry.main`.
-- [x] **Task 18: Unit tests for `main.py` (in `tests/test_cli.py`)**
+- [x] **Task 15: Unit tests for `main.py` (in `tests/test_cli.py`)**
   - [x] Use `pytest.MonkeyPatch` and `tmp_path` fixture.
   - [x] Patch provider `public_models()` methods to return controlled data.
   - [x] Test "no diff" case: CLI runs, `models.json` is not written if content (hash) is the same, exit code 0.
@@ -119,22 +119,22 @@ Tasks are grouped by milestone; every item is an atomic, test-backed step.
 ---
 
 ## M6 – Integration Tests
-- [x] **Task 19: Create integration test (`tests/integration/test_integration.py`)**
+- [x] **Task 16: Create end-to-end integration test (`tests/integration/test_integration.py`)**
   - [x] Patch or mock provider `fetch_models()` methods (e.g., using `pytest-httpserver` for OpenAI if not overly complex, or simple monkeypatching for both) to return deterministic, distinct datasets for each provider.
   - [x] Run the `main` function from `src.model_registry.main` (or use `subprocess.run` to call `python -m model_registry.main`) in a temporary directory context where `models.json` will be written.
   - [x] Assert that `models.json` is created and its content matches the exact expected JSON structure and data (considering combined and sorted output from mocked providers).
   - [x] Assert that a second run of the `main` function results in "No changes" (e.g., by checking stdout or by ensuring the file's mtime doesn't change if content was identical).
-- [X] **Commit "test: integration pipeline"**
+- [x] **Commit "test: integration pipeline"**
 
 ---
 
 ## M7 – GitHub Action Automation
-- [ ] **Task 20: Add GitHub Action workflow (`.github/workflows/refresh_model_registry.yml`)**
-  - [ ] Workflow name: e.g., "Refresh model registry".
-  - [ ] Triggers:
+- [x] **Task 17: Add workflow `.github/workflows/refresh_model_registry.yml`**
+  - [x] Workflow name: e.g., "Refresh model registry".
+  - [x] Triggers:
     - `schedule`: cron `*/30 * * * *` (every 30 minutes).
     - `workflow_dispatch`: for manual runs.
-  - [ ] Job `update`:
+  - [x] Job `update`:
     - `runs-on: ubuntu-latest`.
     - Steps:
       - `actions/checkout@v4` (with `persist-credentials: true`).
@@ -148,38 +148,37 @@ Tasks are grouped by milestone; every item is an atomic, test-backed step.
         - If diff exists: configure git user/email, `git add models.json`, `git commit -m "chore: update models.json (YYYY-MM-DDTHH:MM:SSZ)"`, `git push`.
           (Consider adding `if: github.repository == 'YOUR_ORG/YOUR_REPO'` to the push step if this will be forked).
         - If no diff: echo "No changes – skipping commit."
-- [ ] **Task 21: Test GitHub Action workflow**
-  - [ ] Create a test branch.
-  - [ ] Add dummy secrets to the repository settings for the test branch (if necessary and safe) or use a fork.
-  - [ ] Trigger the workflow manually (`workflow_dispatch`) or by pushing to the test branch.
-  - [ ] Verify it runs, installs dependencies, executes the script, and correctly commits/pushes only if `models.json` changes.
-- [ ] **Commit "ci: automated refresh action"**
+- [x] **Task 18: Test workflow on a branch / fork**
+  - [x] Create a test branch.
+  - [x] Add dummy secrets to the repository settings for the test branch (if necessary and safe) or use a fork.
+  - [x] Trigger the workflow manually (`workflow_dispatch`) or by pushing to the test branch.
+  - [x] Verify it runs, installs dependencies, executes the script, and correctly commits/pushes only if `models.json` changes.
+- [x] **Commit "ci: automated refresh action"**
 
 ---
 
-## M8 – Anthropic Provider
-- [ ] **Task 14: Add `anthropic` SDK dependency**
-  - [ ] Add `anthropic` to `pyproject.toml` dependencies.
-  - [ ] Run `uv pip install anthropic`.
-- [ ] **Task 15: Implement `src/model_registry/providers/anthropic.py`**
-  - [ ] Define `AnthropicProvider(Provider)` with `slug = "anthropic"`.
-  - [ ] `fetch_models()`:
-    - Use `anthropic.Anthropic().models.list()` (ensure API key is loaded from `ANTHROPIC_API_KEY` env var by the SDK).
-    - Apply retry decorator.
-  - [ ] `filter_public()`: Return raw input (passthrough, as current SDK call returns public models).
-  - [ ] `get_developer()`: Return `"anthropic"`.
-  - [ ] `get_release_date()`: Parse ISO date string from `model_record["created_at"]` (or equivalent field from SDK response) to `datetime.date`.
-- [ ] **Task 16: Unit tests for `anthropic.py` (in `tests/unit/test_anthropic.py`)**
-  - [ ] Monkeypatch `anthropic.Anthropic().models.list` to return mock model data.
-  - [ ] Test `fetch_models()`.
-  - [ ] Test `get_release_date()` parsing.
-  - [ ] Test `normalize()` and `public_models()`.
-- [ ] **Commit "feat: Anthropic provider"**
+## M8 – Notification Feed (Atom / JSON)
+- [ ] **Task 19: Add `feedgen` dependency**
+  - [ ] Add `feedgen` to `pyproject.toml` dependencies.
+  - [ ] `uv pip install feedgen`.
+- [ ] **Task 20: Implement `src/model_registry/feed.py`**
+  - [ ] Function `build_atom_feed(new_models: List[ModelEntry], repo_url: str, output_path: Path)` as per design.
+  - [ ] Ensure it writes `feed.xml` (and/or `feed.json`).
+- [ ] **Task 21: Extend `main.py` to generate the feed**
+  - [ ] Detect *added* models vs previous snapshot.
+  - [ ] Call `build_atom_feed`.
+- [ ] **Task 22: Update GitHub Action**
+  - [ ] Install `feedgen` in the Action.
+  - [ ] After diff check, `git add models.json feed.xml` before committing.
+- [ ] **Task 23: Tests for the feed**
+  - [ ] Unit test `build_atom_feed()` creates a valid Atom file for mock models.
+  - [ ] Integration test: run CLI twice and assert feed updates only when new models appear.
+- [ ] **Commit "feat: public Atom feed"**
 
 ---
 
 ## M9 – Documentation & Dev UX
-- [ ] **Task 22: Update documentation and provide developer setup files**
+- [ ] **Task 24: Update documentation and provide developer setup files**
   - [ ] Expand `README.md`:
     - Project overview/purpose.
     - Example of `models.json` structure.
@@ -202,8 +201,8 @@ Tasks are grouped by milestone; every item is an atomic, test-backed step.
 
 ---
 
-## Final QA & Release
-- [ ] **Task 23: Add linting/typing tools, run checks, and perform final code review**
+## M10 – Final QA & Release
+- [ ] **Task 25: Linting, typing & release prep**
   - [ ] Add `ruff` and `mypy` to `pyproject.toml` (e.g., in a `[project.optional-dependencies]` group like `dev`).
   - [ ] Configure `ruff` and `mypy` (e.g., in `pyproject.toml`).
   - [ ] Run `ruff format .` and `ruff check --fix .` to format and lint; resolve any reported issues.
@@ -214,6 +213,27 @@ Tasks are grouped by milestone; every item is an atomic, test-backed step.
   - [ ] Ensure `pyproject.toml` version is `0.1.0`.
   - [ ] `git tag v0.1.0`
   - [ ] `git push origin v0.1.0`
+
+---
+
+## M11 – Anthropic Provider (Post-v0.1)
+- [ ] **Task 26: Add `anthropic` SDK dependency**
+  - [ ] Add `anthropic` to `pyproject.toml` dependencies.
+  - [ ] Run `uv pip install anthropic`.
+- [ ] **Task 27: Implement `src/model_registry/providers/anthropic.py`**
+  - [ ] Define `AnthropicProvider(Provider)` with `slug = "anthropic"`.
+  - [ ] `fetch_models()`:
+    - Use `anthropic.Anthropic().models.list()` (ensure API key is loaded from `ANTHROPIC_API_KEY` env var by the SDK).
+    - Apply retry decorator.
+  - [ ] `filter_public()`: Return raw input (passthrough, as current SDK call returns public models).
+  - [ ] `get_developer()`: Return `"anthropic"`.
+  - [ ] `get_release_date()`: Parse ISO date string from `model_record["created_at"]` (or equivalent field from SDK response) to `datetime.date`.
+- [ ] **Task 28: Unit tests for `anthropic.py` (in `tests/unit/test_anthropic.py`)**
+  - [ ] Monkeypatch `anthropic.Anthropic().models.list` to return mock model data.
+  - [ ] Test `fetch_models()`.
+  - [ ] Test `get_release_date()` parsing.
+  - [ ] Test `normalize()` and `public_models()`.
+- [ ] **Commit "feat: Anthropic provider"**
 
 ---
 

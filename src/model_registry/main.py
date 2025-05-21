@@ -14,6 +14,10 @@ from model_registry.providers.openai import OpenAIProvider
 from model_registry.providers.base import Provider
 from model_registry.schemas import ModelEntry
 from model_registry.logger import setup_logging
+from model_registry.utils.utils import load_existing_models, save_models
+from .feed import build_atom_feed # Added import
+
+load_dotenv()
 
 # Setup logging
 setup_logging(level=logging.DEBUG)
@@ -26,37 +30,10 @@ MODELS_JSON_PATH = WORKSPACE_ROOT / "models.json"
 logger.info(f"Assuming CWD is project root. WORKSPACE_ROOT: {WORKSPACE_ROOT}")
 logger.info(f"MODELS_JSON_PATH set to: {MODELS_JSON_PATH}")
 
-def load_existing_models(path: Path) -> List[ModelEntry]:
-    """Loads existing models from the JSON file."""
-    if not path.exists():
-        return []
-    try:
-        with open(path, 'r') as f:
-            data = json.load(f)
-        # Validate with Pydantic, skip invalid entries
-        valid_models = []
-        for item in data:
-            try:
-                valid_models.append(ModelEntry(**item))
-            except Exception as e: # Catch Pydantic ValidationError specifically if possible
-                logger.warning(f"Skipping invalid model data in {path}: {item}. Error: {e}")
-        return valid_models
-    except json.JSONDecodeError:
-        logger.error(f"Error decoding JSON from {path}. Starting with an empty list.")
-        return []
-    except Exception as e:
-        logger.error(f"Error loading models from {path}: {e}. Starting with an empty list.")
-        return []
-
-def save_models(path: Path, models: List[ModelEntry]) -> None:
-    """Saves models to the JSON file."""
-    try:
-        models_dict = [model.model_dump(mode='json') for model in models]
-        with open(path, 'w') as f:
-            json.dump(models_dict, f, indent=2)
-        logger.info(f"Successfully saved {len(models)} models to {path}")
-    except Exception as e:
-        logger.error(f"Error saving models to {path}: {e}")
+# Get the repository URL from an environment variable, with a fallback.
+# This URL is used for generating feed and entry IDs in the Atom feed.
+REPO_URL = os.environ.get("MODEL_REGISTRY_REPO_URL", "https://your-repo-url-here.com")
+logger.info(f"Using REPO_URL: {REPO_URL}")
 
 def fetch_all_models(providers: List[Provider]) -> List[ModelEntry]:
     """Fetches models from all registered providers."""
@@ -78,7 +55,6 @@ def fetch_all_models(providers: List[Provider]) -> List[ModelEntry]:
 def main():
     """Main function to update the model registry."""
     logger.info("Starting model registry update process...")
-    load_dotenv()
 
     # Instantiate providers here, after dotenv has loaded
     providers = [OpenAIProvider()] 
@@ -102,21 +78,30 @@ def main():
         combined_models_map[(model.developer, model.model_id, model.provider)] = model
 
     added_count = 0
+    newly_added_models: List[ModelEntry] = [] # To store the actual new models
     for model in fetched_models_list:
         if (model.developer, model.model_id, model.provider) not in combined_models_map:
             combined_models_map[(model.developer, model.model_id, model.provider)] = model
             logger.debug(f"Adding new model: {model.provider} - {model.model_id}")
+            newly_added_models.append(model) # Collect new model
             added_count += 1
         else: # Model already exists, user wants to keep existing, so no update logic here for now.
             logger.debug(f"Developer {model.developer} - Model {model.model_id} already exists in {model.provider}. Not overwriting with fetched version.")
 
     if added_count > 0:
         logger.info(f"Added {added_count} new models to the registry.")
+        # Generate Atom feed if there are new models
+        logger.info(f"Generating Atom feed for {added_count} new models.")
+        try:
+            build_atom_feed(new_models=newly_added_models, repo_url=REPO_URL, output_path=WORKSPACE_ROOT)
+            logger.info(f"Atom feed generated for {added_count} new models successfully in {WORKSPACE_ROOT}.")
+        except Exception as e:
+            logger.error(f"Failed to generate Atom feed: {e}", exc_info=True)
     else:
         logger.info("No new models were added from providers.")
 
     final_model_list = list(combined_models_map.values())
-    final_model_list.sort(key=lambda m: (m.model_id.lower(), m.developer.lower(), m.provider.lower())) # Case-insensitive sort
+    final_model_list.sort(key=lambda m: (m.developer.lower(), m.model_id.lower(), m.provider.lower())) # Case-insensitive sort
     logger.info(f"Total models after combining and sorting: {len(final_model_list)}.")
 
     try:
