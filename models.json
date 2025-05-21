@@ -1,0 +1,555 @@
+[
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "babbage-002",
+    "release_date": "2023-08-21",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "chatgpt-4o-latest",
+    "release_date": "2024-08-13",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "codex-mini-latest",
+    "release_date": "2025-05-08",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "computer-use-preview",
+    "release_date": "2024-12-20",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "computer-use-preview-2025-03-11",
+    "release_date": "2025-03-11",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "dall-e-2",
+    "release_date": "2023-11-01",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "dall-e-3",
+    "release_date": "2023-10-31",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "davinci-002",
+    "release_date": "2023-08-21",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-3.5-turbo",
+    "release_date": "2023-02-28",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-3.5-turbo-0125",
+    "release_date": "2024-01-25",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-3.5-turbo-1106",
+    "release_date": "2023-11-06",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-3.5-turbo-16k",
+    "release_date": "2023-05-10",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-3.5-turbo-instruct",
+    "release_date": "2023-08-24",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4",
+    "release_date": "2023-06-27",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4-0125-preview",
+    "release_date": "2024-01-23",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4-0613",
+    "release_date": "2023-06-13",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4-1106-preview",
+    "release_date": "2023-11-02",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4-turbo",
+    "release_date": "2024-04-05",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4-turbo-2024-04-09",
+    "release_date": "2024-04-09",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4-turbo-preview",
+    "release_date": "2024-01-23",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4.1",
+    "release_date": "2025-04-10",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4.1-2025-04-14",
+    "release_date": "2025-04-14",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4.1-mini",
+    "release_date": "2025-04-10",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4.1-mini-2025-04-14",
+    "release_date": "2025-04-14",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4.1-nano",
+    "release_date": "2025-04-10",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4.1-nano-2025-04-14",
+    "release_date": "2025-04-14",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4.5-preview",
+    "release_date": "2025-02-27",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4.5-preview-2025-02-27",
+    "release_date": "2025-02-27",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4o",
+    "release_date": "2024-05-10",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4o-2024-05-13",
+    "release_date": "2024-05-13",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4o-2024-08-06",
+    "release_date": "2024-08-06",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4o-2024-11-20",
+    "release_date": "2024-11-20",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4o-audio-preview",
+    "release_date": "2024-09-27",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4o-audio-preview-2024-10-01",
+    "release_date": "2024-10-01",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4o-audio-preview-2024-12-17",
+    "release_date": "2024-12-17",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4o-mini",
+    "release_date": "2024-07-16",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4o-mini-2024-07-18",
+    "release_date": "2024-07-18",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4o-mini-audio-preview",
+    "release_date": "2024-12-16",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4o-mini-audio-preview-2024-12-17",
+    "release_date": "2024-12-17",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4o-mini-realtime-preview",
+    "release_date": "2024-12-16",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4o-mini-realtime-preview-2024-12-17",
+    "release_date": "2024-12-17",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4o-mini-search-preview",
+    "release_date": "2025-03-07",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4o-mini-search-preview-2025-03-11",
+    "release_date": "2025-03-11",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4o-mini-transcribe",
+    "release_date": "2025-03-15",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4o-mini-tts",
+    "release_date": "2025-03-19",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4o-realtime-preview",
+    "release_date": "2024-09-30",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4o-realtime-preview-2024-10-01",
+    "release_date": "2024-10-01",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4o-realtime-preview-2024-12-17",
+    "release_date": "2024-12-17",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4o-search-preview",
+    "release_date": "2025-03-07",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4o-search-preview-2025-03-11",
+    "release_date": "2025-03-11",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4o-transcribe",
+    "release_date": "2025-03-15",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-image-1",
+    "release_date": "2025-04-24",
+    "status": "active"
+  },
+  {
+    "provider": "provider_a",
+    "developer": "dev_a",
+    "model_id": "model_a1",
+    "release_date": "2023-01-01",
+    "status": "active"
+  },
+  {
+    "provider": "provider_a",
+    "developer": "dev_a",
+    "model_id": "model_a2",
+    "release_date": "2023-01-15",
+    "status": "active"
+  },
+  {
+    "provider": "provider_b",
+    "developer": "dev_b",
+    "model_id": "model_b1",
+    "release_date": "2023-02-01",
+    "status": "deprecated"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "o1",
+    "release_date": "2024-12-16",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "o1-2024-12-17",
+    "release_date": "2024-12-17",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "o1-mini",
+    "release_date": "2024-09-06",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "o1-mini-2024-09-12",
+    "release_date": "2024-09-12",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "o1-preview",
+    "release_date": "2024-09-06",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "o1-preview-2024-09-12",
+    "release_date": "2024-09-12",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "o1-pro",
+    "release_date": "2025-03-17",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "o1-pro-2025-03-19",
+    "release_date": "2025-03-19",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "o3",
+    "release_date": "2025-04-09",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "o3-2025-04-16",
+    "release_date": "2025-04-16",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "o3-mini",
+    "release_date": "2025-01-17",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "o3-mini-2025-01-31",
+    "release_date": "2025-01-31",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "o4-mini",
+    "release_date": "2025-04-09",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "o4-mini-2025-04-16",
+    "release_date": "2025-04-16",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "omni-moderation-2024-09-26",
+    "release_date": "2024-09-26",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "omni-moderation-latest",
+    "release_date": "2024-11-15",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "text-embedding-3-large",
+    "release_date": "2024-01-22",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "text-embedding-3-small",
+    "release_date": "2024-01-22",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "text-embedding-ada-002",
+    "release_date": "2022-12-16",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "tts-1",
+    "release_date": "2023-04-19",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "tts-1-1106",
+    "release_date": "2023-11-06",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "tts-1-hd",
+    "release_date": "2023-11-03",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "tts-1-hd-1106",
+    "release_date": "2023-11-06",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "whisper-1",
+    "release_date": "2023-02-27",
+    "status": "active"
+  }
+]

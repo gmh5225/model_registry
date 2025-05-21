@@ -1,0 +1,53 @@
+name: Refresh model registry
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true # Allows the action to push to the repo
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install uv
+        run: pip install uv
+
+      - name: Install project dependencies
+        run: uv pip install . --system
+
+      - name: Run updater script
+        run: python -m model_registry.main
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --quiet models.json || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push if changed
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add models.json
+          COMMIT_MSG="chore: update models.json ($(date -u +'%Y-%m-%dT%H:%M:%SZ'))"
+          git commit -m "$COMMIT_MSG"
+          # Add a condition here if you only want to push to a specific repository
+          # For example, if: github.repository == 'YOUR_ORG/YOUR_REPO'
+          git push
+
+      - name: No changes
+        if: steps.check_changes.outputs.changed != 'true'
+        run: echo "No changes to models.json – skipping commit." 

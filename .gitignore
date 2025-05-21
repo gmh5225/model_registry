@@ -74,6 +74,9 @@ dmypy.json
 .pytest_cache/
 .coverage
 
+# Log files
+logs/
+
 # VSCode
 .vscode/
 
