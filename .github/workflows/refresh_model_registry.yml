@@ -23,10 +23,7 @@ jobs:
         run: pip install uv
 
       - name: Install project dependencies
-        run: uv pip install . # Ensures editable install with all deps
-
-      - name: Install feedgen for feed generation
-        run: uv pip install feedgen
+        run: uv pip install . --system
 
       - name: Run updater script
         run: python -m model_registry.main
