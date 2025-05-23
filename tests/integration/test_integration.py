@@ -5,6 +5,8 @@ import pytest
 
 from model_registry.main import main as cli_main
 from model_registry.providers.openai import OpenAIProvider
+from model_registry.providers.anthropic import AnthropicProvider
+from model_registry.providers.gemini import GeminiProvider
 from model_registry.schemas import ModelEntry
 
 
@@ -37,102 +39,77 @@ def test_integration_cli_updates_and_no_diff(tmp_path: Path, monkeypatch: pytest
     1. Create models.json with combined data from providers.
     2. Detect no changes on a subsequent run.
     """
-    # Patch the PROVIDERS list in main.py and their public_models methods
-    # This requires knowing the structure of main.PROVIDERS or finding a way to inject them.
-    # For now, let's assume we can patch the specific provider instances if they are accessible,
-    # or patch a factory/function that yields them.
-
-    # A more robust way would be to patch where PROVIDERS are defined or imported.
-    # If PROVIDERS is `[OpenAIProvider(), AnthropicProvider()]`
-    # we need to patch `OpenAIProvider.public_models` and `AnthropicProvider.public_models`
-    # For this example, let's assume `model_registry.main.PROVIDERS` can be patched.
     
-    # Mocking provider imports if they are directly used in main
-    # This is highly dependent on how main.py imports and uses providers.
-    # We'll assume a simplified scenario first.
-
-    # Scenario: main.py dynamically instantiates providers based on a list of classes
-    # or directly has instances. We need to find where `OpenAIProvider` (and potentially others)
-    # is used and patch its `public_models` method.
-
-    # Let's assume main.py looks something like:
-    # from model_registry.providers.openai import OpenAIProvider
-    # from model_registry.providers.anthropic import AnthropicProvider # If it exists
-    # PROVIDERS = [OpenAIProvider(), AnthropicProvider()]
-    # We would then:
-    # monkeypatch.setattr("model_registry.providers.openai.OpenAIProvider.public_models", mock_provider_a_public_models)
-    # monkeypatch.setattr("model_registry.providers.anthropic.AnthropicProvider.public_models", mock_provider_b_public_models)
-    # And then patch main.PROVIDERS to only include these mocked versions or ensure only these are called.
-
-    # For a start, let's try to patch the `public_models` method of a known provider.
-    # This might require knowing which providers are active.
-    # From todo.md, OpenAIProvider is implemented. Anthropic is planned.
-    # Let's assume only OpenAIProvider is currently in main.PROVIDERS for simplicity of this first pass.
+    # Mock all three providers that main.py instantiates
     
-    # We need to find out how PROVIDERS is structured in `src/model_registry/main.py`.
-    # For now, we'll proceed with a placeholder for provider patching.
-    
-    # Placeholder for actual patching - this will be refined after inspecting main.py
-    # For now, let's assume we can directly patch a list of provider instances in `main.py`
-    
-    class MockProviderBehavior:
-        # This will define the behavior for ONE of the providers main.py instantiates.
-        # If main.py instantiates multiple types, we need a more complex setup.
-        # For now, main.py does: providers = [OpenAIProvider()]
-        # So, we will patch OpenAIProvider.
-
-        _public_models_return_value = []
-        _slug = "default-mocked-slug"
-
-        def __init__(self): # Mocked __init__ for the patched provider class
-            # self.api_key = "mock_api_key_for_integration_test"
-            pass # No actual init logic needed for these mocks normally
-
+    # Mock behavior for OpenAIProvider - returns DUMMY_MODELS_PROVIDER_A
+    class MockOpenAIBehavior:
+        def __init__(self):
+            self.api_key = "mock_api_key"
+            pass
+        
         @property
         def slug(self):
-            return MockProviderBehavior._slug
-
-        def public_models(self):
-            return MockProviderBehavior._public_models_return_value
+            return "openai"
         
-        # def init(self): # No longer needed
-        #     pass
-
-    # Create two distinct behavior sets for two "virtual" providers
-    # main.py only creates OpenAIProvider. To simulate two providers, we'd have to make main.py create two,
-    # or make one OpenAIProvider instance somehow return combined data, which is not ideal for this test.
-
-    # Simplification: Assume main.py is modified for the test to instantiate two distinct mockable providers, 
-    # or we use a more advanced patching technique to make it seem like it does.
-    # For now, let's assume main.py is `providers = [PatchedProvider1(), PatchedProvider2()]`
-    # This is a bit of a leap. The current main.py is `providers = [OpenAIProvider()]`
-    # Let's adjust to patch OpenAIProvider, and have its mock return *all* models for the test.
-
-    # Store original OpenAIProvider methods
+        def public_models(self):
+            return DUMMY_MODELS_PROVIDER_A
+    
+    # Mock behavior for AnthropicProvider - returns DUMMY_MODELS_PROVIDER_B
+    class MockAnthropicBehavior:
+        def __init__(self):
+            self.api_key = "mock_api_key"
+            pass
+        
+        @property
+        def slug(self):
+            return "anthropic"
+        
+        def public_models(self):
+            return DUMMY_MODELS_PROVIDER_B
+    
+    # Mock behavior for GeminiProvider - returns empty list
+    class MockGeminiBehavior:
+        def __init__(self):
+            self.api_key = "mock_api_key"
+            pass
+        
+        @property
+        def slug(self):
+            return "gemini"
+        
+        def public_models(self):
+            return []  # Gemini returns no models for this test
+    
+    # Store original methods for restoration later
     original_openai_init = OpenAIProvider.__init__
     original_openai_public_models = OpenAIProvider.public_models
-    original_openai_slug_descriptor = getattr(OpenAIProvider, "slug", None) # slug might be class var or property
-
-    # Define the combined behavior for the single OpenAIProvider instance main.py will create
-    MockProviderBehavior._public_models_return_value = DUMMY_MODELS_PROVIDER_A + DUMMY_MODELS_PROVIDER_B
-    MockProviderBehavior._slug = "mocked-openai-for-integration"
-
-    monkeypatch.setattr(OpenAIProvider, "__init__", MockProviderBehavior.__init__)
-    monkeypatch.setattr(OpenAIProvider, "public_models", MockProviderBehavior.public_models)
-    # If OpenAIProvider.slug is a simple class attribute, this works.
-    # If it's a property, monkeypatch.setattr(OpenAIProvider, "slug", MockProviderBehavior.slug) is better.
-    # Let's assume it could be a property for safety, though current Provider base has it as class attr.
-    monkeypatch.setattr(OpenAIProvider, "slug", MockProviderBehavior.slug) # Patch as property
-
-    # mock_provider_instance_a = MockProvider(DUMMY_MODELS_PROVIDER_A, slug="provider_a")
-    # mock_provider_instance_b = MockProvider(DUMMY_MODELS_PROVIDER_B, slug="provider_b")
-
-    # Assuming main.py has a list `PROVIDERS`
-    # monkeypatch.setattr("model_registry.main.PROVIDERS", [mock_provider_instance_a, mock_provider_instance_b]) # Old way
-
+    original_openai_slug = getattr(OpenAIProvider, "slug", None)
+    
+    original_anthropic_init = AnthropicProvider.__init__
+    original_anthropic_public_models = AnthropicProvider.public_models
+    original_anthropic_slug = getattr(AnthropicProvider, "slug", None)
+    
+    original_gemini_init = GeminiProvider.__init__
+    original_gemini_public_models = GeminiProvider.public_models
+    original_gemini_slug = getattr(GeminiProvider, "slug", None)
+    
+    # Apply patches
+    monkeypatch.setattr(OpenAIProvider, "__init__", MockOpenAIBehavior.__init__)
+    monkeypatch.setattr(OpenAIProvider, "public_models", MockOpenAIBehavior.public_models)
+    monkeypatch.setattr(OpenAIProvider, "slug", MockOpenAIBehavior.slug)
+    
+    monkeypatch.setattr(AnthropicProvider, "__init__", MockAnthropicBehavior.__init__)
+    monkeypatch.setattr(AnthropicProvider, "public_models", MockAnthropicBehavior.public_models)
+    monkeypatch.setattr(AnthropicProvider, "slug", MockAnthropicBehavior.slug)
+    
+    monkeypatch.setattr(GeminiProvider, "__init__", MockGeminiBehavior.__init__)
+    monkeypatch.setattr(GeminiProvider, "public_models", MockGeminiBehavior.public_models)
+    monkeypatch.setattr(GeminiProvider, "slug", MockGeminiBehavior.slug)
+    
     models_json_path = tmp_path / "models.json"
-    # Also patch the MODELS_JSON_PATH global in main.py to use the temporary path
     monkeypatch.setattr("model_registry.main.MODELS_JSON_PATH", models_json_path)
+    monkeypatch.setattr("pathlib.Path.cwd", lambda: tmp_path)
 
     # First run: Create models.json
     # We need to ensure the CLI runs in the context of tmp_path for models.json
@@ -173,15 +150,20 @@ def test_integration_cli_updates_and_no_diff(tmp_path: Path, monkeypatch: pytest
     # Restore original OpenAIProvider methods
     monkeypatch.setattr(OpenAIProvider, "__init__", original_openai_init)
     monkeypatch.setattr(OpenAIProvider, "public_models", original_openai_public_models)
-    if original_openai_slug_descriptor:
-        monkeypatch.setattr(OpenAIProvider, "slug", original_openai_slug_descriptor)
-    else: # If it was a simple attribute and not a descriptor, it might have been overwritten
-        # This part of restoration is tricky if slug was a simple class variable overwritten by a property.
-        # For now, if OpenAIProvider.slug was just `slug = "openai"`, this simple del might not be enough
-        # or could error if the property patch made it non-deletable. A more robust restore might be needed
-        # if tests run after this one rely on the original slug.
-        # Given it's likely a class variable set in the class definition, it should be fine.
-        pass 
+    if original_openai_slug:
+        monkeypatch.setattr(OpenAIProvider, "slug", original_openai_slug)
+
+    # Restore original AnthropicProvider methods
+    monkeypatch.setattr(AnthropicProvider, "__init__", original_anthropic_init)
+    monkeypatch.setattr(AnthropicProvider, "public_models", original_anthropic_public_models)
+    if original_anthropic_slug:
+        monkeypatch.setattr(AnthropicProvider, "slug", original_anthropic_slug)
+
+    # Restore original GeminiProvider methods
+    monkeypatch.setattr(GeminiProvider, "__init__", original_gemini_init)
+    monkeypatch.setattr(GeminiProvider, "public_models", original_gemini_public_models)
+    if original_gemini_slug:
+        monkeypatch.setattr(GeminiProvider, "slug", original_gemini_slug)
 
     # Alternative: Running as a subprocess
     # This can be more robust as it's closer to how the user/CI would run it.

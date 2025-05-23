@@ -24,6 +24,10 @@ MOCK_MODEL_3_OTHER = ModelEntry(provider="another-provider", model_id="model-x",
 
 @pytest.fixture
 def mock_openai_provider(monkeypatch):
+    # Import the other providers here
+    from model_registry.providers.anthropic import AnthropicProvider
+    from model_registry.providers.gemini import GeminiProvider
+    
     class MockOpenAIProviderBehaviors:
         _public_models_return_value = [MOCK_MODEL_1_OPENAI, MOCK_MODEL_2_OPENAI]
         _public_models_exception = None # New: store potential exception
@@ -52,6 +56,15 @@ def mock_openai_provider(monkeypatch):
     MockOpenAIProviderBehaviors._public_models_exception = None
     MockOpenAIProviderBehaviors._slug_to_return = "openai"
 
+    # Also mock the other providers to return empty lists
+    monkeypatch.setattr(AnthropicProvider, "__init__", lambda self: setattr(self, 'api_key', 'mock'))
+    monkeypatch.setattr(AnthropicProvider, "public_models", lambda self: [])
+    monkeypatch.setattr(AnthropicProvider, "slug", "anthropic")
+    
+    monkeypatch.setattr(GeminiProvider, "__init__", lambda self: setattr(self, 'api_key', 'mock'))
+    monkeypatch.setattr(GeminiProvider, "public_models", lambda self: [])
+    monkeypatch.setattr(GeminiProvider, "slug", "gemini")
+    
     return MockOpenAIProviderBehaviors
 
 
@@ -213,10 +226,12 @@ def test_cli_model_sorting_and_content(tmp_path, monkeypatch, capsys, mock_opena
     captured = capsys.readouterr()
     assert f"{models_json_file} updated with 2 models." in captured.out
 
-def test_cli_preserves_existing_models_on_new_fetch(tmp_path, monkeypatch, capsys, mock_openai_provider):
+def test_cli_preserves_existing_models_on_new_fetch(tmp_path, monkeypatch, capsys, mock_all_providers):
     """Test CLI preserves existing models not in current fetch, and adds new ones."""
+    mock_openai_provider, MockAnthropicProviderBehaviors, MockGeminiProviderBehaviors = mock_all_providers
+    
     # Existing model in file is MOCK_MODEL_3_OTHER
-    initial_content = [MOCK_MODEL_3_OTHER.model_dump(mode='json')] 
+    initial_content = [MOCK_MODEL_3_OTHER.model_dump(mode='json')]
     
     # mock_openai_provider will return MOCK_MODEL_1_OPENAI
     mock_openai_provider._public_models_return_value = [MOCK_MODEL_1_OPENAI]
@@ -265,3 +280,51 @@ def test_cli_empty_fetch_from_provider(tmp_path, monkeypatch, capsys, mock_opena
     # For now, focusing on CLI output and file state.
     # If using caplog:
     # assert "No models returned from openai." in caplog.text
+
+@pytest.fixture
+def mock_all_providers(monkeypatch, mock_openai_provider):
+    """Mock all providers to prevent real API calls during tests."""
+    
+    # Mock AnthropicProvider
+    class MockAnthropicProviderBehaviors:
+        def __init__(self):
+            self.api_key = "mock_anthropic_api_key"
+            pass
+        
+        @property
+        def slug(self):
+            return "anthropic"
+        
+        def public_models(self) -> list[ModelEntry]:
+            # Return empty list or specific test models if needed
+            return []
+    
+    # Mock GeminiProvider  
+    class MockGeminiProviderBehaviors:
+        def __init__(self):
+            self.api_key = "mock_gemini_api_key"
+            pass
+        
+        @property
+        def slug(self):
+            return "gemini"
+        
+        def public_models(self) -> list[ModelEntry]:
+            # Return empty list or specific test models if needed
+            return []
+    
+    # Import the providers to patch them
+    from model_registry.providers.anthropic import AnthropicProvider
+    from model_registry.providers.gemini import GeminiProvider
+    
+    # Patch AnthropicProvider
+    monkeypatch.setattr(AnthropicProvider, "__init__", MockAnthropicProviderBehaviors.__init__)
+    monkeypatch.setattr(AnthropicProvider, "public_models", MockAnthropicProviderBehaviors.public_models)
+    monkeypatch.setattr(AnthropicProvider, "slug", MockAnthropicProviderBehaviors.slug)
+    
+    # Patch GeminiProvider
+    monkeypatch.setattr(GeminiProvider, "__init__", MockGeminiProviderBehaviors.__init__)
+    monkeypatch.setattr(GeminiProvider, "public_models", MockGeminiProviderBehaviors.public_models)
+    monkeypatch.setattr(GeminiProvider, "slug", MockGeminiProviderBehaviors.slug)
+    
+    return (mock_openai_provider, MockAnthropicProviderBehaviors, MockGeminiProviderBehaviors)

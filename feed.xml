@@ -2,140 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://github.com/gkamradt/model_registry/feed.xml</id>
   <title>Model Registry Updates</title>
-  <updated>2025-05-23T14:06:21.925565+00:00</updated>
+  <updated>2025-05-23T15:14:30.958602+00:00</updated>
   <link href="https://github.com/gkamradt/model_registry" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Updates to the public LLM model registry</subtitle>
   <entry>
-    <id>urn:model-registry:anthropic:anthropic:claude-2.0</id>
-    <title>anthropic - anthropic - claude-2.0</title>
-    <updated>2025-05-23T14:06:21.927057+00:00</updated>
-    <content type="html">Provider: anthropic&lt;br/&gt;Model ID: claude-2.0&lt;br/&gt;Release Date: 2023-07-11&lt;br/&gt;Developer: anthropic&lt;br/&gt;Status: active</content>
-    <category term="anthropic" label="provider"/>
-    <category term="anthropic" label="developer"/>
-    <category term="claude-2.0" label="model_id"/>
-    <category term="2023-07-11" label="release_date"/>
+    <id>urn:model-registry:openai:openai:gpt-4</id>
+    <title>openai - openai - gpt-4</title>
+    <updated>2025-05-23T15:14:30.958614+00:00</updated>
+    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4&lt;br/&gt;Release Date: 2023-03-14&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
+    <category term="openai" label="provider"/>
+    <category term="openai" label="developer"/>
+    <category term="gpt-4" label="model_id"/>
+    <category term="2023-03-14" label="release_date"/>
     <category term="active" label="status"/>
-    <published>2023-07-11T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:anthropic:anthropic:claude-2.1</id>
-    <title>anthropic - anthropic - claude-2.1</title>
-    <updated>2025-05-23T14:06:21.927020+00:00</updated>
-    <content type="html">Provider: anthropic&lt;br/&gt;Model ID: claude-2.1&lt;br/&gt;Release Date: 2023-11-21&lt;br/&gt;Developer: anthropic&lt;br/&gt;Status: active</content>
-    <category term="anthropic" label="provider"/>
-    <category term="anthropic" label="developer"/>
-    <category term="claude-2.1" label="model_id"/>
-    <category term="2023-11-21" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2023-11-21T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:anthropic:anthropic:claude-3-sonnet-20240229</id>
-    <title>anthropic - anthropic - claude-3-sonnet-20240229</title>
-    <updated>2025-05-23T14:06:21.926985+00:00</updated>
-    <content type="html">Provider: anthropic&lt;br/&gt;Model ID: claude-3-sonnet-20240229&lt;br/&gt;Release Date: 2024-02-29&lt;br/&gt;Developer: anthropic&lt;br/&gt;Status: active</content>
-    <category term="anthropic" label="provider"/>
-    <category term="anthropic" label="developer"/>
-    <category term="claude-3-sonnet-20240229" label="model_id"/>
-    <category term="2024-02-29" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-02-29T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:anthropic:anthropic:claude-3-opus-20240229</id>
-    <title>anthropic - anthropic - claude-3-opus-20240229</title>
-    <updated>2025-05-23T14:06:21.926932+00:00</updated>
-    <content type="html">Provider: anthropic&lt;br/&gt;Model ID: claude-3-opus-20240229&lt;br/&gt;Release Date: 2024-02-29&lt;br/&gt;Developer: anthropic&lt;br/&gt;Status: active</content>
-    <category term="anthropic" label="provider"/>
-    <category term="anthropic" label="developer"/>
-    <category term="claude-3-opus-20240229" label="model_id"/>
-    <category term="2024-02-29" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-02-29T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:anthropic:anthropic:claude-3-haiku-20240307</id>
-    <title>anthropic - anthropic - claude-3-haiku-20240307</title>
-    <updated>2025-05-23T14:06:21.926895+00:00</updated>
-    <content type="html">Provider: anthropic&lt;br/&gt;Model ID: claude-3-haiku-20240307&lt;br/&gt;Release Date: 2024-03-07&lt;br/&gt;Developer: anthropic&lt;br/&gt;Status: active</content>
-    <category term="anthropic" label="provider"/>
-    <category term="anthropic" label="developer"/>
-    <category term="claude-3-haiku-20240307" label="model_id"/>
-    <category term="2024-03-07" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-03-07T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:anthropic:anthropic:claude-3-5-sonnet-20240620</id>
-    <title>anthropic - anthropic - claude-3-5-sonnet-20240620</title>
-    <updated>2025-05-23T14:06:21.926860+00:00</updated>
-    <content type="html">Provider: anthropic&lt;br/&gt;Model ID: claude-3-5-sonnet-20240620&lt;br/&gt;Release Date: 2024-06-20&lt;br/&gt;Developer: anthropic&lt;br/&gt;Status: active</content>
-    <category term="anthropic" label="provider"/>
-    <category term="anthropic" label="developer"/>
-    <category term="claude-3-5-sonnet-20240620" label="model_id"/>
-    <category term="2024-06-20" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-06-20T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:anthropic:anthropic:claude-3-5-sonnet-20241022</id>
-    <title>anthropic - anthropic - claude-3-5-sonnet-20241022</title>
-    <updated>2025-05-23T14:06:21.926823+00:00</updated>
-    <content type="html">Provider: anthropic&lt;br/&gt;Model ID: claude-3-5-sonnet-20241022&lt;br/&gt;Release Date: 2024-10-22&lt;br/&gt;Developer: anthropic&lt;br/&gt;Status: active</content>
-    <category term="anthropic" label="provider"/>
-    <category term="anthropic" label="developer"/>
-    <category term="claude-3-5-sonnet-20241022" label="model_id"/>
-    <category term="2024-10-22" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-10-22T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:anthropic:anthropic:claude-3-5-haiku-20241022</id>
-    <title>anthropic - anthropic - claude-3-5-haiku-20241022</title>
-    <updated>2025-05-23T14:06:21.926778+00:00</updated>
-    <content type="html">Provider: anthropic&lt;br/&gt;Model ID: claude-3-5-haiku-20241022&lt;br/&gt;Release Date: 2024-10-22&lt;br/&gt;Developer: anthropic&lt;br/&gt;Status: active</content>
-    <category term="anthropic" label="provider"/>
-    <category term="anthropic" label="developer"/>
-    <category term="claude-3-5-haiku-20241022" label="model_id"/>
-    <category term="2024-10-22" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-10-22T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:anthropic:anthropic:claude-3-7-sonnet-20250219</id>
-    <title>anthropic - anthropic - claude-3-7-sonnet-20250219</title>
-    <updated>2025-05-23T14:06:21.926732+00:00</updated>
-    <content type="html">Provider: anthropic&lt;br/&gt;Model ID: claude-3-7-sonnet-20250219&lt;br/&gt;Release Date: 2025-02-24&lt;br/&gt;Developer: anthropic&lt;br/&gt;Status: active</content>
-    <category term="anthropic" label="provider"/>
-    <category term="anthropic" label="developer"/>
-    <category term="claude-3-7-sonnet-20250219" label="model_id"/>
-    <category term="2025-02-24" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-02-24T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:anthropic:anthropic:claude-sonnet-4-20250514</id>
-    <title>anthropic - anthropic - claude-sonnet-4-20250514</title>
-    <updated>2025-05-23T14:06:21.926645+00:00</updated>
-    <content type="html">Provider: anthropic&lt;br/&gt;Model ID: claude-sonnet-4-20250514&lt;br/&gt;Release Date: 2025-05-22&lt;br/&gt;Developer: anthropic&lt;br/&gt;Status: active</content>
-    <category term="anthropic" label="provider"/>
-    <category term="anthropic" label="developer"/>
-    <category term="claude-sonnet-4-20250514" label="model_id"/>
-    <category term="2025-05-22" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-05-22T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:anthropic:anthropic:claude-opus-4-20250514</id>
-    <title>anthropic - anthropic - claude-opus-4-20250514</title>
-    <updated>2025-05-23T14:06:21.925607+00:00</updated>
-    <content type="html">Provider: anthropic&lt;br/&gt;Model ID: claude-opus-4-20250514&lt;br/&gt;Release Date: 2025-05-22&lt;br/&gt;Developer: anthropic&lt;br/&gt;Status: active</content>
-    <category term="anthropic" label="provider"/>
-    <category term="anthropic" label="developer"/>
-    <category term="claude-opus-4-20250514" label="model_id"/>
-    <category term="2025-05-22" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-05-22T00:00:00+00:00</published>
+    <published>2023-03-14T00:00:00+00:00</published>
   </entry>
 </feed>

@@ -11,6 +11,7 @@ from dotenv import load_dotenv
 # Adjust imports based on actual file structure and class names
 from model_registry.providers.openai import OpenAIProvider
 from model_registry.providers.anthropic import AnthropicProvider
+from model_registry.providers.gemini import GeminiProvider
 
 from model_registry.providers.base import Provider
 from model_registry.schemas import ModelEntry
@@ -60,7 +61,8 @@ def main():
     # Instantiate providers here, after dotenv has loaded
     providers = [
         OpenAIProvider(),
-        AnthropicProvider()
+        AnthropicProvider(),
+        GeminiProvider()
     ] 
     # Add other providers here when they are ready, e.g., AnthropicProvider()
 
