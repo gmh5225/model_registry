@@ -10,7 +10,8 @@ from dotenv import load_dotenv
 # Assuming providers are structured as in the project description
 # Adjust imports based on actual file structure and class names
 from model_registry.providers.openai import OpenAIProvider
-# from model_registry.providers.anthropic import AnthropicProvider # Placeholder for when M8 is done
+from model_registry.providers.anthropic import AnthropicProvider
+
 from model_registry.providers.base import Provider
 from model_registry.schemas import ModelEntry
 from model_registry.logger import setup_logging
@@ -57,7 +58,10 @@ def main():
     logger.info("Starting model registry update process...")
 
     # Instantiate providers here, after dotenv has loaded
-    providers = [OpenAIProvider()] 
+    providers = [
+        OpenAIProvider(),
+        AnthropicProvider()
+    ] 
     # Add other providers here when they are ready, e.g., AnthropicProvider()
 
     existing_models_list = load_existing_models(MODELS_JSON_PATH)

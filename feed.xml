@@ -2,932 +2,140 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://github.com/gkamradt/model_registry/feed.xml</id>
   <title>Model Registry Updates</title>
-  <updated>2025-05-21T15:46:29.702994+00:00</updated>
+  <updated>2025-05-23T14:06:21.925565+00:00</updated>
   <link href="https://github.com/gkamradt/model_registry" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Updates to the public LLM model registry</subtitle>
   <entry>
-    <id>urn:model-registry:openai:openai:text-embedding-ada-002</id>
-    <title>openai - openai - text-embedding-ada-002</title>
-    <updated>2025-05-21T15:46:29.707016+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: text-embedding-ada-002&lt;br/&gt;Release Date: 2022-12-16&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="text-embedding-ada-002" label="model_id"/>
-    <category term="2022-12-16" label="release_date"/>
+    <id>urn:model-registry:anthropic:anthropic:claude-2.0</id>
+    <title>anthropic - anthropic - claude-2.0</title>
+    <updated>2025-05-23T14:06:21.927057+00:00</updated>
+    <content type="html">Provider: anthropic&lt;br/&gt;Model ID: claude-2.0&lt;br/&gt;Release Date: 2023-07-11&lt;br/&gt;Developer: anthropic&lt;br/&gt;Status: active</content>
+    <category term="anthropic" label="provider"/>
+    <category term="anthropic" label="developer"/>
+    <category term="claude-2.0" label="model_id"/>
+    <category term="2023-07-11" label="release_date"/>
     <category term="active" label="status"/>
-    <published>2022-12-16T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:whisper-1</id>
-    <title>openai - openai - whisper-1</title>
-    <updated>2025-05-21T15:46:29.706956+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: whisper-1&lt;br/&gt;Release Date: 2023-02-27&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="whisper-1" label="model_id"/>
-    <category term="2023-02-27" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2023-02-27T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-3.5-turbo</id>
-    <title>openai - openai - gpt-3.5-turbo</title>
-    <updated>2025-05-21T15:46:29.706893+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-3.5-turbo&lt;br/&gt;Release Date: 2023-02-28&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-3.5-turbo" label="model_id"/>
-    <category term="2023-02-28" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2023-02-28T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:tts-1</id>
-    <title>openai - openai - tts-1</title>
-    <updated>2025-05-21T15:46:29.706835+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: tts-1&lt;br/&gt;Release Date: 2023-04-19&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="tts-1" label="model_id"/>
-    <category term="2023-04-19" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2023-04-19T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-3.5-turbo-16k</id>
-    <title>openai - openai - gpt-3.5-turbo-16k</title>
-    <updated>2025-05-21T15:46:29.706777+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-3.5-turbo-16k&lt;br/&gt;Release Date: 2023-05-10&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-3.5-turbo-16k" label="model_id"/>
-    <category term="2023-05-10" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2023-05-10T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4-0613</id>
-    <title>openai - openai - gpt-4-0613</title>
-    <updated>2025-05-21T15:46:29.706720+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4-0613&lt;br/&gt;Release Date: 2023-06-13&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4-0613" label="model_id"/>
-    <category term="2023-06-13" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2023-06-13T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4</id>
-    <title>openai - openai - gpt-4</title>
-    <updated>2025-05-21T15:46:29.706662+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4&lt;br/&gt;Release Date: 2023-06-27&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4" label="model_id"/>
-    <category term="2023-06-27" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2023-06-27T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:davinci-002</id>
-    <title>openai - openai - davinci-002</title>
-    <updated>2025-05-21T15:46:29.706604+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: davinci-002&lt;br/&gt;Release Date: 2023-08-21&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="davinci-002" label="model_id"/>
-    <category term="2023-08-21" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2023-08-21T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:babbage-002</id>
-    <title>openai - openai - babbage-002</title>
-    <updated>2025-05-21T15:46:29.706546+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: babbage-002&lt;br/&gt;Release Date: 2023-08-21&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="babbage-002" label="model_id"/>
-    <category term="2023-08-21" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2023-08-21T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-3.5-turbo-instruct</id>
-    <title>openai - openai - gpt-3.5-turbo-instruct</title>
-    <updated>2025-05-21T15:46:29.706488+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-3.5-turbo-instruct&lt;br/&gt;Release Date: 2023-08-24&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-3.5-turbo-instruct" label="model_id"/>
-    <category term="2023-08-24" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2023-08-24T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-3.5-turbo-instruct-0914</id>
-    <title>openai - openai - gpt-3.5-turbo-instruct-0914</title>
-    <updated>2025-05-21T15:46:29.706413+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-3.5-turbo-instruct-0914&lt;br/&gt;Release Date: 2023-09-14&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-3.5-turbo-instruct-0914" label="model_id"/>
-    <category term="2023-09-14" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2023-09-14T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:dall-e-3</id>
-    <title>openai - openai - dall-e-3</title>
-    <updated>2025-05-21T15:46:29.706353+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: dall-e-3&lt;br/&gt;Release Date: 2023-10-31&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="dall-e-3" label="model_id"/>
-    <category term="2023-10-31" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2023-10-31T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:dall-e-2</id>
-    <title>openai - openai - dall-e-2</title>
-    <updated>2025-05-21T15:46:29.706293+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: dall-e-2&lt;br/&gt;Release Date: 2023-11-01&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="dall-e-2" label="model_id"/>
-    <category term="2023-11-01" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2023-11-01T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4-1106-preview</id>
-    <title>openai - openai - gpt-4-1106-preview</title>
-    <updated>2025-05-21T15:46:29.706235+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4-1106-preview&lt;br/&gt;Release Date: 2023-11-02&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4-1106-preview" label="model_id"/>
-    <category term="2023-11-02" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2023-11-02T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:tts-1-hd</id>
-    <title>openai - openai - tts-1-hd</title>
-    <updated>2025-05-21T15:46:29.706176+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: tts-1-hd&lt;br/&gt;Release Date: 2023-11-03&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="tts-1-hd" label="model_id"/>
-    <category term="2023-11-03" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2023-11-03T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:tts-1-hd-1106</id>
-    <title>openai - openai - tts-1-hd-1106</title>
-    <updated>2025-05-21T15:46:29.706113+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: tts-1-hd-1106&lt;br/&gt;Release Date: 2023-11-06&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="tts-1-hd-1106" label="model_id"/>
-    <category term="2023-11-06" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2023-11-06T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:tts-1-1106</id>
-    <title>openai - openai - tts-1-1106</title>
-    <updated>2025-05-21T15:46:29.706055+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: tts-1-1106&lt;br/&gt;Release Date: 2023-11-06&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="tts-1-1106" label="model_id"/>
-    <category term="2023-11-06" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2023-11-06T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-3.5-turbo-1106</id>
-    <title>openai - openai - gpt-3.5-turbo-1106</title>
-    <updated>2025-05-21T15:46:29.705996+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-3.5-turbo-1106&lt;br/&gt;Release Date: 2023-11-06&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-3.5-turbo-1106" label="model_id"/>
-    <category term="2023-11-06" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2023-11-06T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:text-embedding-3-small</id>
-    <title>openai - openai - text-embedding-3-small</title>
-    <updated>2025-05-21T15:46:29.705938+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: text-embedding-3-small&lt;br/&gt;Release Date: 2024-01-22&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="text-embedding-3-small" label="model_id"/>
-    <category term="2024-01-22" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-01-22T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:text-embedding-3-large</id>
-    <title>openai - openai - text-embedding-3-large</title>
-    <updated>2025-05-21T15:46:29.705879+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: text-embedding-3-large&lt;br/&gt;Release Date: 2024-01-22&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="text-embedding-3-large" label="model_id"/>
-    <category term="2024-01-22" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-01-22T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4-turbo-preview</id>
-    <title>openai - openai - gpt-4-turbo-preview</title>
-    <updated>2025-05-21T15:46:29.705820+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4-turbo-preview&lt;br/&gt;Release Date: 2024-01-23&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4-turbo-preview" label="model_id"/>
-    <category term="2024-01-23" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-01-23T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4-0125-preview</id>
-    <title>openai - openai - gpt-4-0125-preview</title>
-    <updated>2025-05-21T15:46:29.705757+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4-0125-preview&lt;br/&gt;Release Date: 2024-01-23&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4-0125-preview" label="model_id"/>
-    <category term="2024-01-23" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-01-23T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-3.5-turbo-0125</id>
-    <title>openai - openai - gpt-3.5-turbo-0125</title>
-    <updated>2025-05-21T15:46:29.705700+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-3.5-turbo-0125&lt;br/&gt;Release Date: 2024-01-25&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-3.5-turbo-0125" label="model_id"/>
-    <category term="2024-01-25" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-01-25T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4-turbo</id>
-    <title>openai - openai - gpt-4-turbo</title>
-    <updated>2025-05-21T15:46:29.705643+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4-turbo&lt;br/&gt;Release Date: 2024-04-05&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4-turbo" label="model_id"/>
-    <category term="2024-04-05" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-04-05T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4-turbo-2024-04-09</id>
-    <title>openai - openai - gpt-4-turbo-2024-04-09</title>
-    <updated>2025-05-21T15:46:29.705584+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4-turbo-2024-04-09&lt;br/&gt;Release Date: 2024-04-09&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4-turbo-2024-04-09" label="model_id"/>
-    <category term="2024-04-09" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-04-09T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4o</id>
-    <title>openai - openai - gpt-4o</title>
-    <updated>2025-05-21T15:46:29.705525+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4o&lt;br/&gt;Release Date: 2024-05-10&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4o" label="model_id"/>
-    <category term="2024-05-10" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-05-10T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4o-2024-05-13</id>
-    <title>openai - openai - gpt-4o-2024-05-13</title>
-    <updated>2025-05-21T15:46:29.705464+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4o-2024-05-13&lt;br/&gt;Release Date: 2024-05-13&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4o-2024-05-13" label="model_id"/>
-    <category term="2024-05-13" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-05-13T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4o-mini</id>
-    <title>openai - openai - gpt-4o-mini</title>
-    <updated>2025-05-21T15:46:29.705399+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4o-mini&lt;br/&gt;Release Date: 2024-07-16&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4o-mini" label="model_id"/>
-    <category term="2024-07-16" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-07-16T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4o-mini-2024-07-18</id>
-    <title>openai - openai - gpt-4o-mini-2024-07-18</title>
-    <updated>2025-05-21T15:46:29.705341+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4o-mini-2024-07-18&lt;br/&gt;Release Date: 2024-07-18&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4o-mini-2024-07-18" label="model_id"/>
-    <category term="2024-07-18" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-07-18T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4o-2024-08-06</id>
-    <title>openai - openai - gpt-4o-2024-08-06</title>
-    <updated>2025-05-21T15:46:29.705283+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4o-2024-08-06&lt;br/&gt;Release Date: 2024-08-06&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4o-2024-08-06" label="model_id"/>
-    <category term="2024-08-06" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-08-06T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:chatgpt-4o-latest</id>
-    <title>openai - openai - chatgpt-4o-latest</title>
-    <updated>2025-05-21T15:46:29.705224+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: chatgpt-4o-latest&lt;br/&gt;Release Date: 2024-08-13&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="chatgpt-4o-latest" label="model_id"/>
-    <category term="2024-08-13" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-08-13T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:o1-preview</id>
-    <title>openai - openai - o1-preview</title>
-    <updated>2025-05-21T15:46:29.705160+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: o1-preview&lt;br/&gt;Release Date: 2024-09-06&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="o1-preview" label="model_id"/>
-    <category term="2024-09-06" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-09-06T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:o1-mini</id>
-    <title>openai - openai - o1-mini</title>
-    <updated>2025-05-21T15:46:29.705102+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: o1-mini&lt;br/&gt;Release Date: 2024-09-06&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="o1-mini" label="model_id"/>
-    <category term="2024-09-06" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-09-06T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:o1-preview-2024-09-12</id>
-    <title>openai - openai - o1-preview-2024-09-12</title>
-    <updated>2025-05-21T15:46:29.705043+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: o1-preview-2024-09-12&lt;br/&gt;Release Date: 2024-09-12&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="o1-preview-2024-09-12" label="model_id"/>
-    <category term="2024-09-12" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-09-12T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:o1-mini-2024-09-12</id>
-    <title>openai - openai - o1-mini-2024-09-12</title>
-    <updated>2025-05-21T15:46:29.704985+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: o1-mini-2024-09-12&lt;br/&gt;Release Date: 2024-09-12&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="o1-mini-2024-09-12" label="model_id"/>
-    <category term="2024-09-12" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-09-12T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:omni-moderation-2024-09-26</id>
-    <title>openai - openai - omni-moderation-2024-09-26</title>
-    <updated>2025-05-21T15:46:29.704925+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: omni-moderation-2024-09-26&lt;br/&gt;Release Date: 2024-09-26&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="omni-moderation-2024-09-26" label="model_id"/>
-    <category term="2024-09-26" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-09-26T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4o-audio-preview</id>
-    <title>openai - openai - gpt-4o-audio-preview</title>
-    <updated>2025-05-21T15:46:29.704867+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4o-audio-preview&lt;br/&gt;Release Date: 2024-09-27&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4o-audio-preview" label="model_id"/>
-    <category term="2024-09-27" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-09-27T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4o-realtime-preview</id>
-    <title>openai - openai - gpt-4o-realtime-preview</title>
-    <updated>2025-05-21T15:46:29.704808+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4o-realtime-preview&lt;br/&gt;Release Date: 2024-09-30&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4o-realtime-preview" label="model_id"/>
-    <category term="2024-09-30" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-09-30T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4o-realtime-preview-2024-10-01</id>
-    <title>openai - openai - gpt-4o-realtime-preview-2024-10-01</title>
-    <updated>2025-05-21T15:46:29.704750+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4o-realtime-preview-2024-10-01&lt;br/&gt;Release Date: 2024-10-01&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4o-realtime-preview-2024-10-01" label="model_id"/>
-    <category term="2024-10-01" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-10-01T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4o-audio-preview-2024-10-01</id>
-    <title>openai - openai - gpt-4o-audio-preview-2024-10-01</title>
-    <updated>2025-05-21T15:46:29.704686+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4o-audio-preview-2024-10-01&lt;br/&gt;Release Date: 2024-10-01&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4o-audio-preview-2024-10-01" label="model_id"/>
-    <category term="2024-10-01" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-10-01T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:omni-moderation-latest</id>
-    <title>openai - openai - omni-moderation-latest</title>
-    <updated>2025-05-21T15:46:29.704618+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: omni-moderation-latest&lt;br/&gt;Release Date: 2024-11-15&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="omni-moderation-latest" label="model_id"/>
-    <category term="2024-11-15" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-11-15T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4o-2024-11-20</id>
-    <title>openai - openai - gpt-4o-2024-11-20</title>
-    <updated>2025-05-21T15:46:29.704554+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4o-2024-11-20&lt;br/&gt;Release Date: 2024-11-20&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4o-2024-11-20" label="model_id"/>
-    <category term="2024-11-20" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-11-20T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:o1</id>
-    <title>openai - openai - o1</title>
-    <updated>2025-05-21T15:46:29.704497+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: o1&lt;br/&gt;Release Date: 2024-12-16&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="o1" label="model_id"/>
-    <category term="2024-12-16" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-12-16T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4o-mini-realtime-preview</id>
-    <title>openai - openai - gpt-4o-mini-realtime-preview</title>
-    <updated>2025-05-21T15:46:29.704436+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4o-mini-realtime-preview&lt;br/&gt;Release Date: 2024-12-16&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4o-mini-realtime-preview" label="model_id"/>
-    <category term="2024-12-16" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-12-16T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4o-mini-audio-preview</id>
-    <title>openai - openai - gpt-4o-mini-audio-preview</title>
-    <updated>2025-05-21T15:46:29.704378+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4o-mini-audio-preview&lt;br/&gt;Release Date: 2024-12-16&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4o-mini-audio-preview" label="model_id"/>
-    <category term="2024-12-16" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-12-16T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:o1-2024-12-17</id>
-    <title>openai - openai - o1-2024-12-17</title>
-    <updated>2025-05-21T15:46:29.704321+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: o1-2024-12-17&lt;br/&gt;Release Date: 2024-12-17&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="o1-2024-12-17" label="model_id"/>
-    <category term="2024-12-17" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-12-17T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4o-realtime-preview-2024-12-17</id>
-    <title>openai - openai - gpt-4o-realtime-preview-2024-12-17</title>
-    <updated>2025-05-21T15:46:29.704263+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4o-realtime-preview-2024-12-17&lt;br/&gt;Release Date: 2024-12-17&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4o-realtime-preview-2024-12-17" label="model_id"/>
-    <category term="2024-12-17" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-12-17T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4o-mini-realtime-preview-2024-12-17</id>
-    <title>openai - openai - gpt-4o-mini-realtime-preview-2024-12-17</title>
-    <updated>2025-05-21T15:46:29.704204+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4o-mini-realtime-preview-2024-12-17&lt;br/&gt;Release Date: 2024-12-17&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4o-mini-realtime-preview-2024-12-17" label="model_id"/>
-    <category term="2024-12-17" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-12-17T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4o-mini-audio-preview-2024-12-17</id>
-    <title>openai - openai - gpt-4o-mini-audio-preview-2024-12-17</title>
-    <updated>2025-05-21T15:46:29.704145+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4o-mini-audio-preview-2024-12-17&lt;br/&gt;Release Date: 2024-12-17&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4o-mini-audio-preview-2024-12-17" label="model_id"/>
-    <category term="2024-12-17" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-12-17T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4o-audio-preview-2024-12-17</id>
-    <title>openai - openai - gpt-4o-audio-preview-2024-12-17</title>
-    <updated>2025-05-21T15:46:29.704084+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4o-audio-preview-2024-12-17&lt;br/&gt;Release Date: 2024-12-17&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4o-audio-preview-2024-12-17" label="model_id"/>
-    <category term="2024-12-17" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-12-17T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:computer-use-preview</id>
-    <title>openai - openai - computer-use-preview</title>
-    <updated>2025-05-21T15:46:29.703993+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: computer-use-preview&lt;br/&gt;Release Date: 2024-12-20&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="computer-use-preview" label="model_id"/>
-    <category term="2024-12-20" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2024-12-20T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:o3-mini</id>
-    <title>openai - openai - o3-mini</title>
-    <updated>2025-05-21T15:46:29.703965+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: o3-mini&lt;br/&gt;Release Date: 2025-01-17&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="o3-mini" label="model_id"/>
-    <category term="2025-01-17" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-01-17T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:o3-mini-2025-01-31</id>
-    <title>openai - openai - o3-mini-2025-01-31</title>
-    <updated>2025-05-21T15:46:29.703934+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: o3-mini-2025-01-31&lt;br/&gt;Release Date: 2025-01-31&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="o3-mini-2025-01-31" label="model_id"/>
-    <category term="2025-01-31" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-01-31T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4.5-preview-2025-02-27</id>
-    <title>openai - openai - gpt-4.5-preview-2025-02-27</title>
-    <updated>2025-05-21T15:46:29.703907+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4.5-preview-2025-02-27&lt;br/&gt;Release Date: 2025-02-27&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4.5-preview-2025-02-27" label="model_id"/>
-    <category term="2025-02-27" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-02-27T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4.5-preview</id>
-    <title>openai - openai - gpt-4.5-preview</title>
-    <updated>2025-05-21T15:46:29.703879+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4.5-preview&lt;br/&gt;Release Date: 2025-02-27&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4.5-preview" label="model_id"/>
-    <category term="2025-02-27" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-02-27T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4o-search-preview</id>
-    <title>openai - openai - gpt-4o-search-preview</title>
-    <updated>2025-05-21T15:46:29.703851+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4o-search-preview&lt;br/&gt;Release Date: 2025-03-07&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4o-search-preview" label="model_id"/>
-    <category term="2025-03-07" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-03-07T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4o-mini-search-preview</id>
-    <title>openai - openai - gpt-4o-mini-search-preview</title>
-    <updated>2025-05-21T15:46:29.703823+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4o-mini-search-preview&lt;br/&gt;Release Date: 2025-03-07&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4o-mini-search-preview" label="model_id"/>
-    <category term="2025-03-07" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-03-07T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4o-search-preview-2025-03-11</id>
-    <title>openai - openai - gpt-4o-search-preview-2025-03-11</title>
-    <updated>2025-05-21T15:46:29.703795+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4o-search-preview-2025-03-11&lt;br/&gt;Release Date: 2025-03-11&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4o-search-preview-2025-03-11" label="model_id"/>
-    <category term="2025-03-11" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-03-11T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4o-mini-search-preview-2025-03-11</id>
-    <title>openai - openai - gpt-4o-mini-search-preview-2025-03-11</title>
-    <updated>2025-05-21T15:46:29.703766+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4o-mini-search-preview-2025-03-11&lt;br/&gt;Release Date: 2025-03-11&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4o-mini-search-preview-2025-03-11" label="model_id"/>
-    <category term="2025-03-11" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-03-11T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:computer-use-preview-2025-03-11</id>
-    <title>openai - openai - computer-use-preview-2025-03-11</title>
-    <updated>2025-05-21T15:46:29.703736+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: computer-use-preview-2025-03-11&lt;br/&gt;Release Date: 2025-03-11&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="computer-use-preview-2025-03-11" label="model_id"/>
-    <category term="2025-03-11" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-03-11T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4o-transcribe</id>
-    <title>openai - openai - gpt-4o-transcribe</title>
-    <updated>2025-05-21T15:46:29.703708+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4o-transcribe&lt;br/&gt;Release Date: 2025-03-15&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4o-transcribe" label="model_id"/>
-    <category term="2025-03-15" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-03-15T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4o-mini-transcribe</id>
-    <title>openai - openai - gpt-4o-mini-transcribe</title>
-    <updated>2025-05-21T15:46:29.703680+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4o-mini-transcribe&lt;br/&gt;Release Date: 2025-03-15&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4o-mini-transcribe" label="model_id"/>
-    <category term="2025-03-15" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-03-15T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:o1-pro</id>
-    <title>openai - openai - o1-pro</title>
-    <updated>2025-05-21T15:46:29.703651+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: o1-pro&lt;br/&gt;Release Date: 2025-03-17&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="o1-pro" label="model_id"/>
-    <category term="2025-03-17" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-03-17T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:o1-pro-2025-03-19</id>
-    <title>openai - openai - o1-pro-2025-03-19</title>
-    <updated>2025-05-21T15:46:29.703623+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: o1-pro-2025-03-19&lt;br/&gt;Release Date: 2025-03-19&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="o1-pro-2025-03-19" label="model_id"/>
-    <category term="2025-03-19" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-03-19T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4o-mini-tts</id>
-    <title>openai - openai - gpt-4o-mini-tts</title>
-    <updated>2025-05-21T15:46:29.703594+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4o-mini-tts&lt;br/&gt;Release Date: 2025-03-19&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4o-mini-tts" label="model_id"/>
-    <category term="2025-03-19" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-03-19T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:o4-mini</id>
-    <title>openai - openai - o4-mini</title>
-    <updated>2025-05-21T15:46:29.703561+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: o4-mini&lt;br/&gt;Release Date: 2025-04-09&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="o4-mini" label="model_id"/>
-    <category term="2025-04-09" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-04-09T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:o3</id>
-    <title>openai - openai - o3</title>
-    <updated>2025-05-21T15:46:29.703531+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: o3&lt;br/&gt;Release Date: 2025-04-09&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="o3" label="model_id"/>
-    <category term="2025-04-09" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-04-09T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4.1-nano</id>
-    <title>openai - openai - gpt-4.1-nano</title>
-    <updated>2025-05-21T15:46:29.703499+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4.1-nano&lt;br/&gt;Release Date: 2025-04-10&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4.1-nano" label="model_id"/>
-    <category term="2025-04-10" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-04-10T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4.1-mini</id>
-    <title>openai - openai - gpt-4.1-mini</title>
-    <updated>2025-05-21T15:46:29.703462+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4.1-mini&lt;br/&gt;Release Date: 2025-04-10&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4.1-mini" label="model_id"/>
-    <category term="2025-04-10" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-04-10T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4.1</id>
-    <title>openai - openai - gpt-4.1</title>
-    <updated>2025-05-21T15:46:29.703403+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4.1&lt;br/&gt;Release Date: 2025-04-10&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4.1" label="model_id"/>
-    <category term="2025-04-10" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-04-10T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4.1-nano-2025-04-14</id>
-    <title>openai - openai - gpt-4.1-nano-2025-04-14</title>
-    <updated>2025-05-21T15:46:29.703366+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4.1-nano-2025-04-14&lt;br/&gt;Release Date: 2025-04-14&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4.1-nano-2025-04-14" label="model_id"/>
-    <category term="2025-04-14" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-04-14T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4.1-mini-2025-04-14</id>
-    <title>openai - openai - gpt-4.1-mini-2025-04-14</title>
-    <updated>2025-05-21T15:46:29.703332+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4.1-mini-2025-04-14&lt;br/&gt;Release Date: 2025-04-14&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4.1-mini-2025-04-14" label="model_id"/>
-    <category term="2025-04-14" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-04-14T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4.1-2025-04-14</id>
-    <title>openai - openai - gpt-4.1-2025-04-14</title>
-    <updated>2025-05-21T15:46:29.703296+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4.1-2025-04-14&lt;br/&gt;Release Date: 2025-04-14&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4.1-2025-04-14" label="model_id"/>
-    <category term="2025-04-14" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-04-14T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:o4-mini-2025-04-16</id>
-    <title>openai - openai - o4-mini-2025-04-16</title>
-    <updated>2025-05-21T15:46:29.703251+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: o4-mini-2025-04-16&lt;br/&gt;Release Date: 2025-04-16&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="o4-mini-2025-04-16" label="model_id"/>
-    <category term="2025-04-16" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-04-16T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:o3-2025-04-16</id>
-    <title>openai - openai - o3-2025-04-16</title>
-    <updated>2025-05-21T15:46:29.703210+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: o3-2025-04-16&lt;br/&gt;Release Date: 2025-04-16&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="o3-2025-04-16" label="model_id"/>
-    <category term="2025-04-16" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-04-16T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-image-1</id>
-    <title>openai - openai - gpt-image-1</title>
-    <updated>2025-05-21T15:46:29.703164+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-image-1&lt;br/&gt;Release Date: 2025-04-24&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-image-1" label="model_id"/>
-    <category term="2025-04-24" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-04-24T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:codex-mini-latest</id>
-    <title>openai - openai - codex-mini-latest</title>
-    <updated>2025-05-21T15:46:29.703038+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: codex-mini-latest&lt;br/&gt;Release Date: 2025-05-08&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="codex-mini-latest" label="model_id"/>
-    <category term="2025-05-08" label="release_date"/>
+    <published>2023-07-11T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>urn:model-registry:anthropic:anthropic:claude-2.1</id>
+    <title>anthropic - anthropic - claude-2.1</title>
+    <updated>2025-05-23T14:06:21.927020+00:00</updated>
+    <content type="html">Provider: anthropic&lt;br/&gt;Model ID: claude-2.1&lt;br/&gt;Release Date: 2023-11-21&lt;br/&gt;Developer: anthropic&lt;br/&gt;Status: active</content>
+    <category term="anthropic" label="provider"/>
+    <category term="anthropic" label="developer"/>
+    <category term="claude-2.1" label="model_id"/>
+    <category term="2023-11-21" label="release_date"/>
     <category term="active" label="status"/>
-    <published>2025-05-08T00:00:00+00:00</published>
+    <published>2023-11-21T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>urn:model-registry:anthropic:anthropic:claude-3-sonnet-20240229</id>
+    <title>anthropic - anthropic - claude-3-sonnet-20240229</title>
+    <updated>2025-05-23T14:06:21.926985+00:00</updated>
+    <content type="html">Provider: anthropic&lt;br/&gt;Model ID: claude-3-sonnet-20240229&lt;br/&gt;Release Date: 2024-02-29&lt;br/&gt;Developer: anthropic&lt;br/&gt;Status: active</content>
+    <category term="anthropic" label="provider"/>
+    <category term="anthropic" label="developer"/>
+    <category term="claude-3-sonnet-20240229" label="model_id"/>
+    <category term="2024-02-29" label="release_date"/>
+    <category term="active" label="status"/>
+    <published>2024-02-29T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>urn:model-registry:anthropic:anthropic:claude-3-opus-20240229</id>
+    <title>anthropic - anthropic - claude-3-opus-20240229</title>
+    <updated>2025-05-23T14:06:21.926932+00:00</updated>
+    <content type="html">Provider: anthropic&lt;br/&gt;Model ID: claude-3-opus-20240229&lt;br/&gt;Release Date: 2024-02-29&lt;br/&gt;Developer: anthropic&lt;br/&gt;Status: active</content>
+    <category term="anthropic" label="provider"/>
+    <category term="anthropic" label="developer"/>
+    <category term="claude-3-opus-20240229" label="model_id"/>
+    <category term="2024-02-29" label="release_date"/>
+    <category term="active" label="status"/>
+    <published>2024-02-29T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>urn:model-registry:anthropic:anthropic:claude-3-haiku-20240307</id>
+    <title>anthropic - anthropic - claude-3-haiku-20240307</title>
+    <updated>2025-05-23T14:06:21.926895+00:00</updated>
+    <content type="html">Provider: anthropic&lt;br/&gt;Model ID: claude-3-haiku-20240307&lt;br/&gt;Release Date: 2024-03-07&lt;br/&gt;Developer: anthropic&lt;br/&gt;Status: active</content>
+    <category term="anthropic" label="provider"/>
+    <category term="anthropic" label="developer"/>
+    <category term="claude-3-haiku-20240307" label="model_id"/>
+    <category term="2024-03-07" label="release_date"/>
+    <category term="active" label="status"/>
+    <published>2024-03-07T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>urn:model-registry:anthropic:anthropic:claude-3-5-sonnet-20240620</id>
+    <title>anthropic - anthropic - claude-3-5-sonnet-20240620</title>
+    <updated>2025-05-23T14:06:21.926860+00:00</updated>
+    <content type="html">Provider: anthropic&lt;br/&gt;Model ID: claude-3-5-sonnet-20240620&lt;br/&gt;Release Date: 2024-06-20&lt;br/&gt;Developer: anthropic&lt;br/&gt;Status: active</content>
+    <category term="anthropic" label="provider"/>
+    <category term="anthropic" label="developer"/>
+    <category term="claude-3-5-sonnet-20240620" label="model_id"/>
+    <category term="2024-06-20" label="release_date"/>
+    <category term="active" label="status"/>
+    <published>2024-06-20T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>urn:model-registry:anthropic:anthropic:claude-3-5-sonnet-20241022</id>
+    <title>anthropic - anthropic - claude-3-5-sonnet-20241022</title>
+    <updated>2025-05-23T14:06:21.926823+00:00</updated>
+    <content type="html">Provider: anthropic&lt;br/&gt;Model ID: claude-3-5-sonnet-20241022&lt;br/&gt;Release Date: 2024-10-22&lt;br/&gt;Developer: anthropic&lt;br/&gt;Status: active</content>
+    <category term="anthropic" label="provider"/>
+    <category term="anthropic" label="developer"/>
+    <category term="claude-3-5-sonnet-20241022" label="model_id"/>
+    <category term="2024-10-22" label="release_date"/>
+    <category term="active" label="status"/>
+    <published>2024-10-22T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>urn:model-registry:anthropic:anthropic:claude-3-5-haiku-20241022</id>
+    <title>anthropic - anthropic - claude-3-5-haiku-20241022</title>
+    <updated>2025-05-23T14:06:21.926778+00:00</updated>
+    <content type="html">Provider: anthropic&lt;br/&gt;Model ID: claude-3-5-haiku-20241022&lt;br/&gt;Release Date: 2024-10-22&lt;br/&gt;Developer: anthropic&lt;br/&gt;Status: active</content>
+    <category term="anthropic" label="provider"/>
+    <category term="anthropic" label="developer"/>
+    <category term="claude-3-5-haiku-20241022" label="model_id"/>
+    <category term="2024-10-22" label="release_date"/>
+    <category term="active" label="status"/>
+    <published>2024-10-22T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>urn:model-registry:anthropic:anthropic:claude-3-7-sonnet-20250219</id>
+    <title>anthropic - anthropic - claude-3-7-sonnet-20250219</title>
+    <updated>2025-05-23T14:06:21.926732+00:00</updated>
+    <content type="html">Provider: anthropic&lt;br/&gt;Model ID: claude-3-7-sonnet-20250219&lt;br/&gt;Release Date: 2025-02-24&lt;br/&gt;Developer: anthropic&lt;br/&gt;Status: active</content>
+    <category term="anthropic" label="provider"/>
+    <category term="anthropic" label="developer"/>
+    <category term="claude-3-7-sonnet-20250219" label="model_id"/>
+    <category term="2025-02-24" label="release_date"/>
+    <category term="active" label="status"/>
+    <published>2025-02-24T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>urn:model-registry:anthropic:anthropic:claude-sonnet-4-20250514</id>
+    <title>anthropic - anthropic - claude-sonnet-4-20250514</title>
+    <updated>2025-05-23T14:06:21.926645+00:00</updated>
+    <content type="html">Provider: anthropic&lt;br/&gt;Model ID: claude-sonnet-4-20250514&lt;br/&gt;Release Date: 2025-05-22&lt;br/&gt;Developer: anthropic&lt;br/&gt;Status: active</content>
+    <category term="anthropic" label="provider"/>
+    <category term="anthropic" label="developer"/>
+    <category term="claude-sonnet-4-20250514" label="model_id"/>
+    <category term="2025-05-22" label="release_date"/>
+    <category term="active" label="status"/>
+    <published>2025-05-22T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>urn:model-registry:anthropic:anthropic:claude-opus-4-20250514</id>
+    <title>anthropic - anthropic - claude-opus-4-20250514</title>
+    <updated>2025-05-23T14:06:21.925607+00:00</updated>
+    <content type="html">Provider: anthropic&lt;br/&gt;Model ID: claude-opus-4-20250514&lt;br/&gt;Release Date: 2025-05-22&lt;br/&gt;Developer: anthropic&lt;br/&gt;Status: active</content>
+    <category term="anthropic" label="provider"/>
+    <category term="anthropic" label="developer"/>
+    <category term="claude-opus-4-20250514" label="model_id"/>
+    <category term="2025-05-22" label="release_date"/>
+    <category term="active" label="status"/>
+    <published>2025-05-22T00:00:00+00:00</published>
   </entry>
 </feed>

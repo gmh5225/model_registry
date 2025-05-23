@@ -71,7 +71,7 @@ def test_build_atom_feed_creates_valid_file(tmp_path: Path, sample_models: List[
     expected_sorted_models = sorted(sample_models, key=lambda m: (-m.release_date.toordinal(), m.model_id))
     
     # Create a map of entry IDs to models for verification
-    entry_id_to_model = {f"{repo_url}/model/{model.provider}/{model.model_id}/{model.release_date.isoformat()}": model 
+    entry_id_to_model = {f"urn:model-registry:{model.provider}:{model.developer}:{model.model_id}": model 
                         for model in expected_sorted_models}
     
     # Verify each entry matches a model based on its ID
@@ -81,18 +81,16 @@ def test_build_atom_feed_creates_valid_file(tmp_path: Path, sample_models: List[
         
         model = entry_id_to_model[entry_id]
         entry_title = entry_elem.find('atom:title', ns).text
-        entry_updated_str = entry_elem.find('atom:updated', ns).text
-        entry_link = entry_elem.find('atom:link', ns).get('href')
+        entry_published_str = entry_elem.find('atom:published', ns).text
         entry_content = entry_elem.find('atom:content', ns).text
         
-        assert entry_title == f"New Model: {model.provider} - {model.model_id}"
-        assert entry_link == f"{repo_url}#model-{model.provider}-{model.model_id}"
+        assert entry_title == f"{model.provider} - {model.developer} - {model.model_id}"
         
-        # Check updated timestamp matches model's release date
-        expected_updated_dt = datetime.combine(model.release_date, datetime.min.time())
+        # Check published timestamp matches model's release date
+        expected_published_dt = datetime.combine(model.release_date, datetime.min.time())
         # Allow for either Z or +00:00 format for UTC timezone
-        assert entry_updated_str in [expected_updated_dt.isoformat() + "Z", 
-                                   expected_updated_dt.isoformat() + "+00:00"]
+        assert entry_published_str in [expected_published_dt.isoformat() + "Z", 
+                                      expected_published_dt.isoformat() + "+00:00"]
         
         # Check content details
         assert f"Provider: {model.provider}" in entry_content

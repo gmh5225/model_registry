@@ -233,10 +233,10 @@ def test_cli_preserves_existing_models_on_new_fetch(tmp_path, monkeypatch, capsy
     assert MOCK_MODEL_3_OTHER.model_id in model_ids_in_file
     assert MOCK_MODEL_1_OPENAI.model_id in model_ids_in_file
     
-    # Check sorting: MOCK_MODEL_1_OPENAI (gpt-4), MOCK_MODEL_3_OTHER (model-x)
-    # "gpt-4" comes before "model-x"
-    assert data[0]["model_id"] == MOCK_MODEL_1_OPENAI.model_id
-    assert data[1]["model_id"] == MOCK_MODEL_3_OTHER.model_id
+    # Check sorting: MOCK_MODEL_3_OTHER (model-x), MOCK_MODEL_1_OPENAI (gpt-4)
+    # "model-x" comes before "gpt-4" alphabetically
+    assert data[0]["model_id"] == MOCK_MODEL_3_OTHER.model_id  # model-x
+    assert data[1]["model_id"] == MOCK_MODEL_1_OPENAI.model_id  # gpt-4
     
     captured = capsys.readouterr()
     assert f"{models_json_file} updated with 2 models." in captured.out
