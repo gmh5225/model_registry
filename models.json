@@ -1,5 +1,306 @@
 [
   {
+    "provider": "openrouter",
+    "developer": "01-ai",
+    "model_id": "01-ai/yi-large",
+    "release_date": "2024-06-25",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "aetherwiing",
+    "model_id": "aetherwiing/mn-starcannon-12b",
+    "release_date": "2024-08-13",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "agentica-org",
+    "model_id": "agentica-org/deepcoder-14b-preview:free",
+    "release_date": "2025-04-13",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "ai21",
+    "model_id": "ai21/jamba-1.6-large",
+    "release_date": "2025-03-13",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "ai21",
+    "model_id": "ai21/jamba-1.6-mini",
+    "release_date": "2025-03-13",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "aion-labs",
+    "model_id": "aion-labs/aion-1.0",
+    "release_date": "2025-02-04",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "aion-labs",
+    "model_id": "aion-labs/aion-1.0-mini",
+    "release_date": "2025-02-04",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "aion-labs",
+    "model_id": "aion-labs/aion-rp-llama-3.1-8b",
+    "release_date": "2025-02-04",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "alfredpros",
+    "model_id": "alfredpros/codellama-7b-instruct-solidity",
+    "release_date": "2025-04-14",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "all-hands",
+    "model_id": "all-hands/openhands-lm-32b-v0.1",
+    "release_date": "2025-04-02",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "allenai",
+    "model_id": "allenai/olmo-7b-instruct",
+    "release_date": "2024-05-10",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "alpindale",
+    "model_id": "alpindale/goliath-120b",
+    "release_date": "2023-11-10",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "alpindale",
+    "model_id": "alpindale/magnum-72b",
+    "release_date": "2024-07-11",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "amazon",
+    "model_id": "amazon/nova-lite-v1",
+    "release_date": "2024-12-05",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "amazon",
+    "model_id": "amazon/nova-micro-v1",
+    "release_date": "2024-12-05",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "amazon",
+    "model_id": "amazon/nova-pro-v1",
+    "release_date": "2024-12-05",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "anthracite-org",
+    "model_id": "anthracite-org/magnum-v2-72b",
+    "release_date": "2024-09-30",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "anthracite-org",
+    "model_id": "anthracite-org/magnum-v4-72b",
+    "release_date": "2024-10-22",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "anthropic",
+    "model_id": "anthropic/claude-2",
+    "release_date": "2023-11-22",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "anthropic",
+    "model_id": "anthropic/claude-2.0",
+    "release_date": "2023-07-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "anthropic",
+    "model_id": "anthropic/claude-2.0:beta",
+    "release_date": "2023-07-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "anthropic",
+    "model_id": "anthropic/claude-2.1",
+    "release_date": "2023-11-22",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "anthropic",
+    "model_id": "anthropic/claude-2.1:beta",
+    "release_date": "2023-11-22",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "anthropic",
+    "model_id": "anthropic/claude-2:beta",
+    "release_date": "2023-11-22",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "anthropic",
+    "model_id": "anthropic/claude-3-haiku",
+    "release_date": "2024-03-13",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "anthropic",
+    "model_id": "anthropic/claude-3-haiku:beta",
+    "release_date": "2024-03-13",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "anthropic",
+    "model_id": "anthropic/claude-3-opus",
+    "release_date": "2024-03-05",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "anthropic",
+    "model_id": "anthropic/claude-3-opus:beta",
+    "release_date": "2024-03-05",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "anthropic",
+    "model_id": "anthropic/claude-3-sonnet",
+    "release_date": "2024-03-05",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "anthropic",
+    "model_id": "anthropic/claude-3-sonnet:beta",
+    "release_date": "2024-03-05",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "anthropic",
+    "model_id": "anthropic/claude-3.5-haiku",
+    "release_date": "2024-11-04",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "anthropic",
+    "model_id": "anthropic/claude-3.5-haiku-20241022",
+    "release_date": "2024-11-04",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "anthropic",
+    "model_id": "anthropic/claude-3.5-haiku-20241022:beta",
+    "release_date": "2024-11-04",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "anthropic",
+    "model_id": "anthropic/claude-3.5-haiku:beta",
+    "release_date": "2024-11-04",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "anthropic",
+    "model_id": "anthropic/claude-3.5-sonnet",
+    "release_date": "2024-10-22",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "anthropic",
+    "model_id": "anthropic/claude-3.5-sonnet-20240620",
+    "release_date": "2024-06-20",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "anthropic",
+    "model_id": "anthropic/claude-3.5-sonnet-20240620:beta",
+    "release_date": "2024-06-20",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "anthropic",
+    "model_id": "anthropic/claude-3.5-sonnet:beta",
+    "release_date": "2024-10-22",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "anthropic",
+    "model_id": "anthropic/claude-3.7-sonnet",
+    "release_date": "2025-02-24",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "anthropic",
+    "model_id": "anthropic/claude-3.7-sonnet:beta",
+    "release_date": "2025-02-24",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "anthropic",
+    "model_id": "anthropic/claude-3.7-sonnet:thinking",
+    "release_date": "2025-02-24",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "anthropic",
+    "model_id": "anthropic/claude-opus-4",
+    "release_date": "2025-05-22",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "anthropic",
+    "model_id": "anthropic/claude-sonnet-4",
+    "release_date": "2025-05-22",
+    "status": "active"
+  },
+  {
     "provider": "anthropic",
     "developer": "anthropic",
     "model_id": "claude-2.0",
@@ -74,6 +375,475 @@
     "developer": "anthropic",
     "model_id": "claude-sonnet-4-20250514",
     "release_date": "2025-05-22",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "arcee-ai",
+    "model_id": "arcee-ai/arcee-blitz",
+    "release_date": "2025-05-05",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "arcee-ai",
+    "model_id": "arcee-ai/caller-large",
+    "release_date": "2025-05-05",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "arcee-ai",
+    "model_id": "arcee-ai/coder-large",
+    "release_date": "2025-05-05",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "arcee-ai",
+    "model_id": "arcee-ai/maestro-reasoning",
+    "release_date": "2025-05-05",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "arcee-ai",
+    "model_id": "arcee-ai/spotlight",
+    "release_date": "2025-05-05",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "arcee-ai",
+    "model_id": "arcee-ai/virtuoso-large",
+    "release_date": "2025-05-05",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "arcee-ai",
+    "model_id": "arcee-ai/virtuoso-medium-v2",
+    "release_date": "2025-05-05",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "arliai",
+    "model_id": "arliai/qwq-32b-arliai-rpr-v1:free",
+    "release_date": "2025-04-13",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "cognitivecomputations",
+    "model_id": "cognitivecomputations/dolphin-mixtral-8x22b",
+    "release_date": "2024-06-08",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "cognitivecomputations",
+    "model_id": "cognitivecomputations/dolphin3.0-mistral-24b:free",
+    "release_date": "2025-02-13",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "cognitivecomputations",
+    "model_id": "cognitivecomputations/dolphin3.0-r1-mistral-24b:free",
+    "release_date": "2025-02-13",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "cohere",
+    "model_id": "cohere/command",
+    "release_date": "2024-03-14",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "cohere",
+    "model_id": "cohere/command-a",
+    "release_date": "2025-03-13",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "cohere",
+    "model_id": "cohere/command-r",
+    "release_date": "2024-03-14",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "cohere",
+    "model_id": "cohere/command-r-03-2024",
+    "release_date": "2024-03-02",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "cohere",
+    "model_id": "cohere/command-r-08-2024",
+    "release_date": "2024-08-30",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "cohere",
+    "model_id": "cohere/command-r-plus",
+    "release_date": "2024-04-04",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "cohere",
+    "model_id": "cohere/command-r-plus-04-2024",
+    "release_date": "2024-04-02",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "cohere",
+    "model_id": "cohere/command-r-plus-08-2024",
+    "release_date": "2024-08-30",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "cohere",
+    "model_id": "cohere/command-r7b-12-2024",
+    "release_date": "2024-12-14",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "deepseek",
+    "model_id": "deepseek/deepseek-chat",
+    "release_date": "2024-12-26",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "deepseek",
+    "model_id": "deepseek/deepseek-chat-v3-0324",
+    "release_date": "2025-03-24",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "deepseek",
+    "model_id": "deepseek/deepseek-chat-v3-0324:free",
+    "release_date": "2025-03-24",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "deepseek",
+    "model_id": "deepseek/deepseek-chat:free",
+    "release_date": "2024-12-26",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "deepseek",
+    "model_id": "deepseek/deepseek-coder",
+    "release_date": "2024-05-14",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "deepseek",
+    "model_id": "deepseek/deepseek-prover-v2",
+    "release_date": "2025-04-30",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "deepseek",
+    "model_id": "deepseek/deepseek-prover-v2:free",
+    "release_date": "2025-04-30",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "deepseek",
+    "model_id": "deepseek/deepseek-r1",
+    "release_date": "2025-01-20",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "deepseek",
+    "model_id": "deepseek/deepseek-r1-distill-llama-70b",
+    "release_date": "2025-01-23",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "deepseek",
+    "model_id": "deepseek/deepseek-r1-distill-llama-70b:free",
+    "release_date": "2025-01-23",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "deepseek",
+    "model_id": "deepseek/deepseek-r1-distill-llama-8b",
+    "release_date": "2025-02-07",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "deepseek",
+    "model_id": "deepseek/deepseek-r1-distill-qwen-1.5b",
+    "release_date": "2025-01-31",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "deepseek",
+    "model_id": "deepseek/deepseek-r1-distill-qwen-14b",
+    "release_date": "2025-01-29",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "deepseek",
+    "model_id": "deepseek/deepseek-r1-distill-qwen-14b:free",
+    "release_date": "2025-01-29",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "deepseek",
+    "model_id": "deepseek/deepseek-r1-distill-qwen-32b",
+    "release_date": "2025-01-29",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "deepseek",
+    "model_id": "deepseek/deepseek-r1-distill-qwen-32b:free",
+    "release_date": "2025-01-29",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "deepseek",
+    "model_id": "deepseek/deepseek-r1-zero:free",
+    "release_date": "2025-03-06",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "deepseek",
+    "model_id": "deepseek/deepseek-r1:free",
+    "release_date": "2025-01-20",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "deepseek",
+    "model_id": "deepseek/deepseek-v3-base:free",
+    "release_date": "2025-03-29",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "eleutherai",
+    "model_id": "eleutherai/llemma_7b",
+    "release_date": "2025-04-14",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "eva-unit-01",
+    "model_id": "eva-unit-01/eva-llama-3.33-70b",
+    "release_date": "2024-12-16",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "eva-unit-01",
+    "model_id": "eva-unit-01/eva-qwen-2.5-32b",
+    "release_date": "2024-11-08",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "eva-unit-01",
+    "model_id": "eva-unit-01/eva-qwen-2.5-72b",
+    "release_date": "2024-11-21",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "featherless",
+    "model_id": "featherless/qwerky-72b:free",
+    "release_date": "2025-03-20",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "google",
+    "model_id": "google/gemini-2.0-flash-001",
+    "release_date": "2025-02-05",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "google",
+    "model_id": "google/gemini-2.0-flash-exp:free",
+    "release_date": "2024-12-11",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "google",
+    "model_id": "google/gemini-2.0-flash-lite-001",
+    "release_date": "2025-02-25",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "google",
+    "model_id": "google/gemini-2.5-flash-preview",
+    "release_date": "2025-04-17",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "google",
+    "model_id": "google/gemini-2.5-flash-preview-05-20",
+    "release_date": "2025-05-20",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "google",
+    "model_id": "google/gemini-2.5-flash-preview-05-20:thinking",
+    "release_date": "2025-05-20",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "google",
+    "model_id": "google/gemini-2.5-flash-preview:thinking",
+    "release_date": "2025-04-17",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "google",
+    "model_id": "google/gemini-2.5-pro-exp-03-25",
+    "release_date": "2025-03-25",
+    "status": "deprecated"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "google",
+    "model_id": "google/gemini-2.5-pro-preview",
+    "release_date": "2025-05-07",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "google",
+    "model_id": "google/gemini-flash-1.5",
+    "release_date": "2024-05-14",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "google",
+    "model_id": "google/gemini-flash-1.5-8b",
+    "release_date": "2024-10-03",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "google",
+    "model_id": "google/gemini-pro-1.5",
+    "release_date": "2024-04-09",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "google",
+    "model_id": "google/gemma-2-27b-it",
+    "release_date": "2024-07-13",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "google",
+    "model_id": "google/gemma-2-9b-it",
+    "release_date": "2024-06-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "google",
+    "model_id": "google/gemma-2-9b-it:free",
+    "release_date": "2024-06-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "google",
+    "model_id": "google/gemma-3-12b-it",
+    "release_date": "2025-03-13",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "google",
+    "model_id": "google/gemma-3-12b-it:free",
+    "release_date": "2025-03-13",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "google",
+    "model_id": "google/gemma-3-1b-it:free",
+    "release_date": "2025-03-14",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "google",
+    "model_id": "google/gemma-3-27b-it",
+    "release_date": "2025-03-12",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "google",
+    "model_id": "google/gemma-3-27b-it:free",
+    "release_date": "2025-03-12",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "google",
+    "model_id": "google/gemma-3-4b-it",
+    "release_date": "2025-03-13",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "google",
+    "model_id": "google/gemma-3-4b-it:free",
+    "release_date": "2025-03-13",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "google",
+    "model_id": "google/gemma-3n-e4b-it:free",
+    "release_date": "2025-05-20",
     "status": "active"
   },
   {
@@ -466,6 +1236,671 @@
     "developer": "google",
     "model_id": "models/veo-2.0-generate-001",
     "release_date": "9999-12-31",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "gryphe",
+    "model_id": "gryphe/mythomax-l2-13b",
+    "release_date": "2023-07-02",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "inception",
+    "model_id": "inception/mercury-coder-small-beta",
+    "release_date": "2025-04-30",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "infermatic",
+    "model_id": "infermatic/mn-inferor-12b",
+    "release_date": "2024-11-13",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "inflection",
+    "model_id": "inflection/inflection-3-pi",
+    "release_date": "2024-10-11",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "inflection",
+    "model_id": "inflection/inflection-3-productivity",
+    "release_date": "2024-10-11",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "liquid",
+    "model_id": "liquid/lfm-3b",
+    "release_date": "2025-01-25",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "liquid",
+    "model_id": "liquid/lfm-40b",
+    "release_date": "2024-09-30",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "liquid",
+    "model_id": "liquid/lfm-7b",
+    "release_date": "2025-01-25",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mancer",
+    "model_id": "mancer/weaver",
+    "release_date": "2023-08-02",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "meta-llama",
+    "model_id": "meta-llama/llama-2-70b-chat",
+    "release_date": "2023-06-20",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "meta-llama",
+    "model_id": "meta-llama/llama-3-70b-instruct",
+    "release_date": "2024-04-18",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "meta-llama",
+    "model_id": "meta-llama/llama-3-8b-instruct",
+    "release_date": "2024-04-18",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "meta-llama",
+    "model_id": "meta-llama/llama-3.1-405b",
+    "release_date": "2024-08-02",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "meta-llama",
+    "model_id": "meta-llama/llama-3.1-405b-instruct",
+    "release_date": "2024-07-23",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "meta-llama",
+    "model_id": "meta-llama/llama-3.1-405b:free",
+    "release_date": "2024-08-02",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "meta-llama",
+    "model_id": "meta-llama/llama-3.1-70b-instruct",
+    "release_date": "2024-07-23",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "meta-llama",
+    "model_id": "meta-llama/llama-3.1-8b-instruct",
+    "release_date": "2024-07-23",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "meta-llama",
+    "model_id": "meta-llama/llama-3.1-8b-instruct:free",
+    "release_date": "2024-07-23",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "meta-llama",
+    "model_id": "meta-llama/llama-3.2-11b-vision-instruct",
+    "release_date": "2024-09-25",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "meta-llama",
+    "model_id": "meta-llama/llama-3.2-11b-vision-instruct:free",
+    "release_date": "2024-09-25",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "meta-llama",
+    "model_id": "meta-llama/llama-3.2-1b-instruct",
+    "release_date": "2024-09-25",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "meta-llama",
+    "model_id": "meta-llama/llama-3.2-1b-instruct:free",
+    "release_date": "2024-09-25",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "meta-llama",
+    "model_id": "meta-llama/llama-3.2-3b-instruct",
+    "release_date": "2024-09-25",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "meta-llama",
+    "model_id": "meta-llama/llama-3.2-3b-instruct:free",
+    "release_date": "2024-09-25",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "meta-llama",
+    "model_id": "meta-llama/llama-3.2-90b-vision-instruct",
+    "release_date": "2024-09-25",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "meta-llama",
+    "model_id": "meta-llama/llama-3.3-70b-instruct",
+    "release_date": "2024-12-06",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "meta-llama",
+    "model_id": "meta-llama/llama-3.3-70b-instruct:free",
+    "release_date": "2024-12-06",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "meta-llama",
+    "model_id": "meta-llama/llama-3.3-8b-instruct:free",
+    "release_date": "2025-05-14",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "meta-llama",
+    "model_id": "meta-llama/llama-4-maverick",
+    "release_date": "2025-04-05",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "meta-llama",
+    "model_id": "meta-llama/llama-4-maverick:free",
+    "release_date": "2025-04-05",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "meta-llama",
+    "model_id": "meta-llama/llama-4-scout",
+    "release_date": "2025-04-05",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "meta-llama",
+    "model_id": "meta-llama/llama-4-scout:free",
+    "release_date": "2025-04-05",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "meta-llama",
+    "model_id": "meta-llama/llama-guard-2-8b",
+    "release_date": "2024-05-13",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "meta-llama",
+    "model_id": "meta-llama/llama-guard-3-8b",
+    "release_date": "2025-02-12",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "meta-llama",
+    "model_id": "meta-llama/llama-guard-4-12b",
+    "release_date": "2025-04-30",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "microsoft",
+    "model_id": "microsoft/mai-ds-r1:free",
+    "release_date": "2025-04-21",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "microsoft",
+    "model_id": "microsoft/phi-3-medium-128k-instruct",
+    "release_date": "2024-05-24",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "microsoft",
+    "model_id": "microsoft/phi-3-mini-128k-instruct",
+    "release_date": "2024-05-26",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "microsoft",
+    "model_id": "microsoft/phi-3.5-mini-128k-instruct",
+    "release_date": "2024-08-21",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "microsoft",
+    "model_id": "microsoft/phi-4",
+    "release_date": "2025-01-10",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "microsoft",
+    "model_id": "microsoft/phi-4-multimodal-instruct",
+    "release_date": "2025-03-08",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "microsoft",
+    "model_id": "microsoft/phi-4-reasoning-plus",
+    "release_date": "2025-05-01",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "microsoft",
+    "model_id": "microsoft/phi-4-reasoning-plus:free",
+    "release_date": "2025-05-01",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "microsoft",
+    "model_id": "microsoft/phi-4-reasoning:free",
+    "release_date": "2025-05-01",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "microsoft",
+    "model_id": "microsoft/wizardlm-2-8x22b",
+    "release_date": "2024-04-16",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "minimax",
+    "model_id": "minimax/minimax-01",
+    "release_date": "2025-01-15",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/codestral-2501",
+    "release_date": "2025-01-14",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/codestral-mamba",
+    "release_date": "2024-07-19",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/devstral-small",
+    "release_date": "2025-05-21",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/devstral-small:free",
+    "release_date": "2025-05-21",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/ministral-3b",
+    "release_date": "2024-10-17",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/ministral-8b",
+    "release_date": "2024-10-17",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/mistral-7b-instruct",
+    "release_date": "2024-05-27",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/mistral-7b-instruct-v0.1",
+    "release_date": "2023-09-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/mistral-7b-instruct-v0.2",
+    "release_date": "2023-12-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/mistral-7b-instruct-v0.3",
+    "release_date": "2024-05-27",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/mistral-7b-instruct:free",
+    "release_date": "2024-05-27",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/mistral-large",
+    "release_date": "2024-02-26",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/mistral-large-2407",
+    "release_date": "2024-11-19",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/mistral-large-2411",
+    "release_date": "2024-11-19",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/mistral-medium",
+    "release_date": "2024-01-10",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/mistral-medium-3",
+    "release_date": "2025-05-07",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/mistral-nemo",
+    "release_date": "2024-07-19",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/mistral-nemo:free",
+    "release_date": "2024-07-19",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/mistral-saba",
+    "release_date": "2025-02-17",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/mistral-small",
+    "release_date": "2024-01-10",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/mistral-small-24b-instruct-2501",
+    "release_date": "2025-01-30",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/mistral-small-24b-instruct-2501:free",
+    "release_date": "2025-01-30",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/mistral-small-3.1-24b-instruct",
+    "release_date": "2025-03-17",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/mistral-small-3.1-24b-instruct:free",
+    "release_date": "2025-03-17",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/mistral-tiny",
+    "release_date": "2024-01-10",
+    "status": "deprecated"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/mixtral-8x22b-instruct",
+    "release_date": "2024-04-17",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/mixtral-8x7b-instruct",
+    "release_date": "2023-12-10",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/pixtral-12b",
+    "release_date": "2024-09-10",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/pixtral-large-2411",
+    "release_date": "2024-11-19",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "moonshotai",
+    "model_id": "moonshotai/kimi-vl-a3b-thinking:free",
+    "release_date": "2025-04-10",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "moonshotai",
+    "model_id": "moonshotai/moonlight-16b-a3b-instruct:free",
+    "release_date": "2025-02-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "neversleep",
+    "model_id": "neversleep/llama-3-lumimaid-70b",
+    "release_date": "2024-05-16",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "neversleep",
+    "model_id": "neversleep/llama-3-lumimaid-8b",
+    "release_date": "2024-05-04",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "neversleep",
+    "model_id": "neversleep/llama-3-lumimaid-8b:extended",
+    "release_date": "2024-05-04",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "neversleep",
+    "model_id": "neversleep/llama-3.1-lumimaid-70b",
+    "release_date": "2024-10-22",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "neversleep",
+    "model_id": "neversleep/llama-3.1-lumimaid-8b",
+    "release_date": "2024-09-15",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "neversleep",
+    "model_id": "neversleep/noromaid-20b",
+    "release_date": "2023-11-26",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "nothingiisreal",
+    "model_id": "nothingiisreal/mn-celeste-12b",
+    "release_date": "2024-08-02",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "nousresearch",
+    "model_id": "nousresearch/deephermes-3-llama-3-8b-preview:free",
+    "release_date": "2025-02-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "nousresearch",
+    "model_id": "nousresearch/deephermes-3-mistral-24b-preview:free",
+    "release_date": "2025-05-09",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "nousresearch",
+    "model_id": "nousresearch/hermes-2-pro-llama-3-8b",
+    "release_date": "2024-05-27",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "nousresearch",
+    "model_id": "nousresearch/hermes-3-llama-3.1-405b",
+    "release_date": "2024-08-16",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "nousresearch",
+    "model_id": "nousresearch/hermes-3-llama-3.1-70b",
+    "release_date": "2024-08-18",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "nousresearch",
+    "model_id": "nousresearch/nous-hermes-2-mixtral-8x7b-dpo",
+    "release_date": "2024-01-16",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "nvidia",
+    "model_id": "nvidia/llama-3.1-nemotron-70b-instruct",
+    "release_date": "2024-10-15",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "nvidia",
+    "model_id": "nvidia/llama-3.1-nemotron-ultra-253b-v1:free",
+    "release_date": "2025-04-08",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "nvidia",
+    "model_id": "nvidia/llama-3.3-nemotron-super-49b-v1",
+    "release_date": "2025-04-08",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "nvidia",
+    "model_id": "nvidia/llama-3.3-nemotron-super-49b-v1:free",
+    "release_date": "2025-04-08",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "open-r1",
+    "model_id": "open-r1/olympiccoder-32b:free",
+    "release_date": "2025-03-15",
     "status": "active"
   },
   {
@@ -952,6 +2387,279 @@
     "status": "active"
   },
   {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/chatgpt-4o-latest",
+    "release_date": "2024-08-14",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/codex-mini",
+    "release_date": "2025-05-16",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/gpt-3.5-turbo",
+    "release_date": "2023-05-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/gpt-3.5-turbo-0125",
+    "release_date": "2023-05-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/gpt-3.5-turbo-0613",
+    "release_date": "2024-01-25",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/gpt-3.5-turbo-1106",
+    "release_date": "2023-11-06",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/gpt-3.5-turbo-16k",
+    "release_date": "2023-08-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/gpt-3.5-turbo-instruct",
+    "release_date": "2023-09-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/gpt-4",
+    "release_date": "2023-05-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/gpt-4-0314",
+    "release_date": "2023-05-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/gpt-4-1106-preview",
+    "release_date": "2023-11-06",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/gpt-4-32k",
+    "release_date": "2023-08-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/gpt-4-32k-0314",
+    "release_date": "2023-08-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/gpt-4-turbo",
+    "release_date": "2024-04-09",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/gpt-4-turbo-preview",
+    "release_date": "2024-01-25",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/gpt-4.1",
+    "release_date": "2025-04-14",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/gpt-4.1-mini",
+    "release_date": "2025-04-14",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/gpt-4.1-nano",
+    "release_date": "2025-04-14",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/gpt-4.5-preview",
+    "release_date": "2025-02-27",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/gpt-4o",
+    "release_date": "2024-05-13",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/gpt-4o-2024-05-13",
+    "release_date": "2024-05-13",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/gpt-4o-2024-08-06",
+    "release_date": "2024-08-06",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/gpt-4o-2024-11-20",
+    "release_date": "2024-11-20",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/gpt-4o-mini",
+    "release_date": "2024-07-18",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/gpt-4o-mini-2024-07-18",
+    "release_date": "2024-07-18",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/gpt-4o-mini-search-preview",
+    "release_date": "2025-03-12",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/gpt-4o-search-preview",
+    "release_date": "2025-03-12",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/gpt-4o:extended",
+    "release_date": "2024-05-13",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/o1",
+    "release_date": "2024-12-17",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/o1-mini",
+    "release_date": "2024-09-12",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/o1-mini-2024-09-12",
+    "release_date": "2024-09-12",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/o1-preview",
+    "release_date": "2024-09-12",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/o1-preview-2024-09-12",
+    "release_date": "2024-09-12",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/o1-pro",
+    "release_date": "2025-03-19",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/o3",
+    "release_date": "2025-04-16",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/o3-mini",
+    "release_date": "2025-01-31",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/o3-mini-high",
+    "release_date": "2025-02-12",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/o4-mini",
+    "release_date": "2025-04-16",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/o4-mini-high",
+    "release_date": "2025-04-16",
+    "status": "active"
+  },
+  {
     "provider": "openai",
     "developer": "openai",
     "model_id": "text-embedding-3-large",
@@ -1005,6 +2713,531 @@
     "developer": "openai",
     "model_id": "whisper-1",
     "release_date": "2023-02-27",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "opengvlab",
+    "model_id": "opengvlab/internvl3-14b:free",
+    "release_date": "2025-04-30",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "opengvlab",
+    "model_id": "opengvlab/internvl3-2b:free",
+    "release_date": "2025-04-30",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openrouter",
+    "model_id": "openrouter/auto",
+    "release_date": "2023-11-08",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "perplexity",
+    "model_id": "perplexity/llama-3.1-sonar-large-128k-online",
+    "release_date": "2024-08-01",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "perplexity",
+    "model_id": "perplexity/llama-3.1-sonar-small-128k-online",
+    "release_date": "2024-08-01",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "perplexity",
+    "model_id": "perplexity/r1-1776",
+    "release_date": "2025-02-19",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "perplexity",
+    "model_id": "perplexity/sonar",
+    "release_date": "2025-01-27",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "perplexity",
+    "model_id": "perplexity/sonar-deep-research",
+    "release_date": "2025-03-07",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "perplexity",
+    "model_id": "perplexity/sonar-pro",
+    "release_date": "2025-03-07",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "perplexity",
+    "model_id": "perplexity/sonar-reasoning",
+    "release_date": "2025-01-29",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "perplexity",
+    "model_id": "perplexity/sonar-reasoning-pro",
+    "release_date": "2025-03-07",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "pygmalionai",
+    "model_id": "pygmalionai/mythalion-13b",
+    "release_date": "2023-09-02",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen-2-72b-instruct",
+    "release_date": "2024-06-07",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen-2.5-72b-instruct",
+    "release_date": "2024-09-19",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen-2.5-72b-instruct:free",
+    "release_date": "2024-09-19",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen-2.5-7b-instruct",
+    "release_date": "2024-10-16",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen-2.5-7b-instruct:free",
+    "release_date": "2024-10-16",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen-2.5-coder-32b-instruct",
+    "release_date": "2024-11-11",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen-2.5-coder-32b-instruct:free",
+    "release_date": "2024-11-11",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen-2.5-vl-7b-instruct",
+    "release_date": "2024-08-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen-2.5-vl-7b-instruct:free",
+    "release_date": "2024-08-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen-max",
+    "release_date": "2025-02-01",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen-plus",
+    "release_date": "2025-02-01",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen-turbo",
+    "release_date": "2025-02-01",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen-vl-max",
+    "release_date": "2025-02-01",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen-vl-plus",
+    "release_date": "2025-02-05",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen2.5-coder-7b-instruct",
+    "release_date": "2025-04-15",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen2.5-vl-32b-instruct",
+    "release_date": "2025-03-24",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen2.5-vl-32b-instruct:free",
+    "release_date": "2025-03-24",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen2.5-vl-3b-instruct:free",
+    "release_date": "2025-03-26",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen2.5-vl-72b-instruct",
+    "release_date": "2025-02-01",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen2.5-vl-72b-instruct:free",
+    "release_date": "2025-02-01",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen3-14b",
+    "release_date": "2025-04-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen3-14b:free",
+    "release_date": "2025-04-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen3-235b-a22b",
+    "release_date": "2025-04-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen3-235b-a22b:free",
+    "release_date": "2025-04-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen3-30b-a3b",
+    "release_date": "2025-04-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen3-30b-a3b:free",
+    "release_date": "2025-04-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen3-32b",
+    "release_date": "2025-04-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen3-32b:free",
+    "release_date": "2025-04-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen3-8b",
+    "release_date": "2025-04-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen3-8b:free",
+    "release_date": "2025-04-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwq-32b",
+    "release_date": "2025-03-05",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwq-32b-preview",
+    "release_date": "2024-11-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwq-32b:free",
+    "release_date": "2025-03-05",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "raifle",
+    "model_id": "raifle/sorcererlm-8x22b",
+    "release_date": "2024-11-08",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "rekaai",
+    "model_id": "rekaai/reka-flash-3:free",
+    "release_date": "2025-03-12",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "sao10k",
+    "model_id": "sao10k/fimbulvetr-11b-v2",
+    "release_date": "2024-04-21",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "sao10k",
+    "model_id": "sao10k/l3-euryale-70b",
+    "release_date": "2024-06-18",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "sao10k",
+    "model_id": "sao10k/l3-lunaris-8b",
+    "release_date": "2024-08-13",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "sao10k",
+    "model_id": "sao10k/l3.1-euryale-70b",
+    "release_date": "2024-08-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "sao10k",
+    "model_id": "sao10k/l3.3-euryale-70b",
+    "release_date": "2024-12-18",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "scb10x",
+    "model_id": "scb10x/llama3.1-typhoon2-70b-instruct",
+    "release_date": "2025-03-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "scb10x",
+    "model_id": "scb10x/llama3.1-typhoon2-8b-instruct",
+    "release_date": "2025-03-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "shisa-ai",
+    "model_id": "shisa-ai/shisa-v2-llama3.3-70b:free",
+    "release_date": "2025-04-15",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "sophosympatheia",
+    "model_id": "sophosympatheia/midnight-rose-70b",
+    "release_date": "2024-03-22",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "thedrummer",
+    "model_id": "thedrummer/anubis-pro-105b-v1",
+    "release_date": "2025-03-10",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "thedrummer",
+    "model_id": "thedrummer/rocinante-12b",
+    "release_date": "2024-09-30",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "thedrummer",
+    "model_id": "thedrummer/skyfall-36b-v2",
+    "release_date": "2025-03-10",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "thedrummer",
+    "model_id": "thedrummer/unslopnemo-12b",
+    "release_date": "2024-11-08",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "thedrummer",
+    "model_id": "thedrummer/valkyrie-49b-v1",
+    "release_date": "2025-05-23",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "thudm",
+    "model_id": "thudm/glm-4-32b",
+    "release_date": "2025-04-17",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "thudm",
+    "model_id": "thudm/glm-4-32b:free",
+    "release_date": "2025-04-17",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "thudm",
+    "model_id": "thudm/glm-z1-32b",
+    "release_date": "2025-04-17",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "thudm",
+    "model_id": "thudm/glm-z1-32b:free",
+    "release_date": "2025-04-17",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "thudm",
+    "model_id": "thudm/glm-z1-rumination-32b",
+    "release_date": "2025-04-25",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "tngtech",
+    "model_id": "tngtech/deepseek-r1t-chimera:free",
+    "release_date": "2025-04-27",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "undi95",
+    "model_id": "undi95/remm-slerp-l2-13b",
+    "release_date": "2023-07-22",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "undi95",
+    "model_id": "undi95/toppy-m-7b",
+    "release_date": "2023-11-10",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "x-ai",
+    "model_id": "x-ai/grok-2-1212",
+    "release_date": "2024-12-15",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "x-ai",
+    "model_id": "x-ai/grok-2-vision-1212",
+    "release_date": "2024-12-15",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "x-ai",
+    "model_id": "x-ai/grok-3-beta",
+    "release_date": "2025-04-09",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "x-ai",
+    "model_id": "x-ai/grok-3-mini-beta",
+    "release_date": "2025-04-09",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "x-ai",
+    "model_id": "x-ai/grok-beta",
+    "release_date": "2024-10-20",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "x-ai",
+    "model_id": "x-ai/grok-vision-beta",
+    "release_date": "2024-11-19",
     "status": "active"
   }
 ]

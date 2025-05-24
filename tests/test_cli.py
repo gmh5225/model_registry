@@ -27,6 +27,7 @@ def mock_openai_provider(monkeypatch):
     # Import the other providers here
     from model_registry.providers.anthropic import AnthropicProvider
     from model_registry.providers.gemini import GeminiProvider
+    from model_registry.providers.openrouter import OpenRouterProvider
     
     class MockOpenAIProviderBehaviors:
         _public_models_return_value = [MOCK_MODEL_1_OPENAI, MOCK_MODEL_2_OPENAI]
@@ -64,6 +65,11 @@ def mock_openai_provider(monkeypatch):
     monkeypatch.setattr(GeminiProvider, "__init__", lambda self: setattr(self, 'api_key', 'mock'))
     monkeypatch.setattr(GeminiProvider, "public_models", lambda self: [])
     monkeypatch.setattr(GeminiProvider, "slug", "gemini")
+    
+    # Mock OpenRouterProvider to return empty list and prevent real API calls
+    monkeypatch.setattr(OpenRouterProvider, "__init__", lambda self: setattr(self, 'api_key', 'mock'))
+    monkeypatch.setattr(OpenRouterProvider, "public_models", lambda self: [])
+    monkeypatch.setattr(OpenRouterProvider, "slug", "openrouter")
     
     return MockOpenAIProviderBehaviors
 
@@ -228,7 +234,7 @@ def test_cli_model_sorting_and_content(tmp_path, monkeypatch, capsys, mock_opena
 
 def test_cli_preserves_existing_models_on_new_fetch(tmp_path, monkeypatch, capsys, mock_all_providers):
     """Test CLI preserves existing models not in current fetch, and adds new ones."""
-    mock_openai_provider, MockAnthropicProviderBehaviors, MockGeminiProviderBehaviors = mock_all_providers
+    mock_openai_provider, MockAnthropicProviderBehaviors, MockGeminiProviderBehaviors, MockOpenRouterProviderBehaviors = mock_all_providers
     
     # Existing model in file is MOCK_MODEL_3_OTHER
     initial_content = [MOCK_MODEL_3_OTHER.model_dump(mode='json')]
@@ -313,9 +319,24 @@ def mock_all_providers(monkeypatch, mock_openai_provider):
             # Return empty list or specific test models if needed
             return []
     
+    # Mock OpenRouterProvider
+    class MockOpenRouterProviderBehaviors:
+        def __init__(self):
+            self.api_key = "mock_openrouter_api_key"
+            pass
+        
+        @property
+        def slug(self):
+            return "openrouter"
+        
+        def public_models(self) -> list[ModelEntry]:
+            # Return empty list or specific test models if needed
+            return []
+    
     # Import the providers to patch them
     from model_registry.providers.anthropic import AnthropicProvider
     from model_registry.providers.gemini import GeminiProvider
+    from model_registry.providers.openrouter import OpenRouterProvider
     
     # Patch AnthropicProvider
     monkeypatch.setattr(AnthropicProvider, "__init__", MockAnthropicProviderBehaviors.__init__)
@@ -327,4 +348,9 @@ def mock_all_providers(monkeypatch, mock_openai_provider):
     monkeypatch.setattr(GeminiProvider, "public_models", MockGeminiProviderBehaviors.public_models)
     monkeypatch.setattr(GeminiProvider, "slug", MockGeminiProviderBehaviors.slug)
     
-    return (mock_openai_provider, MockAnthropicProviderBehaviors, MockGeminiProviderBehaviors)
+    # Patch OpenRouterProvider
+    monkeypatch.setattr(OpenRouterProvider, "__init__", MockOpenRouterProviderBehaviors.__init__)
+    monkeypatch.setattr(OpenRouterProvider, "public_models", MockOpenRouterProviderBehaviors.public_models)
+    monkeypatch.setattr(OpenRouterProvider, "slug", MockOpenRouterProviderBehaviors.slug)
+    
+    return (mock_openai_provider, MockAnthropicProviderBehaviors, MockGeminiProviderBehaviors, MockOpenRouterProviderBehaviors)

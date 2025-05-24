@@ -12,6 +12,7 @@ from dotenv import load_dotenv
 from model_registry.providers.openai import OpenAIProvider
 from model_registry.providers.anthropic import AnthropicProvider
 from model_registry.providers.gemini import GeminiProvider
+from model_registry.providers.openrouter import OpenRouterProvider
 
 from model_registry.providers.base import Provider
 from model_registry.schemas import ModelEntry
@@ -62,9 +63,10 @@ def main():
     providers = [
         OpenAIProvider(),
         AnthropicProvider(),
-        GeminiProvider()
+        GeminiProvider(),
+        OpenRouterProvider()
     ] 
-    # Add other providers here when they are ready, e.g., AnthropicProvider()
+    # Add other providers here when they are ready
 
     existing_models_list = load_existing_models(MODELS_JSON_PATH)
     original_models_json_str = ""

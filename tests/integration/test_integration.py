@@ -7,6 +7,7 @@ from model_registry.main import main as cli_main
 from model_registry.providers.openai import OpenAIProvider
 from model_registry.providers.anthropic import AnthropicProvider
 from model_registry.providers.gemini import GeminiProvider
+from model_registry.providers.openrouter import OpenRouterProvider
 from model_registry.schemas import ModelEntry
 
 
@@ -81,6 +82,19 @@ def test_integration_cli_updates_and_no_diff(tmp_path: Path, monkeypatch: pytest
         def public_models(self):
             return []  # Gemini returns no models for this test
     
+    # Mock behavior for OpenRouterProvider - returns empty list
+    class MockOpenRouterBehavior:
+        def __init__(self):
+            self.api_key = "mock_api_key"
+            pass
+        
+        @property
+        def slug(self):
+            return "openrouter"
+        
+        def public_models(self):
+            return []  # OpenRouter returns no models for this test
+    
     # Store original methods for restoration later
     original_openai_init = OpenAIProvider.__init__
     original_openai_public_models = OpenAIProvider.public_models
@@ -94,6 +108,10 @@ def test_integration_cli_updates_and_no_diff(tmp_path: Path, monkeypatch: pytest
     original_gemini_public_models = GeminiProvider.public_models
     original_gemini_slug = getattr(GeminiProvider, "slug", None)
     
+    original_openrouter_init = OpenRouterProvider.__init__
+    original_openrouter_public_models = OpenRouterProvider.public_models
+    original_openrouter_slug = getattr(OpenRouterProvider, "slug", None)
+    
     # Apply patches
     monkeypatch.setattr(OpenAIProvider, "__init__", MockOpenAIBehavior.__init__)
     monkeypatch.setattr(OpenAIProvider, "public_models", MockOpenAIBehavior.public_models)
@@ -106,6 +124,10 @@ def test_integration_cli_updates_and_no_diff(tmp_path: Path, monkeypatch: pytest
     monkeypatch.setattr(GeminiProvider, "__init__", MockGeminiBehavior.__init__)
     monkeypatch.setattr(GeminiProvider, "public_models", MockGeminiBehavior.public_models)
     monkeypatch.setattr(GeminiProvider, "slug", MockGeminiBehavior.slug)
+    
+    monkeypatch.setattr(OpenRouterProvider, "__init__", MockOpenRouterBehavior.__init__)
+    monkeypatch.setattr(OpenRouterProvider, "public_models", MockOpenRouterBehavior.public_models)
+    monkeypatch.setattr(OpenRouterProvider, "slug", MockOpenRouterBehavior.slug)
     
     models_json_path = tmp_path / "models.json"
     monkeypatch.setattr("model_registry.main.MODELS_JSON_PATH", models_json_path)
@@ -164,6 +186,12 @@ def test_integration_cli_updates_and_no_diff(tmp_path: Path, monkeypatch: pytest
     monkeypatch.setattr(GeminiProvider, "public_models", original_gemini_public_models)
     if original_gemini_slug:
         monkeypatch.setattr(GeminiProvider, "slug", original_gemini_slug)
+
+    # Restore original OpenRouterProvider methods
+    monkeypatch.setattr(OpenRouterProvider, "__init__", original_openrouter_init)
+    monkeypatch.setattr(OpenRouterProvider, "public_models", original_openrouter_public_models)
+    if original_openrouter_slug:
+        monkeypatch.setattr(OpenRouterProvider, "slug", original_openrouter_slug)
 
     # Alternative: Running as a subprocess
     # This can be more robust as it's closer to how the user/CI would run it.
