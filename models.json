@@ -3081,6 +3081,13 @@
   },
   {
     "provider": "openrouter",
+    "developer": "sarvamai",
+    "model_id": "sarvamai/sarvam-m",
+    "release_date": "2025-05-25",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
     "developer": "scb10x",
     "model_id": "scb10x/llama3.1-typhoon2-70b-instruct",
     "release_date": "2025-03-28",
