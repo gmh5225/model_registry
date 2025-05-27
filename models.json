@@ -1885,6 +1885,13 @@
   {
     "provider": "openrouter",
     "developer": "nvidia",
+    "model_id": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
+    "release_date": "2025-04-08",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "nvidia",
     "model_id": "nvidia/llama-3.1-nemotron-ultra-253b-v1:free",
     "release_date": "2025-04-08",
     "status": "active"
