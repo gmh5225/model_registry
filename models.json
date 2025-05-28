@@ -807,6 +807,13 @@
   {
     "provider": "openrouter",
     "developer": "google",
+    "model_id": "google/gemma-2b-it",
+    "release_date": "2025-05-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "google",
     "model_id": "google/gemma-3-12b-it",
     "release_date": "2025-03-13",
     "status": "active"
@@ -3111,6 +3118,13 @@
     "provider": "openrouter",
     "developer": "sarvamai",
     "model_id": "sarvamai/sarvam-m",
+    "release_date": "2025-05-25",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "sarvamai",
+    "model_id": "sarvamai/sarvam-m:free",
     "release_date": "2025-05-25",
     "status": "active"
   },
