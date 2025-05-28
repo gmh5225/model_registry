@@ -2,18 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://github.com/gkamradt/model_registry/feed.xml</id>
   <title>Model Registry Updates</title>
-  <updated>2025-05-28T19:02:35.705831+00:00</updated>
+  <updated>2025-05-28T19:32:18.397710+00:00</updated>
   <link href="https://github.com/gkamradt/model_registry" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Updates to the public LLM model registry</subtitle>
   <entry>
-    <id>urn:model-registry:openrouter:deepseek:deepseek/deepseek-r1-0528</id>
-    <title>openrouter - deepseek - deepseek/deepseek-r1-0528</title>
-    <updated>2025-05-28T19:02:35.705884+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: deepseek/deepseek-r1-0528&lt;br/&gt;Release Date: 2025-05-28&lt;br/&gt;Developer: deepseek&lt;br/&gt;Status: active</content>
+    <id>urn:model-registry:openrouter:deepseek:deepseek/deepseek-r1-0528:free</id>
+    <title>openrouter - deepseek - deepseek/deepseek-r1-0528:free</title>
+    <updated>2025-05-28T19:32:18.397754+00:00</updated>
+    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: deepseek/deepseek-r1-0528:free&lt;br/&gt;Release Date: 2025-05-28&lt;br/&gt;Developer: deepseek&lt;br/&gt;Status: active</content>
     <category term="openrouter" label="provider"/>
     <category term="deepseek" label="developer"/>
-    <category term="deepseek/deepseek-r1-0528" label="model_id"/>
+    <category term="deepseek/deepseek-r1-0528:free" label="model_id"/>
     <category term="2025-05-28" label="release_date"/>
     <category term="active" label="status"/>
     <published>2025-05-28T00:00:00+00:00</published>

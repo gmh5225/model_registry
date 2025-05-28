@@ -583,6 +583,13 @@
   {
     "provider": "openrouter",
     "developer": "deepseek",
+    "model_id": "deepseek/deepseek-r1-0528:free",
+    "release_date": "2025-05-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "deepseek",
     "model_id": "deepseek/deepseek-r1-distill-llama-70b",
     "release_date": "2025-01-23",
     "status": "active"
