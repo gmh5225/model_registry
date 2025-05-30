@@ -660,6 +660,13 @@
   {
     "provider": "openrouter",
     "developer": "deepseek",
+    "model_id": "deepseek/deepseek-r1-distill-qwen-7b",
+    "release_date": "2025-05-30",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "deepseek",
     "model_id": "deepseek/deepseek-r1-zero:free",
     "release_date": "2025-03-06",
     "status": "active"
