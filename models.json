@@ -2151,6 +2151,13 @@
   {
     "provider": "openai",
     "developer": "openai",
+    "model_id": "gpt-4.1-nano-2025-04-14-codex-offline-mon",
+    "release_date": "2025-04-14",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
     "model_id": "gpt-4.5-preview",
     "release_date": "2025-02-27",
     "status": "active"
