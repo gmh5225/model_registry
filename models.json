@@ -2221,6 +2221,13 @@
   {
     "provider": "openai",
     "developer": "openai",
+    "model_id": "gpt-4o-audio-preview-2025-06-03",
+    "release_date": "2025-06-03",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
     "model_id": "gpt-4o-mini",
     "release_date": "2024-07-16",
     "status": "active"
@@ -2307,6 +2314,13 @@
     "developer": "openai",
     "model_id": "gpt-4o-realtime-preview-2024-12-17",
     "release_date": "2024-12-17",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "gpt-4o-realtime-preview-2025-06-03",
+    "release_date": "2025-06-03",
     "status": "active"
   },
   {
