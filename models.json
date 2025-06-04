@@ -3186,6 +3186,13 @@
   },
   {
     "provider": "openrouter",
+    "developer": "sentientagi",
+    "model_id": "sentientagi/dobby-mini-unhinged-plus-llama-3.1-8b",
+    "release_date": "2025-06-02",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
     "developer": "shisa-ai",
     "model_id": "shisa-ai/shisa-v2-llama3.3-70b:free",
     "release_date": "2025-04-15",

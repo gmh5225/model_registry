@@ -2,32 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://github.com/gkamradt/model_registry/feed.xml</id>
   <title>Model Registry Updates</title>
-  <updated>2025-06-03T17:03:30.530854+00:00</updated>
+  <updated>2025-06-04T15:13:49.303040+00:00</updated>
   <link href="https://github.com/gkamradt/model_registry" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Updates to the public LLM model registry</subtitle>
   <entry>
-    <id>urn:model-registry:openai:openai:gpt-4o-realtime-preview-2025-06-03</id>
-    <title>openai - openai - gpt-4o-realtime-preview-2025-06-03</title>
-    <updated>2025-06-03T17:03:30.531111+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4o-realtime-preview-2025-06-03&lt;br/&gt;Release Date: 2025-06-03&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4o-realtime-preview-2025-06-03" label="model_id"/>
-    <category term="2025-06-03" label="release_date"/>
+    <id>urn:model-registry:openrouter:sentientagi:sentientagi/dobby-mini-unhinged-plus-llama-3.1-8b</id>
+    <title>openrouter - sentientagi - sentientagi/dobby-mini-unhinged-plus-llama-3.1-8b</title>
+    <updated>2025-06-04T15:13:49.303099+00:00</updated>
+    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: sentientagi/dobby-mini-unhinged-plus-llama-3.1-8b&lt;br/&gt;Release Date: 2025-06-02&lt;br/&gt;Developer: sentientagi&lt;br/&gt;Status: active</content>
+    <category term="openrouter" label="provider"/>
+    <category term="sentientagi" label="developer"/>
+    <category term="sentientagi/dobby-mini-unhinged-plus-llama-3.1-8b" label="model_id"/>
+    <category term="2025-06-02" label="release_date"/>
     <category term="active" label="status"/>
-    <published>2025-06-03T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:gpt-4o-audio-preview-2025-06-03</id>
-    <title>openai - openai - gpt-4o-audio-preview-2025-06-03</title>
-    <updated>2025-06-03T17:03:30.530894+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: gpt-4o-audio-preview-2025-06-03&lt;br/&gt;Release Date: 2025-06-03&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="gpt-4o-audio-preview-2025-06-03" label="model_id"/>
-    <category term="2025-06-03" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-06-03T00:00:00+00:00</published>
+    <published>2025-06-02T00:00:00+00:00</published>
   </entry>
 </feed>
