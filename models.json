@@ -1192,6 +1192,13 @@
   {
     "provider": "gemini",
     "developer": "google",
+    "model_id": "models/gemini-2.5-pro-preview-06-05",
+    "release_date": "9999-12-31",
+    "status": "active"
+  },
+  {
+    "provider": "gemini",
+    "developer": "google",
     "model_id": "models/gemini-2.5-pro-preview-tts",
     "release_date": "9999-12-31",
     "status": "active"
