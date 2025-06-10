@@ -1668,6 +1668,13 @@
   {
     "provider": "openrouter",
     "developer": "mistralai",
+    "model_id": "mistralai/magistral-small-2506",
+    "release_date": "2025-06-10",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
     "model_id": "mistralai/ministral-3b",
     "release_date": "2024-10-17",
     "status": "active"
