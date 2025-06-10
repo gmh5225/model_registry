@@ -2466,6 +2466,20 @@
   {
     "provider": "openai",
     "developer": "openai",
+    "model_id": "o3-pro",
+    "release_date": "2025-05-28",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
+    "model_id": "o3-pro-2025-06-10",
+    "release_date": "2025-06-10",
+    "status": "active"
+  },
+  {
+    "provider": "openai",
+    "developer": "openai",
     "model_id": "o4-mini",
     "release_date": "2025-04-09",
     "status": "active"
