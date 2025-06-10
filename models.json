@@ -1654,6 +1654,20 @@
   {
     "provider": "openrouter",
     "developer": "mistralai",
+    "model_id": "mistralai/magistral-medium-2506",
+    "release_date": "2025-06-08",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/magistral-medium-2506:thinking",
+    "release_date": "2025-06-08",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
     "model_id": "mistralai/ministral-3b",
     "release_date": "2024-10-17",
     "status": "active"

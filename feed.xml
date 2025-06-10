@@ -2,20 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://github.com/gkamradt/model_registry/feed.xml</id>
   <title>Model Registry Updates</title>
-  <updated>2025-06-05T16:39:06.792027+00:00</updated>
+  <updated>2025-06-10T14:37:04.291954+00:00</updated>
   <link href="https://github.com/gkamradt/model_registry" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Updates to the public LLM model registry</subtitle>
   <entry>
-    <id>urn:model-registry:openrouter:google:google/gemini-2.5-pro-preview-05-06</id>
-    <title>openrouter - google - google/gemini-2.5-pro-preview-05-06</title>
-    <updated>2025-06-05T16:39:06.792063+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: google/gemini-2.5-pro-preview-05-06&lt;br/&gt;Release Date: 2025-05-07&lt;br/&gt;Developer: google&lt;br/&gt;Status: active</content>
+    <id>urn:model-registry:openrouter:mistralai:mistralai/magistral-medium-2506:thinking</id>
+    <title>openrouter - mistralai - mistralai/magistral-medium-2506:thinking</title>
+    <updated>2025-06-10T14:37:04.292215+00:00</updated>
+    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: mistralai/magistral-medium-2506:thinking&lt;br/&gt;Release Date: 2025-06-08&lt;br/&gt;Developer: mistralai&lt;br/&gt;Status: active</content>
     <category term="openrouter" label="provider"/>
-    <category term="google" label="developer"/>
-    <category term="google/gemini-2.5-pro-preview-05-06" label="model_id"/>
-    <category term="2025-05-07" label="release_date"/>
+    <category term="mistralai" label="developer"/>
+    <category term="mistralai/magistral-medium-2506:thinking" label="model_id"/>
+    <category term="2025-06-08" label="release_date"/>
     <category term="active" label="status"/>
-    <published>2025-05-07T00:00:00+00:00</published>
+    <published>2025-06-08T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>urn:model-registry:openrouter:mistralai:mistralai/magistral-medium-2506</id>
+    <title>openrouter - mistralai - mistralai/magistral-medium-2506</title>
+    <updated>2025-06-10T14:37:04.291998+00:00</updated>
+    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: mistralai/magistral-medium-2506&lt;br/&gt;Release Date: 2025-06-08&lt;br/&gt;Developer: mistralai&lt;br/&gt;Status: active</content>
+    <category term="openrouter" label="provider"/>
+    <category term="mistralai" label="developer"/>
+    <category term="mistralai/magistral-medium-2506" label="model_id"/>
+    <category term="2025-06-08" label="release_date"/>
+    <category term="active" label="status"/>
+    <published>2025-06-08T00:00:00+00:00</published>
   </entry>
 </feed>
