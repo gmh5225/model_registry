@@ -1129,7 +1129,42 @@
   {
     "provider": "gemini",
     "developer": "google",
+    "model_id": "models/gemini-2.5-flash",
+    "release_date": "9999-12-31",
+    "status": "active"
+  },
+  {
+    "provider": "gemini",
+    "developer": "google",
+    "model_id": "models/gemini-2.5-flash-1p",
+    "release_date": "9999-12-31",
+    "status": "active"
+  },
+  {
+    "provider": "gemini",
+    "developer": "google",
+    "model_id": "models/gemini-2.5-flash-1p-recitation-off",
+    "release_date": "9999-12-31",
+    "status": "active"
+  },
+  {
+    "provider": "gemini",
+    "developer": "google",
     "model_id": "models/gemini-2.5-flash-exp-native-audio-thinking-dialog",
+    "release_date": "9999-12-31",
+    "status": "active"
+  },
+  {
+    "provider": "gemini",
+    "developer": "google",
+    "model_id": "models/gemini-2.5-flash-lite-preview-06-11-summarized",
+    "release_date": "9999-12-31",
+    "status": "active"
+  },
+  {
+    "provider": "gemini",
+    "developer": "google",
+    "model_id": "models/gemini-2.5-flash-lite-preview-06-17",
     "release_date": "9999-12-31",
     "status": "active"
   },
@@ -1172,6 +1207,27 @@
     "provider": "gemini",
     "developer": "google",
     "model_id": "models/gemini-2.5-flash-preview-tts",
+    "release_date": "9999-12-31",
+    "status": "active"
+  },
+  {
+    "provider": "gemini",
+    "developer": "google",
+    "model_id": "models/gemini-2.5-pro",
+    "release_date": "9999-12-31",
+    "status": "active"
+  },
+  {
+    "provider": "gemini",
+    "developer": "google",
+    "model_id": "models/gemini-2.5-pro-1p",
+    "release_date": "9999-12-31",
+    "status": "active"
+  },
+  {
+    "provider": "gemini",
+    "developer": "google",
+    "model_id": "models/gemini-2.5-pro-1p-recitation-off",
     "release_date": "9999-12-31",
     "status": "active"
   },
