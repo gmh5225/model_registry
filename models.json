@@ -1703,6 +1703,13 @@
   {
     "provider": "openrouter",
     "developer": "minimax",
+    "model_id": "minimax/minimax-m1",
+    "release_date": "2025-06-17",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "minimax",
     "model_id": "minimax/minimax-m1-40k",
     "release_date": "2025-06-17",
     "status": "active"
