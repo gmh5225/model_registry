@@ -2,30 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://github.com/gkamradt/model_registry/feed.xml</id>
   <title>Model Registry Updates</title>
-  <updated>2025-06-17T22:02:54.623214+00:00</updated>
+  <updated>2025-06-17T23:03:07.442539+00:00</updated>
   <link href="https://github.com/gkamradt/model_registry" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Updates to the public LLM model registry</subtitle>
   <entry>
-    <id>urn:model-registry:openrouter:minimax:minimax/minimax-m1-80k</id>
-    <title>openrouter - minimax - minimax/minimax-m1-80k</title>
-    <updated>2025-06-17T22:02:54.623457+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: minimax/minimax-m1-80k&lt;br/&gt;Release Date: 2025-06-17&lt;br/&gt;Developer: minimax&lt;br/&gt;Status: active</content>
+    <id>urn:model-registry:openrouter:minimax:minimax/minimax-m1:extended</id>
+    <title>openrouter - minimax - minimax/minimax-m1:extended</title>
+    <updated>2025-06-17T23:03:07.442579+00:00</updated>
+    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: minimax/minimax-m1:extended&lt;br/&gt;Release Date: 2025-06-17&lt;br/&gt;Developer: minimax&lt;br/&gt;Status: active</content>
     <category term="openrouter" label="provider"/>
     <category term="minimax" label="developer"/>
-    <category term="minimax/minimax-m1-80k" label="model_id"/>
-    <category term="2025-06-17" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-06-17T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openrouter:minimax:minimax/minimax-m1-40k</id>
-    <title>openrouter - minimax - minimax/minimax-m1-40k</title>
-    <updated>2025-06-17T22:02:54.623250+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: minimax/minimax-m1-40k&lt;br/&gt;Release Date: 2025-06-17&lt;br/&gt;Developer: minimax&lt;br/&gt;Status: active</content>
-    <category term="openrouter" label="provider"/>
-    <category term="minimax" label="developer"/>
-    <category term="minimax/minimax-m1-40k" label="model_id"/>
+    <category term="minimax/minimax-m1:extended" label="model_id"/>
     <category term="2025-06-17" label="release_date"/>
     <category term="active" label="status"/>
     <published>2025-06-17T00:00:00+00:00</published>
