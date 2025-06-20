@@ -3481,8 +3481,22 @@
   {
     "provider": "openrouter",
     "developer": "x-ai",
+    "model_id": "x-ai/grok-3",
+    "release_date": "2025-06-10",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "x-ai",
     "model_id": "x-ai/grok-3-beta",
     "release_date": "2025-04-09",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "x-ai",
+    "model_id": "x-ai/grok-3-mini",
+    "release_date": "2025-06-10",
     "status": "active"
   },
   {
