@@ -1920,6 +1920,13 @@
   {
     "provider": "openrouter",
     "developer": "mistralai",
+    "model_id": "mistralai/mistral-small-3.2-24b-instruct:free",
+    "release_date": "2025-06-20",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
     "model_id": "mistralai/mistral-tiny",
     "release_date": "2024-01-10",
     "status": "deprecated"

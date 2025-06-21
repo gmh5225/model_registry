@@ -2,32 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://github.com/gkamradt/model_registry/feed.xml</id>
   <title>Model Registry Updates</title>
-  <updated>2025-06-20T16:38:46.622915+00:00</updated>
+  <updated>2025-06-21T12:44:12.008558+00:00</updated>
   <link href="https://github.com/gkamradt/model_registry" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Updates to the public LLM model registry</subtitle>
   <entry>
-    <id>urn:model-registry:openrouter:x-ai:x-ai/grok-3-mini</id>
-    <title>openrouter - x-ai - x-ai/grok-3-mini</title>
-    <updated>2025-06-20T16:38:46.623145+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: x-ai/grok-3-mini&lt;br/&gt;Release Date: 2025-06-10&lt;br/&gt;Developer: x-ai&lt;br/&gt;Status: active</content>
+    <id>urn:model-registry:openrouter:mistralai:mistralai/mistral-small-3.2-24b-instruct:free</id>
+    <title>openrouter - mistralai - mistralai/mistral-small-3.2-24b-instruct:free</title>
+    <updated>2025-06-21T12:44:12.008591+00:00</updated>
+    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: mistralai/mistral-small-3.2-24b-instruct:free&lt;br/&gt;Release Date: 2025-06-20&lt;br/&gt;Developer: mistralai&lt;br/&gt;Status: active</content>
     <category term="openrouter" label="provider"/>
-    <category term="x-ai" label="developer"/>
-    <category term="x-ai/grok-3-mini" label="model_id"/>
-    <category term="2025-06-10" label="release_date"/>
+    <category term="mistralai" label="developer"/>
+    <category term="mistralai/mistral-small-3.2-24b-instruct:free" label="model_id"/>
+    <category term="2025-06-20" label="release_date"/>
     <category term="active" label="status"/>
-    <published>2025-06-10T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openrouter:x-ai:x-ai/grok-3</id>
-    <title>openrouter - x-ai - x-ai/grok-3</title>
-    <updated>2025-06-20T16:38:46.622947+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: x-ai/grok-3&lt;br/&gt;Release Date: 2025-06-10&lt;br/&gt;Developer: x-ai&lt;br/&gt;Status: active</content>
-    <category term="openrouter" label="provider"/>
-    <category term="x-ai" label="developer"/>
-    <category term="x-ai/grok-3" label="model_id"/>
-    <category term="2025-06-10" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-06-10T00:00:00+00:00</published>
+    <published>2025-06-20T00:00:00+00:00</published>
   </entry>
 </feed>
