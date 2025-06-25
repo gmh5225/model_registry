@@ -2998,7 +2998,21 @@
   {
     "provider": "openrouter",
     "developer": "opengvlab",
+    "model_id": "opengvlab/internvl3-14b",
+    "release_date": "2025-04-30",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "opengvlab",
     "model_id": "opengvlab/internvl3-14b:free",
+    "release_date": "2025-04-30",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "opengvlab",
+    "model_id": "opengvlab/internvl3-2b",
     "release_date": "2025-04-30",
     "status": "active"
   },
