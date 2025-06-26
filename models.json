@@ -1423,6 +1423,13 @@
   {
     "provider": "openrouter",
     "developer": "inception",
+    "model_id": "inception/mercury",
+    "release_date": "2025-06-19",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "inception",
     "model_id": "inception/mercury-coder-small-beta",
     "release_date": "2025-04-30",
     "status": "active"
