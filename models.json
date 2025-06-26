@@ -2010,6 +2010,13 @@
   },
   {
     "provider": "openrouter",
+    "developer": "morph",
+    "model_id": "morph/morph-v2",
+    "release_date": "2025-06-26",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
     "developer": "neversleep",
     "model_id": "neversleep/llama-3-lumimaid-70b",
     "release_date": "2024-05-16",

@@ -2,32 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://github.com/gkamradt/model_registry/feed.xml</id>
   <title>Model Registry Updates</title>
-  <updated>2025-06-25T13:42:05.528976+00:00</updated>
+  <updated>2025-06-26T14:02:50.300899+00:00</updated>
   <link href="https://github.com/gkamradt/model_registry" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Updates to the public LLM model registry</subtitle>
   <entry>
-    <id>urn:model-registry:openrouter:opengvlab:opengvlab/internvl3-2b</id>
-    <title>openrouter - opengvlab - opengvlab/internvl3-2b</title>
-    <updated>2025-06-25T13:42:05.529348+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: opengvlab/internvl3-2b&lt;br/&gt;Release Date: 2025-04-30&lt;br/&gt;Developer: opengvlab&lt;br/&gt;Status: active</content>
+    <id>urn:model-registry:openrouter:morph:morph/morph-v2</id>
+    <title>openrouter - morph - morph/morph-v2</title>
+    <updated>2025-06-26T14:02:50.300964+00:00</updated>
+    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: morph/morph-v2&lt;br/&gt;Release Date: 2025-06-26&lt;br/&gt;Developer: morph&lt;br/&gt;Status: active</content>
     <category term="openrouter" label="provider"/>
-    <category term="opengvlab" label="developer"/>
-    <category term="opengvlab/internvl3-2b" label="model_id"/>
-    <category term="2025-04-30" label="release_date"/>
+    <category term="morph" label="developer"/>
+    <category term="morph/morph-v2" label="model_id"/>
+    <category term="2025-06-26" label="release_date"/>
     <category term="active" label="status"/>
-    <published>2025-04-30T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openrouter:opengvlab:opengvlab/internvl3-14b</id>
-    <title>openrouter - opengvlab - opengvlab/internvl3-14b</title>
-    <updated>2025-06-25T13:42:05.529044+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: opengvlab/internvl3-14b&lt;br/&gt;Release Date: 2025-04-30&lt;br/&gt;Developer: opengvlab&lt;br/&gt;Status: active</content>
-    <category term="openrouter" label="provider"/>
-    <category term="opengvlab" label="developer"/>
-    <category term="opengvlab/internvl3-14b" label="model_id"/>
-    <category term="2025-04-30" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-04-30T00:00:00+00:00</published>
+    <published>2025-06-26T00:00:00+00:00</published>
   </entry>
 </feed>
