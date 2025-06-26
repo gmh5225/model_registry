@@ -2,56 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://github.com/gkamradt/model_registry/feed.xml</id>
   <title>Model Registry Updates</title>
-  <updated>2025-06-26T17:03:15.629802+00:00</updated>
+  <updated>2025-06-26T17:35:29.704783+00:00</updated>
   <link href="https://github.com/gkamradt/model_registry" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Updates to the public LLM model registry</subtitle>
   <entry>
-    <id>urn:model-registry:openai:openai:o4-mini-deep-research</id>
-    <title>openai - openai - o4-mini-deep-research</title>
-    <updated>2025-06-26T17:03:15.630263+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: o4-mini-deep-research&lt;br/&gt;Release Date: 2025-06-11&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="o4-mini-deep-research" label="model_id"/>
-    <category term="2025-06-11" label="release_date"/>
+    <id>urn:model-registry:openrouter:google:google/gemma-3n-e4b-it</id>
+    <title>openrouter - google - google/gemma-3n-e4b-it</title>
+    <updated>2025-06-26T17:35:29.704831+00:00</updated>
+    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: google/gemma-3n-e4b-it&lt;br/&gt;Release Date: 2025-05-20&lt;br/&gt;Developer: google&lt;br/&gt;Status: active</content>
+    <category term="openrouter" label="provider"/>
+    <category term="google" label="developer"/>
+    <category term="google/gemma-3n-e4b-it" label="model_id"/>
+    <category term="2025-05-20" label="release_date"/>
     <category term="active" label="status"/>
-    <published>2025-06-11T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:o3-deep-research</id>
-    <title>openai - openai - o3-deep-research</title>
-    <updated>2025-06-26T17:03:15.630151+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: o3-deep-research&lt;br/&gt;Release Date: 2025-06-13&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="o3-deep-research" label="model_id"/>
-    <category term="2025-06-13" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-06-13T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:o4-mini-deep-research-2025-06-26</id>
-    <title>openai - openai - o4-mini-deep-research-2025-06-26</title>
-    <updated>2025-06-26T17:03:15.630048+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: o4-mini-deep-research-2025-06-26&lt;br/&gt;Release Date: 2025-06-26&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="o4-mini-deep-research-2025-06-26" label="model_id"/>
-    <category term="2025-06-26" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-06-26T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openai:openai:o3-deep-research-2025-06-26</id>
-    <title>openai - openai - o3-deep-research-2025-06-26</title>
-    <updated>2025-06-26T17:03:15.629840+00:00</updated>
-    <content type="html">Provider: openai&lt;br/&gt;Model ID: o3-deep-research-2025-06-26&lt;br/&gt;Release Date: 2025-06-26&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openai" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="o3-deep-research-2025-06-26" label="model_id"/>
-    <category term="2025-06-26" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-06-26T00:00:00+00:00</published>
+    <published>2025-05-20T00:00:00+00:00</published>
   </entry>
 </feed>
