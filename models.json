@@ -1353,6 +1353,13 @@
   {
     "provider": "gemini",
     "developer": "google",
+    "model_id": "models/gemma-3n-e2b-it",
+    "release_date": "9999-12-31",
+    "status": "active"
+  },
+  {
+    "provider": "gemini",
+    "developer": "google",
     "model_id": "models/gemma-3n-e4b-it",
     "release_date": "9999-12-31",
     "status": "active"

@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://github.com/gkamradt/model_registry/feed.xml</id>
   <title>Model Registry Updates</title>
-  <updated>2025-06-26T14:02:50.300899+00:00</updated>
+  <updated>2025-06-26T16:03:56.201913+00:00</updated>
   <link href="https://github.com/gkamradt/model_registry" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Updates to the public LLM model registry</subtitle>
   <entry>
-    <id>urn:model-registry:openrouter:morph:morph/morph-v2</id>
-    <title>openrouter - morph - morph/morph-v2</title>
-    <updated>2025-06-26T14:02:50.300964+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: morph/morph-v2&lt;br/&gt;Release Date: 2025-06-26&lt;br/&gt;Developer: morph&lt;br/&gt;Status: active</content>
-    <category term="openrouter" label="provider"/>
-    <category term="morph" label="developer"/>
-    <category term="morph/morph-v2" label="model_id"/>
-    <category term="2025-06-26" label="release_date"/>
+    <id>urn:model-registry:gemini:google:models/gemma-3n-e2b-it</id>
+    <title>gemini - google - models/gemma-3n-e2b-it</title>
+    <updated>2025-06-26T16:03:56.201956+00:00</updated>
+    <content type="html">Provider: gemini&lt;br/&gt;Model ID: models/gemma-3n-e2b-it&lt;br/&gt;Release Date: 9999-12-31&lt;br/&gt;Developer: google&lt;br/&gt;Status: active</content>
+    <category term="gemini" label="provider"/>
+    <category term="google" label="developer"/>
+    <category term="models/gemma-3n-e2b-it" label="model_id"/>
+    <category term="9999-12-31" label="release_date"/>
     <category term="active" label="status"/>
-    <published>2025-06-26T00:00:00+00:00</published>
+    <published>9999-12-31T00:00:00+00:00</published>
   </entry>
 </feed>
