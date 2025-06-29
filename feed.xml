@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://github.com/gkamradt/model_registry/feed.xml</id>
   <title>Model Registry Updates</title>
-  <updated>2025-06-26T21:03:15.182873+00:00</updated>
+  <updated>2025-06-29T15:02:47.711733+00:00</updated>
   <link href="https://github.com/gkamradt/model_registry" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Updates to the public LLM model registry</subtitle>
   <entry>
-    <id>urn:model-registry:openrouter:inception:inception/mercury</id>
-    <title>openrouter - inception - inception/mercury</title>
-    <updated>2025-06-26T21:03:15.182913+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: inception/mercury&lt;br/&gt;Release Date: 2025-06-19&lt;br/&gt;Developer: inception&lt;br/&gt;Status: active</content>
+    <id>urn:model-registry:openrouter:thedrummer:thedrummer/anubis-70b-v1.1</id>
+    <title>openrouter - thedrummer - thedrummer/anubis-70b-v1.1</title>
+    <updated>2025-06-29T15:02:47.711785+00:00</updated>
+    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: thedrummer/anubis-70b-v1.1&lt;br/&gt;Release Date: 2025-06-29&lt;br/&gt;Developer: thedrummer&lt;br/&gt;Status: active</content>
     <category term="openrouter" label="provider"/>
-    <category term="inception" label="developer"/>
-    <category term="inception/mercury" label="model_id"/>
-    <category term="2025-06-19" label="release_date"/>
+    <category term="thedrummer" label="developer"/>
+    <category term="thedrummer/anubis-70b-v1.1" label="model_id"/>
+    <category term="2025-06-29" label="release_date"/>
     <category term="active" label="status"/>
-    <published>2025-06-19T00:00:00+00:00</published>
+    <published>2025-06-29T00:00:00+00:00</published>
   </entry>
 </feed>
