@@ -435,6 +435,13 @@
   },
   {
     "provider": "openrouter",
+    "developer": "baidu",
+    "model_id": "baidu/ernie-4.5-300b-a47b",
+    "release_date": "2025-06-30",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
     "developer": "cognitivecomputations",
     "model_id": "cognitivecomputations/dolphin-mixtral-8x22b",
     "release_date": "2024-06-08",
