@@ -2052,6 +2052,20 @@
   },
   {
     "provider": "openrouter",
+    "developer": "morph",
+    "model_id": "morph/morph-v3-fast",
+    "release_date": "2025-07-07",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "morph",
+    "model_id": "morph/morph-v3-large",
+    "release_date": "2025-07-07",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
     "developer": "neversleep",
     "model_id": "neversleep/llama-3-lumimaid-70b",
     "release_date": "2024-05-16",

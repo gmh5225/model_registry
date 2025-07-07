@@ -2,20 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://github.com/gkamradt/model_registry/feed.xml</id>
   <title>Model Registry Updates</title>
-  <updated>2025-07-02T04:09:34.327361+00:00</updated>
+  <updated>2025-07-07T18:04:00.638977+00:00</updated>
   <link href="https://github.com/gkamradt/model_registry" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Updates to the public LLM model registry</subtitle>
   <entry>
-    <id>urn:model-registry:openrouter:inception:inception/mercury-coder</id>
-    <title>openrouter - inception - inception/mercury-coder</title>
-    <updated>2025-07-02T04:09:34.327428+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: inception/mercury-coder&lt;br/&gt;Release Date: 2025-04-30&lt;br/&gt;Developer: inception&lt;br/&gt;Status: active</content>
+    <id>urn:model-registry:openrouter:morph:morph/morph-v3-large</id>
+    <title>openrouter - morph - morph/morph-v3-large</title>
+    <updated>2025-07-07T18:04:00.639350+00:00</updated>
+    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: morph/morph-v3-large&lt;br/&gt;Release Date: 2025-07-07&lt;br/&gt;Developer: morph&lt;br/&gt;Status: active</content>
     <category term="openrouter" label="provider"/>
-    <category term="inception" label="developer"/>
-    <category term="inception/mercury-coder" label="model_id"/>
-    <category term="2025-04-30" label="release_date"/>
+    <category term="morph" label="developer"/>
+    <category term="morph/morph-v3-large" label="model_id"/>
+    <category term="2025-07-07" label="release_date"/>
     <category term="active" label="status"/>
-    <published>2025-04-30T00:00:00+00:00</published>
+    <published>2025-07-07T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>urn:model-registry:openrouter:morph:morph/morph-v3-fast</id>
+    <title>openrouter - morph - morph/morph-v3-fast</title>
+    <updated>2025-07-07T18:04:00.639028+00:00</updated>
+    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: morph/morph-v3-fast&lt;br/&gt;Release Date: 2025-07-07&lt;br/&gt;Developer: morph&lt;br/&gt;Status: active</content>
+    <category term="openrouter" label="provider"/>
+    <category term="morph" label="developer"/>
+    <category term="morph/morph-v3-fast" label="model_id"/>
+    <category term="2025-07-07" label="release_date"/>
+    <category term="active" label="status"/>
+    <published>2025-07-07T00:00:00+00:00</published>
   </entry>
 </feed>
