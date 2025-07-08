@@ -3515,6 +3515,13 @@
   },
   {
     "provider": "openrouter",
+    "developer": "tencent",
+    "model_id": "tencent/hunyuan-a13b-instruct:free",
+    "release_date": "2025-07-08",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
     "developer": "thedrummer",
     "model_id": "thedrummer/anubis-70b-v1.1",
     "release_date": "2025-06-29",
@@ -3595,6 +3602,13 @@
     "developer": "tngtech",
     "model_id": "tngtech/deepseek-r1t-chimera:free",
     "release_date": "2025-04-27",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "tngtech",
+    "model_id": "tngtech/deepseek-r1t2-chimera:free",
+    "release_date": "2025-07-08",
     "status": "active"
   },
   {
