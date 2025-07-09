@@ -1542,6 +1542,13 @@
   {
     "provider": "openrouter",
     "developer": "meta-llama",
+    "model_id": "meta-llama/llama-3.1-405b-instruct:free",
+    "release_date": "2024-07-23",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "meta-llama",
     "model_id": "meta-llama/llama-3.1-405b:free",
     "release_date": "2024-08-02",
     "status": "active"
@@ -3385,6 +3392,13 @@
     "developer": "qwen",
     "model_id": "qwen/qwen3-32b:free",
     "release_date": "2025-04-28",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen3-4b:free",
+    "release_date": "2025-04-30",
     "status": "active"
   },
   {
