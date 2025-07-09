@@ -919,6 +919,13 @@
   {
     "provider": "openrouter",
     "developer": "google",
+    "model_id": "google/gemma-3n-e2b-it:free",
+    "release_date": "2025-07-09",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "google",
     "model_id": "google/gemma-3n-e4b-it",
     "release_date": "2025-05-20",
     "status": "active"
