@@ -1220,6 +1220,13 @@
   {
     "provider": "gemini",
     "developer": "google",
+    "model_id": "models/gemini-2.5-flash-live-preview",
+    "release_date": "9999-12-31",
+    "status": "active"
+  },
+  {
+    "provider": "gemini",
+    "developer": "google",
     "model_id": "models/gemini-2.5-flash-preview-04-17",
     "release_date": "9999-12-31",
     "status": "active"
@@ -1822,7 +1829,28 @@
   {
     "provider": "openrouter",
     "developer": "mistralai",
+    "model_id": "mistralai/devstral-medium",
+    "release_date": "2025-07-10",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
     "model_id": "mistralai/devstral-small",
+    "release_date": "2025-05-21",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/devstral-small-2505",
+    "release_date": "2025-05-21",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
+    "model_id": "mistralai/devstral-small-2505:free",
     "release_date": "2025-05-21",
     "status": "active"
   },
