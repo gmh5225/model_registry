@@ -2,32 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://github.com/gkamradt/model_registry/feed.xml</id>
   <title>Model Registry Updates</title>
-  <updated>2025-07-09T20:36:07.516693+00:00</updated>
+  <updated>2025-07-10T03:50:26.333815+00:00</updated>
   <link href="https://github.com/gkamradt/model_registry" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Updates to the public LLM model registry</subtitle>
   <entry>
-    <id>urn:model-registry:openrouter:meta-llama:meta-llama/llama-3.1-405b-instruct:free</id>
-    <title>openrouter - meta-llama - meta-llama/llama-3.1-405b-instruct:free</title>
-    <updated>2025-07-09T20:36:07.517007+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: meta-llama/llama-3.1-405b-instruct:free&lt;br/&gt;Release Date: 2024-07-23&lt;br/&gt;Developer: meta-llama&lt;br/&gt;Status: active</content>
+    <id>urn:model-registry:openrouter:venice:venice/uncensored:free</id>
+    <title>openrouter - venice - venice/uncensored:free</title>
+    <updated>2025-07-10T03:50:26.333871+00:00</updated>
+    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: venice/uncensored:free&lt;br/&gt;Release Date: 2025-07-09&lt;br/&gt;Developer: venice&lt;br/&gt;Status: active</content>
     <category term="openrouter" label="provider"/>
-    <category term="meta-llama" label="developer"/>
-    <category term="meta-llama/llama-3.1-405b-instruct:free" label="model_id"/>
-    <category term="2024-07-23" label="release_date"/>
+    <category term="venice" label="developer"/>
+    <category term="venice/uncensored:free" label="model_id"/>
+    <category term="2025-07-09" label="release_date"/>
     <category term="active" label="status"/>
-    <published>2024-07-23T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openrouter:qwen:qwen/qwen3-4b:free</id>
-    <title>openrouter - qwen - qwen/qwen3-4b:free</title>
-    <updated>2025-07-09T20:36:07.516765+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: qwen/qwen3-4b:free&lt;br/&gt;Release Date: 2025-04-30&lt;br/&gt;Developer: qwen&lt;br/&gt;Status: active</content>
-    <category term="openrouter" label="provider"/>
-    <category term="qwen" label="developer"/>
-    <category term="qwen/qwen3-4b:free" label="model_id"/>
-    <category term="2025-04-30" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-04-30T00:00:00+00:00</published>
+    <published>2025-07-09T00:00:00+00:00</published>
   </entry>
 </feed>
