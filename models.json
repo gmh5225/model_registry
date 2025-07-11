@@ -3635,6 +3635,13 @@
   {
     "provider": "openrouter",
     "developer": "thudm",
+    "model_id": "thudm/glm-4.1v-9b-thinking",
+    "release_date": "2025-07-11",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "thudm",
     "model_id": "thudm/glm-z1-32b",
     "release_date": "2025-04-17",
     "status": "active"
