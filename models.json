@@ -2081,6 +2081,13 @@
   {
     "provider": "openrouter",
     "developer": "moonshotai",
+    "model_id": "moonshotai/kimi-k2",
+    "release_date": "2025-07-11",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "moonshotai",
     "model_id": "moonshotai/kimi-vl-a3b-thinking:free",
     "release_date": "2025-04-10",
     "status": "active"
