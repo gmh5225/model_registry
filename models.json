@@ -3578,6 +3578,13 @@
   },
   {
     "provider": "openrouter",
+    "developer": "switchpoint",
+    "model_id": "switchpoint/router",
+    "release_date": "2025-07-11",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
     "developer": "tencent",
     "model_id": "tencent/hunyuan-a13b-instruct:free",
     "release_date": "2025-07-08",

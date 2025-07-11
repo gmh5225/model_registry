@@ -2,18 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://github.com/gkamradt/model_registry/feed.xml</id>
   <title>Model Registry Updates</title>
-  <updated>2025-07-11T21:03:04.878790+00:00</updated>
+  <updated>2025-07-11T22:36:50.528656+00:00</updated>
   <link href="https://github.com/gkamradt/model_registry" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Updates to the public LLM model registry</subtitle>
   <entry>
-    <id>urn:model-registry:openrouter:moonshotai:moonshotai/kimi-k2</id>
-    <title>openrouter - moonshotai - moonshotai/kimi-k2</title>
-    <updated>2025-07-11T21:03:04.878857+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: moonshotai/kimi-k2&lt;br/&gt;Release Date: 2025-07-11&lt;br/&gt;Developer: moonshotai&lt;br/&gt;Status: active</content>
+    <id>urn:model-registry:openrouter:switchpoint:switchpoint/router</id>
+    <title>openrouter - switchpoint - switchpoint/router</title>
+    <updated>2025-07-11T22:36:50.528694+00:00</updated>
+    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: switchpoint/router&lt;br/&gt;Release Date: 2025-07-11&lt;br/&gt;Developer: switchpoint&lt;br/&gt;Status: active</content>
     <category term="openrouter" label="provider"/>
-    <category term="moonshotai" label="developer"/>
-    <category term="moonshotai/kimi-k2" label="model_id"/>
+    <category term="switchpoint" label="developer"/>
+    <category term="switchpoint/router" label="model_id"/>
     <category term="2025-07-11" label="release_date"/>
     <category term="active" label="status"/>
     <published>2025-07-11T00:00:00+00:00</published>
