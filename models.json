@@ -3502,6 +3502,13 @@
   {
     "provider": "openrouter",
     "developer": "rekaai",
+    "model_id": "rekaai/reka-flash-3",
+    "release_date": "2025-03-12",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "rekaai",
     "model_id": "rekaai/reka-flash-3:free",
     "release_date": "2025-03-12",
     "status": "active"
