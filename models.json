@@ -16,6 +16,13 @@
   {
     "provider": "openrouter",
     "developer": "agentica-org",
+    "model_id": "agentica-org/deepcoder-14b-preview",
+    "release_date": "2025-04-13",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "agentica-org",
     "model_id": "agentica-org/deepcoder-14b-preview:free",
     "release_date": "2025-04-13",
     "status": "active"

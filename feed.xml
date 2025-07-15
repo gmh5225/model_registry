@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://github.com/gkamradt/model_registry/feed.xml</id>
   <title>Model Registry Updates</title>
-  <updated>2025-07-15T19:04:05.432884+00:00</updated>
+  <updated>2025-07-15T20:36:52.588642+00:00</updated>
   <link href="https://github.com/gkamradt/model_registry" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Updates to the public LLM model registry</subtitle>
   <entry>
-    <id>urn:model-registry:openrouter:cognitivecomputations:cognitivecomputations/dolphin3.0-r1-mistral-24b</id>
-    <title>openrouter - cognitivecomputations - cognitivecomputations/dolphin3.0-r1-mistral-24b</title>
-    <updated>2025-07-15T19:04:05.432926+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: cognitivecomputations/dolphin3.0-r1-mistral-24b&lt;br/&gt;Release Date: 2025-02-13&lt;br/&gt;Developer: cognitivecomputations&lt;br/&gt;Status: active</content>
+    <id>urn:model-registry:openrouter:agentica-org:agentica-org/deepcoder-14b-preview</id>
+    <title>openrouter - agentica-org - agentica-org/deepcoder-14b-preview</title>
+    <updated>2025-07-15T20:36:52.588685+00:00</updated>
+    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: agentica-org/deepcoder-14b-preview&lt;br/&gt;Release Date: 2025-04-13&lt;br/&gt;Developer: agentica-org&lt;br/&gt;Status: active</content>
     <category term="openrouter" label="provider"/>
-    <category term="cognitivecomputations" label="developer"/>
-    <category term="cognitivecomputations/dolphin3.0-r1-mistral-24b" label="model_id"/>
-    <category term="2025-02-13" label="release_date"/>
+    <category term="agentica-org" label="developer"/>
+    <category term="agentica-org/deepcoder-14b-preview" label="model_id"/>
+    <category term="2025-04-13" label="release_date"/>
     <category term="active" label="status"/>
-    <published>2025-02-13T00:00:00+00:00</published>
+    <published>2025-04-13T00:00:00+00:00</published>
   </entry>
 </feed>
