@@ -3607,6 +3607,13 @@
   {
     "provider": "openrouter",
     "developer": "tencent",
+    "model_id": "tencent/hunyuan-a13b-instruct",
+    "release_date": "2025-07-08",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "tencent",
     "model_id": "tencent/hunyuan-a13b-instruct:free",
     "release_date": "2025-07-08",
     "status": "active"

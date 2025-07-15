@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://github.com/gkamradt/model_registry/feed.xml</id>
   <title>Model Registry Updates</title>
-  <updated>2025-07-15T17:36:42.084717+00:00</updated>
+  <updated>2025-07-15T18:04:18.531799+00:00</updated>
   <link href="https://github.com/gkamradt/model_registry" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Updates to the public LLM model registry</subtitle>
   <entry>
-    <id>urn:model-registry:openrouter:rekaai:rekaai/reka-flash-3</id>
-    <title>openrouter - rekaai - rekaai/reka-flash-3</title>
-    <updated>2025-07-15T17:36:42.084749+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: rekaai/reka-flash-3&lt;br/&gt;Release Date: 2025-03-12&lt;br/&gt;Developer: rekaai&lt;br/&gt;Status: active</content>
+    <id>urn:model-registry:openrouter:tencent:tencent/hunyuan-a13b-instruct</id>
+    <title>openrouter - tencent - tencent/hunyuan-a13b-instruct</title>
+    <updated>2025-07-15T18:04:18.531867+00:00</updated>
+    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: tencent/hunyuan-a13b-instruct&lt;br/&gt;Release Date: 2025-07-08&lt;br/&gt;Developer: tencent&lt;br/&gt;Status: active</content>
     <category term="openrouter" label="provider"/>
-    <category term="rekaai" label="developer"/>
-    <category term="rekaai/reka-flash-3" label="model_id"/>
-    <category term="2025-03-12" label="release_date"/>
+    <category term="tencent" label="developer"/>
+    <category term="tencent/hunyuan-a13b-instruct" label="model_id"/>
+    <category term="2025-07-08" label="release_date"/>
     <category term="active" label="status"/>
-    <published>2025-03-12T00:00:00+00:00</published>
+    <published>2025-07-08T00:00:00+00:00</published>
   </entry>
 </feed>
