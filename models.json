@@ -436,6 +436,13 @@
   {
     "provider": "openrouter",
     "developer": "arliai",
+    "model_id": "arliai/qwq-32b-arliai-rpr-v1",
+    "release_date": "2025-04-13",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "arliai",
     "model_id": "arliai/qwq-32b-arliai-rpr-v1:free",
     "release_date": "2025-04-13",
     "status": "active"
@@ -2214,6 +2221,13 @@
   {
     "provider": "openrouter",
     "developer": "nousresearch",
+    "model_id": "nousresearch/deephermes-3-mistral-24b-preview",
+    "release_date": "2025-05-09",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "nousresearch",
     "model_id": "nousresearch/deephermes-3-mistral-24b-preview:free",
     "release_date": "2025-05-09",
     "status": "active"
@@ -3742,6 +3756,13 @@
     "developer": "tngtech",
     "model_id": "tngtech/deepseek-r1t-chimera:free",
     "release_date": "2025-04-27",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "tngtech",
+    "model_id": "tngtech/deepseek-r1t2-chimera",
+    "release_date": "2025-07-08",
     "status": "active"
   },
   {
