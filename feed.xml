@@ -2,44 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://github.com/gkamradt/model_registry/feed.xml</id>
   <title>Model Registry Updates</title>
-  <updated>2025-07-21T20:03:23.865479+00:00</updated>
+  <updated>2025-07-21T22:03:11.335396+00:00</updated>
   <link href="https://github.com/gkamradt/model_registry" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Updates to the public LLM model registry</subtitle>
   <entry>
-    <id>urn:model-registry:openrouter:arliai:arliai/qwq-32b-arliai-rpr-v1</id>
-    <title>openrouter - arliai - arliai/qwq-32b-arliai-rpr-v1</title>
-    <updated>2025-07-21T20:03:23.865932+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: arliai/qwq-32b-arliai-rpr-v1&lt;br/&gt;Release Date: 2025-04-13&lt;br/&gt;Developer: arliai&lt;br/&gt;Status: active</content>
+    <id>urn:model-registry:openrouter:moonshotai:moonshotai/kimi-vl-a3b-thinking</id>
+    <title>openrouter - moonshotai - moonshotai/kimi-vl-a3b-thinking</title>
+    <updated>2025-07-21T22:03:11.335771+00:00</updated>
+    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: moonshotai/kimi-vl-a3b-thinking&lt;br/&gt;Release Date: 2025-04-10&lt;br/&gt;Developer: moonshotai&lt;br/&gt;Status: active</content>
     <category term="openrouter" label="provider"/>
-    <category term="arliai" label="developer"/>
-    <category term="arliai/qwq-32b-arliai-rpr-v1" label="model_id"/>
-    <category term="2025-04-13" label="release_date"/>
+    <category term="moonshotai" label="developer"/>
+    <category term="moonshotai/kimi-vl-a3b-thinking" label="model_id"/>
+    <category term="2025-04-10" label="release_date"/>
     <category term="active" label="status"/>
-    <published>2025-04-13T00:00:00+00:00</published>
+    <published>2025-04-10T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>urn:model-registry:openrouter:nousresearch:nousresearch/deephermes-3-mistral-24b-preview</id>
-    <title>openrouter - nousresearch - nousresearch/deephermes-3-mistral-24b-preview</title>
-    <updated>2025-07-21T20:03:23.865783+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: nousresearch/deephermes-3-mistral-24b-preview&lt;br/&gt;Release Date: 2025-05-09&lt;br/&gt;Developer: nousresearch&lt;br/&gt;Status: active</content>
+    <id>urn:model-registry:openrouter:shisa-ai:shisa-ai/shisa-v2-llama3.3-70b</id>
+    <title>openrouter - shisa-ai - shisa-ai/shisa-v2-llama3.3-70b</title>
+    <updated>2025-07-21T22:03:11.335668+00:00</updated>
+    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: shisa-ai/shisa-v2-llama3.3-70b&lt;br/&gt;Release Date: 2025-04-15&lt;br/&gt;Developer: shisa-ai&lt;br/&gt;Status: active</content>
     <category term="openrouter" label="provider"/>
-    <category term="nousresearch" label="developer"/>
-    <category term="nousresearch/deephermes-3-mistral-24b-preview" label="model_id"/>
-    <category term="2025-05-09" label="release_date"/>
+    <category term="shisa-ai" label="developer"/>
+    <category term="shisa-ai/shisa-v2-llama3.3-70b" label="model_id"/>
+    <category term="2025-04-15" label="release_date"/>
     <category term="active" label="status"/>
-    <published>2025-05-09T00:00:00+00:00</published>
+    <published>2025-04-15T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>urn:model-registry:openrouter:tngtech:tngtech/deepseek-r1t2-chimera</id>
-    <title>openrouter - tngtech - tngtech/deepseek-r1t2-chimera</title>
-    <updated>2025-07-21T20:03:23.865522+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: tngtech/deepseek-r1t2-chimera&lt;br/&gt;Release Date: 2025-07-08&lt;br/&gt;Developer: tngtech&lt;br/&gt;Status: active</content>
+    <id>urn:model-registry:openrouter:microsoft:microsoft/mai-ds-r1</id>
+    <title>openrouter - microsoft - microsoft/mai-ds-r1</title>
+    <updated>2025-07-21T22:03:11.335441+00:00</updated>
+    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: microsoft/mai-ds-r1&lt;br/&gt;Release Date: 2025-04-21&lt;br/&gt;Developer: microsoft&lt;br/&gt;Status: active</content>
     <category term="openrouter" label="provider"/>
-    <category term="tngtech" label="developer"/>
-    <category term="tngtech/deepseek-r1t2-chimera" label="model_id"/>
-    <category term="2025-07-08" label="release_date"/>
+    <category term="microsoft" label="developer"/>
+    <category term="microsoft/mai-ds-r1" label="model_id"/>
+    <category term="2025-04-21" label="release_date"/>
     <category term="active" label="status"/>
-    <published>2025-07-08T00:00:00+00:00</published>
+    <published>2025-04-21T00:00:00+00:00</published>
   </entry>
 </feed>

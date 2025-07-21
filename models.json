@@ -1745,6 +1745,13 @@
   {
     "provider": "openrouter",
     "developer": "microsoft",
+    "model_id": "microsoft/mai-ds-r1",
+    "release_date": "2025-04-21",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "microsoft",
     "model_id": "microsoft/mai-ds-r1:free",
     "release_date": "2025-04-21",
     "status": "active"
@@ -2125,6 +2132,13 @@
     "developer": "moonshotai",
     "model_id": "moonshotai/kimi-k2:free",
     "release_date": "2025-07-11",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "moonshotai",
+    "model_id": "moonshotai/kimi-vl-a3b-thinking",
+    "release_date": "2025-04-10",
     "status": "active"
   },
   {
@@ -3630,6 +3644,13 @@
     "developer": "sentientagi",
     "model_id": "sentientagi/dobby-mini-unhinged-plus-llama-3.1-8b",
     "release_date": "2025-06-02",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "shisa-ai",
+    "model_id": "shisa-ai/shisa-v2-llama3.3-70b",
+    "release_date": "2025-04-15",
     "status": "active"
   },
   {
