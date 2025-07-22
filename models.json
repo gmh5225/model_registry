@@ -456,6 +456,13 @@
   },
   {
     "provider": "openrouter",
+    "developer": "bytedance",
+    "model_id": "bytedance/ui-tars-1.5-7b",
+    "release_date": "2025-07-22",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
     "developer": "cognitivecomputations",
     "model_id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
     "release_date": "2025-07-09",
