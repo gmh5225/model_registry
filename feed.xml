@@ -2,18 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://github.com/gkamradt/model_registry/feed.xml</id>
   <title>Model Registry Updates</title>
-  <updated>2025-07-22T17:37:10.154279+00:00</updated>
+  <updated>2025-07-22T22:37:00.596781+00:00</updated>
   <link href="https://github.com/gkamradt/model_registry" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Updates to the public LLM model registry</subtitle>
   <entry>
-    <id>urn:model-registry:openrouter:bytedance:bytedance/ui-tars-1.5-7b</id>
-    <title>openrouter - bytedance - bytedance/ui-tars-1.5-7b</title>
-    <updated>2025-07-22T17:37:10.154330+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: bytedance/ui-tars-1.5-7b&lt;br/&gt;Release Date: 2025-07-22&lt;br/&gt;Developer: bytedance&lt;br/&gt;Status: active</content>
+    <id>urn:model-registry:openrouter:qwen:qwen/qwen3-coder</id>
+    <title>openrouter - qwen - qwen/qwen3-coder</title>
+    <updated>2025-07-22T22:37:00.596824+00:00</updated>
+    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: qwen/qwen3-coder&lt;br/&gt;Release Date: 2025-07-22&lt;br/&gt;Developer: qwen&lt;br/&gt;Status: active</content>
     <category term="openrouter" label="provider"/>
-    <category term="bytedance" label="developer"/>
-    <category term="bytedance/ui-tars-1.5-7b" label="model_id"/>
+    <category term="qwen" label="developer"/>
+    <category term="qwen/qwen3-coder" label="model_id"/>
     <category term="2025-07-22" label="release_date"/>
     <category term="active" label="status"/>
     <published>2025-07-22T00:00:00+00:00</published>
