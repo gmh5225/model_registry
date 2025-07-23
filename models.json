@@ -3565,6 +3565,13 @@
   {
     "provider": "openrouter",
     "developer": "qwen",
+    "model_id": "qwen/qwen3-coder:free",
+    "release_date": "2025-07-23",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
     "model_id": "qwen/qwq-32b",
     "release_date": "2025-03-05",
     "status": "active"
