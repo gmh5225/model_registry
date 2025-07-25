@@ -2,20 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://github.com/gkamradt/model_registry/feed.xml</id>
   <title>Model Registry Updates</title>
-  <updated>2025-07-23T23:03:06.986309+00:00</updated>
+  <updated>2025-07-25T13:42:27.983154+00:00</updated>
   <link href="https://github.com/gkamradt/model_registry" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Updates to the public LLM model registry</subtitle>
   <entry>
-    <id>urn:model-registry:openrouter:qwen:qwen/qwen3-coder:free</id>
-    <title>openrouter - qwen - qwen/qwen3-coder:free</title>
-    <updated>2025-07-23T23:03:06.986360+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: qwen/qwen3-coder:free&lt;br/&gt;Release Date: 2025-07-23&lt;br/&gt;Developer: qwen&lt;br/&gt;Status: active</content>
+    <id>urn:model-registry:openrouter:qwen:qwen/qwen3-235b-a22b-2507:free</id>
+    <title>openrouter - qwen - qwen/qwen3-235b-a22b-2507:free</title>
+    <updated>2025-07-25T13:42:27.983495+00:00</updated>
+    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: qwen/qwen3-235b-a22b-2507:free&lt;br/&gt;Release Date: 2025-07-21&lt;br/&gt;Developer: qwen&lt;br/&gt;Status: active</content>
     <category term="openrouter" label="provider"/>
     <category term="qwen" label="developer"/>
-    <category term="qwen/qwen3-coder:free" label="model_id"/>
-    <category term="2025-07-23" label="release_date"/>
+    <category term="qwen/qwen3-235b-a22b-2507:free" label="model_id"/>
+    <category term="2025-07-21" label="release_date"/>
     <category term="active" label="status"/>
-    <published>2025-07-23T00:00:00+00:00</published>
+    <published>2025-07-21T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>urn:model-registry:openrouter:qwen:qwen/qwen3-235b-a22b-2507</id>
+    <title>openrouter - qwen - qwen/qwen3-235b-a22b-2507</title>
+    <updated>2025-07-25T13:42:27.983393+00:00</updated>
+    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: qwen/qwen3-235b-a22b-2507&lt;br/&gt;Release Date: 2025-07-21&lt;br/&gt;Developer: qwen&lt;br/&gt;Status: active</content>
+    <category term="openrouter" label="provider"/>
+    <category term="qwen" label="developer"/>
+    <category term="qwen/qwen3-235b-a22b-2507" label="model_id"/>
+    <category term="2025-07-21" label="release_date"/>
+    <category term="active" label="status"/>
+    <published>2025-07-21T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>urn:model-registry:openrouter:qwen:qwen/qwen3-235b-a22b-thinking-2507</id>
+    <title>openrouter - qwen - qwen/qwen3-235b-a22b-thinking-2507</title>
+    <updated>2025-07-25T13:42:27.983188+00:00</updated>
+    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: qwen/qwen3-235b-a22b-thinking-2507&lt;br/&gt;Release Date: 2025-07-25&lt;br/&gt;Developer: qwen&lt;br/&gt;Status: active</content>
+    <category term="openrouter" label="provider"/>
+    <category term="qwen" label="developer"/>
+    <category term="qwen/qwen3-235b-a22b-thinking-2507" label="model_id"/>
+    <category term="2025-07-25" label="release_date"/>
+    <category term="active" label="status"/>
+    <published>2025-07-25T00:00:00+00:00</published>
   </entry>
 </feed>

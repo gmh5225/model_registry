@@ -3502,6 +3502,27 @@
   {
     "provider": "openrouter",
     "developer": "qwen",
+    "model_id": "qwen/qwen3-235b-a22b-2507",
+    "release_date": "2025-07-21",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen3-235b-a22b-2507:free",
+    "release_date": "2025-07-21",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
+    "model_id": "qwen/qwen3-235b-a22b-thinking-2507",
+    "release_date": "2025-07-25",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
     "model_id": "qwen/qwen3-235b-a22b:free",
     "release_date": "2025-04-28",
     "status": "active"
