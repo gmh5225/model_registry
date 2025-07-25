@@ -723,6 +723,13 @@
   {
     "provider": "openrouter",
     "developer": "deepseek",
+    "model_id": "deepseek/deepseek-v3-base",
+    "release_date": "2025-03-29",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "deepseek",
     "model_id": "deepseek/deepseek-v3-base:free",
     "release_date": "2025-03-29",
     "status": "active"
