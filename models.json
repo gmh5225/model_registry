@@ -3946,5 +3946,19 @@
     "model_id": "z-ai/glm-4-32b",
     "release_date": "2025-07-24",
     "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "z-ai",
+    "model_id": "z-ai/glm-4.5",
+    "release_date": "2025-07-25",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "z-ai",
+    "model_id": "z-ai/glm-4.5-air",
+    "release_date": "2025-07-25",
+    "status": "active"
   }
 ]
