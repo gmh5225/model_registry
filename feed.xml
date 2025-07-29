@@ -2,30 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://github.com/gkamradt/model_registry/feed.xml</id>
   <title>Model Registry Updates</title>
-  <updated>2025-07-28T13:15:33.410472+00:00</updated>
+  <updated>2025-07-29T17:38:11.939312+00:00</updated>
   <link href="https://github.com/gkamradt/model_registry" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Updates to the public LLM model registry</subtitle>
   <entry>
-    <id>urn:model-registry:openrouter:z-ai:z-ai/glm-4.5-air</id>
-    <title>openrouter - z-ai - z-ai/glm-4.5-air</title>
-    <updated>2025-07-28T13:15:33.410796+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: z-ai/glm-4.5-air&lt;br/&gt;Release Date: 2025-07-25&lt;br/&gt;Developer: z-ai&lt;br/&gt;Status: active</content>
+    <id>urn:model-registry:openrouter:z-ai:z-ai/glm-4.5-air:free</id>
+    <title>openrouter - z-ai - z-ai/glm-4.5-air:free</title>
+    <updated>2025-07-29T17:38:11.939351+00:00</updated>
+    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: z-ai/glm-4.5-air:free&lt;br/&gt;Release Date: 2025-07-25&lt;br/&gt;Developer: z-ai&lt;br/&gt;Status: active</content>
     <category term="openrouter" label="provider"/>
     <category term="z-ai" label="developer"/>
-    <category term="z-ai/glm-4.5-air" label="model_id"/>
-    <category term="2025-07-25" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-07-25T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openrouter:z-ai:z-ai/glm-4.5</id>
-    <title>openrouter - z-ai - z-ai/glm-4.5</title>
-    <updated>2025-07-28T13:15:33.410535+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: z-ai/glm-4.5&lt;br/&gt;Release Date: 2025-07-25&lt;br/&gt;Developer: z-ai&lt;br/&gt;Status: active</content>
-    <category term="openrouter" label="provider"/>
-    <category term="z-ai" label="developer"/>
-    <category term="z-ai/glm-4.5" label="model_id"/>
+    <category term="z-ai/glm-4.5-air:free" label="model_id"/>
     <category term="2025-07-25" label="release_date"/>
     <category term="active" label="status"/>
     <published>2025-07-25T00:00:00+00:00</published>
