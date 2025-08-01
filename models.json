@@ -1899,6 +1899,13 @@
   {
     "provider": "openrouter",
     "developer": "mistralai",
+    "model_id": "mistralai/codestral-2508",
+    "release_date": "2025-08-01",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "mistralai",
     "model_id": "mistralai/codestral-mamba",
     "release_date": "2024-07-19",
     "status": "active"
