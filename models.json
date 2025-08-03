@@ -478,6 +478,13 @@
   {
     "provider": "openrouter",
     "developer": "cognitivecomputations",
+    "model_id": "cognitivecomputations/dolphin3.0-mistral-24b",
+    "release_date": "2025-02-13",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "cognitivecomputations",
     "model_id": "cognitivecomputations/dolphin3.0-mistral-24b:free",
     "release_date": "2025-02-13",
     "status": "active"
