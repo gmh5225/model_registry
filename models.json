@@ -3873,6 +3873,13 @@
   {
     "provider": "openrouter",
     "developer": "tngtech",
+    "model_id": "tngtech/deepseek-r1t-chimera",
+    "release_date": "2025-04-27",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "tngtech",
     "model_id": "tngtech/deepseek-r1t-chimera:free",
     "release_date": "2025-04-27",
     "status": "active"
