@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://github.com/gkamradt/model_registry/feed.xml</id>
   <title>Model Registry Updates</title>
-  <updated>2025-08-03T22:37:11.155264+00:00</updated>
+  <updated>2025-08-05T16:37:11.990181+00:00</updated>
   <link href="https://github.com/gkamradt/model_registry" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Updates to the public LLM model registry</subtitle>
   <entry>
-    <id>urn:model-registry:openrouter:cognitivecomputations:cognitivecomputations/dolphin3.0-mistral-24b</id>
-    <title>openrouter - cognitivecomputations - cognitivecomputations/dolphin3.0-mistral-24b</title>
-    <updated>2025-08-03T22:37:11.155306+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: cognitivecomputations/dolphin3.0-mistral-24b&lt;br/&gt;Release Date: 2025-02-13&lt;br/&gt;Developer: cognitivecomputations&lt;br/&gt;Status: active</content>
-    <category term="openrouter" label="provider"/>
-    <category term="cognitivecomputations" label="developer"/>
-    <category term="cognitivecomputations/dolphin3.0-mistral-24b" label="model_id"/>
-    <category term="2025-02-13" label="release_date"/>
+    <id>urn:model-registry:anthropic:anthropic:claude-opus-4-1-20250805</id>
+    <title>anthropic - anthropic - claude-opus-4-1-20250805</title>
+    <updated>2025-08-05T16:37:11.990226+00:00</updated>
+    <content type="html">Provider: anthropic&lt;br/&gt;Model ID: claude-opus-4-1-20250805&lt;br/&gt;Release Date: 2025-08-05&lt;br/&gt;Developer: anthropic&lt;br/&gt;Status: active</content>
+    <category term="anthropic" label="provider"/>
+    <category term="anthropic" label="developer"/>
+    <category term="claude-opus-4-1-20250805" label="model_id"/>
+    <category term="2025-08-05" label="release_date"/>
     <category term="active" label="status"/>
-    <published>2025-02-13T00:00:00+00:00</published>
+    <published>2025-08-05T00:00:00+00:00</published>
   </entry>
 </feed>
