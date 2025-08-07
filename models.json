@@ -3124,6 +3124,34 @@
   {
     "provider": "openrouter",
     "developer": "openai",
+    "model_id": "openai/gpt-5",
+    "release_date": "2025-08-07",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/gpt-5-chat",
+    "release_date": "2025-08-07",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/gpt-5-mini",
+    "release_date": "2025-08-07",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/gpt-5-nano",
+    "release_date": "2025-08-07",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
     "model_id": "openai/gpt-oss-120b",
     "release_date": "2025-08-05",
     "status": "active"
