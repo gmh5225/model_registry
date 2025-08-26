@@ -2,32 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>/feed.xml</id>
   <title>Model Registry Updates</title>
-  <updated>2025-08-26T19:33:44.099583+00:00</updated>
+  <updated>2025-08-26T20:05:52.399780+00:00</updated>
   <link href="" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Updates to the public LLM model registry</subtitle>
   <entry>
-    <id>urn:model-registry:openrouter:nousresearch:nousresearch/hermes-4-70b</id>
-    <title>openrouter - nousresearch - nousresearch/hermes-4-70b</title>
-    <updated>2025-08-26T19:33:44.099856+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: nousresearch/hermes-4-70b&lt;br/&gt;Release Date: 2025-08-26&lt;br/&gt;Developer: nousresearch&lt;br/&gt;Status: active</content>
+    <id>urn:model-registry:openrouter:x-ai:x-ai/grok-code-fast-1</id>
+    <title>openrouter - x-ai - x-ai/grok-code-fast-1</title>
+    <updated>2025-08-26T20:05:52.399818+00:00</updated>
+    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: x-ai/grok-code-fast-1&lt;br/&gt;Release Date: 2025-08-25&lt;br/&gt;Developer: x-ai&lt;br/&gt;Status: active</content>
     <category term="openrouter" label="provider"/>
-    <category term="nousresearch" label="developer"/>
-    <category term="nousresearch/hermes-4-70b" label="model_id"/>
-    <category term="2025-08-26" label="release_date"/>
+    <category term="x-ai" label="developer"/>
+    <category term="x-ai/grok-code-fast-1" label="model_id"/>
+    <category term="2025-08-25" label="release_date"/>
     <category term="active" label="status"/>
-    <published>2025-08-26T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openrouter:nousresearch:nousresearch/hermes-4-405b</id>
-    <title>openrouter - nousresearch - nousresearch/hermes-4-405b</title>
-    <updated>2025-08-26T19:33:44.099624+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: nousresearch/hermes-4-405b&lt;br/&gt;Release Date: 2025-08-26&lt;br/&gt;Developer: nousresearch&lt;br/&gt;Status: active</content>
-    <category term="openrouter" label="provider"/>
-    <category term="nousresearch" label="developer"/>
-    <category term="nousresearch/hermes-4-405b" label="model_id"/>
-    <category term="2025-08-26" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-08-26T00:00:00+00:00</published>
+    <published>2025-08-25T00:00:00+00:00</published>
   </entry>
 </feed>
