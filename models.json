@@ -1437,6 +1437,20 @@
   {
     "provider": "gemini",
     "developer": "google",
+    "model_id": "models/gemini-2.5-flash-native-audio-latest",
+    "release_date": "9999-12-31",
+    "status": "active"
+  },
+  {
+    "provider": "gemini",
+    "developer": "google",
+    "model_id": "models/gemini-2.5-flash-native-audio-preview-09-2025",
+    "release_date": "9999-12-31",
+    "status": "active"
+  },
+  {
+    "provider": "gemini",
+    "developer": "google",
     "model_id": "models/gemini-2.5-flash-preview-04-17",
     "release_date": "9999-12-31",
     "status": "active"
