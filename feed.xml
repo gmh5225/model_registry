@@ -2,20 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>/feed.xml</id>
   <title>Model Registry Updates</title>
-  <updated>2025-10-16T22:04:47.851286+00:00</updated>
+  <updated>2025-10-16T23:33:47.467101+00:00</updated>
   <link href="" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Updates to the public LLM model registry</subtitle>
   <entry>
-    <id>urn:model-registry:openrouter:openai:openai/gpt-5-image-mini</id>
-    <title>openrouter - openai - openai/gpt-5-image-mini</title>
-    <updated>2025-10-16T22:04:47.851352+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: openai/gpt-5-image-mini&lt;br/&gt;Release Date: 2025-10-16&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
+    <id>urn:model-registry:openrouter:deepcogito:deepcogito/cogito-v2-preview-llama-70b</id>
+    <title>openrouter - deepcogito - deepcogito/cogito-v2-preview-llama-70b</title>
+    <updated>2025-10-16T23:33:47.467367+00:00</updated>
+    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: deepcogito/cogito-v2-preview-llama-70b&lt;br/&gt;Release Date: 2025-09-02&lt;br/&gt;Developer: deepcogito&lt;br/&gt;Status: active</content>
     <category term="openrouter" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="openai/gpt-5-image-mini" label="model_id"/>
-    <category term="2025-10-16" label="release_date"/>
+    <category term="deepcogito" label="developer"/>
+    <category term="deepcogito/cogito-v2-preview-llama-70b" label="model_id"/>
+    <category term="2025-09-02" label="release_date"/>
     <category term="active" label="status"/>
-    <published>2025-10-16T00:00:00+00:00</published>
+    <published>2025-09-02T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>urn:model-registry:openrouter:deepcogito:deepcogito/cogito-v2-preview-llama-405B</id>
+    <title>openrouter - deepcogito - deepcogito/cogito-v2-preview-llama-405B</title>
+    <updated>2025-10-16T23:33:47.467147+00:00</updated>
+    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: deepcogito/cogito-v2-preview-llama-405B&lt;br/&gt;Release Date: 2025-09-02&lt;br/&gt;Developer: deepcogito&lt;br/&gt;Status: active</content>
+    <category term="openrouter" label="provider"/>
+    <category term="deepcogito" label="developer"/>
+    <category term="deepcogito/cogito-v2-preview-llama-405B" label="model_id"/>
+    <category term="2025-09-02" label="release_date"/>
+    <category term="active" label="status"/>
+    <published>2025-09-02T00:00:00+00:00</published>
   </entry>
 </feed>
