@@ -933,6 +933,13 @@
   {
     "provider": "openrouter",
     "developer": "deepseek",
+    "model_id": "deepseek/deepseek-v3.1-terminus:exacto",
+    "release_date": "2025-09-22",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "deepseek",
     "model_id": "deepseek/deepseek-v3.2-exp",
     "release_date": "2025-09-29",
     "status": "active"
@@ -2592,6 +2599,13 @@
   {
     "provider": "openrouter",
     "developer": "moonshotai",
+    "model_id": "moonshotai/kimi-k2-0905:exacto",
+    "release_date": "2025-09-04",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "moonshotai",
     "model_id": "moonshotai/kimi-k2:free",
     "release_date": "2025-07-11",
     "status": "active"
@@ -3642,6 +3656,13 @@
   {
     "provider": "openrouter",
     "developer": "openai",
+    "model_id": "openai/gpt-oss-120b:exacto",
+    "release_date": "2025-08-05",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "openai",
     "model_id": "openai/gpt-oss-120b:free",
     "release_date": "2025-08-05",
     "status": "active"
@@ -4279,6 +4300,13 @@
   {
     "provider": "openrouter",
     "developer": "qwen",
+    "model_id": "qwen/qwen3-coder:exacto",
+    "release_date": "2025-07-23",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "qwen",
     "model_id": "qwen/qwen3-coder:free",
     "release_date": "2025-07-23",
     "status": "active"
@@ -4791,6 +4819,13 @@
     "provider": "openrouter",
     "developer": "z-ai",
     "model_id": "z-ai/glm-4.6",
+    "release_date": "2025-09-30",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "z-ai",
+    "model_id": "z-ai/glm-4.6:exacto",
     "release_date": "2025-09-30",
     "status": "active"
   }
