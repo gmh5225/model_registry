@@ -3836,6 +3836,13 @@
     "status": "active"
   },
   {
+    "provider": "openrouter",
+    "developer": "openai",
+    "model_id": "openai/text-embedding-3-large",
+    "release_date": "2025-10-30",
+    "status": "active"
+  },
+  {
     "provider": "openai",
     "developer": "openai",
     "model_id": "text-embedding-3-large",
