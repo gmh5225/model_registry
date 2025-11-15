@@ -2,56 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>/feed.xml</id>
   <title>Model Registry Updates</title>
-  <updated>2025-11-13T19:33:45.946145+00:00</updated>
+  <updated>2025-11-15T18:06:38.225620+00:00</updated>
   <link href="" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Updates to the public LLM model registry</subtitle>
   <entry>
-    <id>urn:model-registry:openrouter:openai:openai/gpt-5.1-codex-mini</id>
-    <title>openrouter - openai - openai/gpt-5.1-codex-mini</title>
-    <updated>2025-11-13T19:33:45.946794+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: openai/gpt-5.1-codex-mini&lt;br/&gt;Release Date: 2025-11-13&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
+    <id>urn:model-registry:openrouter:openrouter:openrouter/sherlock-think-alpha</id>
+    <title>openrouter - openrouter - openrouter/sherlock-think-alpha</title>
+    <updated>2025-11-15T18:06:38.225920+00:00</updated>
+    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: openrouter/sherlock-think-alpha&lt;br/&gt;Release Date: 2025-11-15&lt;br/&gt;Developer: openrouter&lt;br/&gt;Status: active</content>
     <category term="openrouter" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="openai/gpt-5.1-codex-mini" label="model_id"/>
-    <category term="2025-11-13" label="release_date"/>
+    <category term="openrouter" label="developer"/>
+    <category term="openrouter/sherlock-think-alpha" label="model_id"/>
+    <category term="2025-11-15" label="release_date"/>
     <category term="active" label="status"/>
-    <published>2025-11-13T00:00:00+00:00</published>
+    <published>2025-11-15T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>urn:model-registry:openrouter:openai:openai/gpt-5.1-codex</id>
-    <title>openrouter - openai - openai/gpt-5.1-codex</title>
-    <updated>2025-11-13T19:33:45.946656+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: openai/gpt-5.1-codex&lt;br/&gt;Release Date: 2025-11-13&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
+    <id>urn:model-registry:openrouter:openrouter:openrouter/sherlock-dash-alpha</id>
+    <title>openrouter - openrouter - openrouter/sherlock-dash-alpha</title>
+    <updated>2025-11-15T18:06:38.225674+00:00</updated>
+    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: openrouter/sherlock-dash-alpha&lt;br/&gt;Release Date: 2025-11-15&lt;br/&gt;Developer: openrouter&lt;br/&gt;Status: active</content>
     <category term="openrouter" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="openai/gpt-5.1-codex" label="model_id"/>
-    <category term="2025-11-13" label="release_date"/>
+    <category term="openrouter" label="developer"/>
+    <category term="openrouter/sherlock-dash-alpha" label="model_id"/>
+    <category term="2025-11-15" label="release_date"/>
     <category term="active" label="status"/>
-    <published>2025-11-13T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openrouter:openai:openai/gpt-5.1-chat</id>
-    <title>openrouter - openai - openai/gpt-5.1-chat</title>
-    <updated>2025-11-13T19:33:45.946515+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: openai/gpt-5.1-chat&lt;br/&gt;Release Date: 2025-11-13&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openrouter" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="openai/gpt-5.1-chat" label="model_id"/>
-    <category term="2025-11-13" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-11-13T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>urn:model-registry:openrouter:openai:openai/gpt-5.1</id>
-    <title>openrouter - openai - openai/gpt-5.1</title>
-    <updated>2025-11-13T19:33:45.946193+00:00</updated>
-    <content type="html">Provider: openrouter&lt;br/&gt;Model ID: openai/gpt-5.1&lt;br/&gt;Release Date: 2025-11-13&lt;br/&gt;Developer: openai&lt;br/&gt;Status: active</content>
-    <category term="openrouter" label="provider"/>
-    <category term="openai" label="developer"/>
-    <category term="openai/gpt-5.1" label="model_id"/>
-    <category term="2025-11-13" label="release_date"/>
-    <category term="active" label="status"/>
-    <published>2025-11-13T00:00:00+00:00</published>
+    <published>2025-11-15T00:00:00+00:00</published>
   </entry>
 </feed>
