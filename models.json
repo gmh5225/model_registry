@@ -1689,6 +1689,13 @@
   {
     "provider": "gemini",
     "developer": "google",
+    "model_id": "models/gemini-3-pro-image-preview",
+    "release_date": "9999-12-31",
+    "status": "active"
+  },
+  {
+    "provider": "gemini",
+    "developer": "google",
     "model_id": "models/gemini-3-pro-preview",
     "release_date": "9999-12-31",
     "status": "active"
@@ -1858,6 +1865,13 @@
     "provider": "gemini",
     "developer": "google",
     "model_id": "models/learnlm-2.0-flash-experimental",
+    "release_date": "9999-12-31",
+    "status": "active"
+  },
+  {
+    "provider": "gemini",
+    "developer": "google",
+    "model_id": "models/nano-banana-pro-preview",
     "release_date": "9999-12-31",
     "status": "active"
   },
