@@ -366,6 +366,13 @@
   {
     "provider": "openrouter",
     "developer": "anthropic",
+    "model_id": "anthropic/claude-4.5-opus",
+    "release_date": "2025-11-24",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
+    "developer": "anthropic",
     "model_id": "anthropic/claude-4.5-sonnet",
     "release_date": "2025-09-29",
     "status": "active"
