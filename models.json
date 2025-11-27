@@ -4222,6 +4222,13 @@
   },
   {
     "provider": "openrouter",
+    "developer": "prime-intellect",
+    "model_id": "prime-intellect/intellect-3",
+    "release_date": "2025-11-27",
+    "status": "active"
+  },
+  {
+    "provider": "openrouter",
     "developer": "pygmalionai",
     "model_id": "pygmalionai/mythalion-13b",
     "release_date": "2023-09-02",
